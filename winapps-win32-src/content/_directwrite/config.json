@@ -1,0 +1,12 @@
+{
+  "tech": "directwrite",
+  "headers": [
+    "dwrite.h",
+    "dwrite_1.h",
+    "dwrite_2.h",
+    "dwrite_3.h",
+    "dwrite_core.h",
+    "mrm.h"
+  ],
+  "displayName": "DirectWrite"
+}

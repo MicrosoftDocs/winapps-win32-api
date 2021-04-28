@@ -1,0 +1,75 @@
+### YamlMime:Landing
+
+title: Programming reference for the Project Reunion Win32 API
+summary: The Win32 API reference documentation is presented in several different views. You can browse a list of popular technologies on this page, or you can browse the full list of technologies in the table of contents. To browse all of the headers, see the list at the bottom of the table of contents.
+
+metadata: 
+  description: This section provides the Win32 API reference documentation organized by technology areas and header. 
+  author: drewbatgit
+  ms.author: drewbat
+  ms.date: 10/04/2019
+  ms.topic: landing-page
+  ms.prod: windows
+  ms.technology: windows-sdk
+  services: sdk
+
+  
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+# TODO: move text blocks into other topics, use action phrases as titles (About x; Order, set up, copy, return; Manage device; View requirements; Troubleshoot)
+# we want 24ish links max
+
+landingContent: 
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Build desktop Windows apps using the Win32 API
+            url: /windows/win32/
+      - linkListType: download
+        links:
+          - text: Development tools
+            url: https://developer.microsoft.com/windows/downloads
+          - text: Windows code samples
+            url: https://developer.microsoft.com/windows/samples
+
+  # Card
+  - title: User Interface and desktop
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Windows controls
+            url: _controls/index.md
+          - text: Windows and messages
+            url: _winmsg/index.md
+          - text: Menus and other resources
+            url: _menurc/index.md
+          - text: Windows Shell
+            url: _shell/index.md
+          - text: Accessibility features
+            url: _winauto/index.md
+          - text: Internationalization
+            url: _intl/index.md
+
+# Card
+  - title: Graphics and gaming
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Direct2D
+            url: _direct2d/index.md
+          - text: Direct3D 11 Graphics
+            url: _direct3d11/index.md
+          - text: Direct3D 12 Graphics
+            url: _direct3d12/index.md
+          - text: DirectML
+            url: _directml/index.md
+          - text: DXGI
+            url: _direct3ddxgi/index.md
+          - text: Windows GDI
+            url: _gdi/index.md
+          - text: GDI+
+            url: _gdiplus/index.md
+          - text: Windows Imaging Component
+            url: _wic/index.md
+
