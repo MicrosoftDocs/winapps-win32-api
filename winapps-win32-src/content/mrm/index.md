@@ -40,11 +40,11 @@ dev_langs:
  - c++
 ---
 
+# mrm.h header
+
+
 ## -description
 
-## -remarks
+This header is used by MRT Core. For more information, see:
 
-## -see-also
-
-## -examples
-
+- [MRT Core](../_mrtcore/index.md)

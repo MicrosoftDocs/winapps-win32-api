@@ -1,7 +1,7 @@
 ---
-UID: NA:dwrite
+UID: NA:dwrite_3
 tech.root: dwritecore
-title: dwrite
+title: dwrite_3.h header
 ms.date: 05/18/2021 
 targetos: Windows
 description: 
@@ -9,7 +9,7 @@ req.assembly:
 req.construct-type: apiset
 req.ddi-compliance: 
 req.dll: 
-req.header: dwrite.h
+req.header: dwrite_3.h
 req.idl: 
 req.include-header: 
 req.irql: 
@@ -30,21 +30,19 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - dwrite.h
+ - dwrite_3.h
 api_name:
- - dwrite
+ - dwrite_3
 f1_keywords:
- - dwrite
- - dwrite/dwrite
+ - dwrite_3
+ - dwrite_3/dwrite_3
 dev_langs:
  - c++
 ---
 
+# dwrite_3.h header
+
+
 ## -description
 
-## -remarks
-
-## -see-also
-
-## -examples
-
+This header is used by [DWriteCore](../_dwritecore/index.md). The sections below list only the APIs in this header that are unique to DWriteCore. For information about other APIs in this header that are shared by DWriteCore and DirectWrite, see [dwrite_3.h header](/windows/win32/api/dwrite_3/) in the Windows SDK documentation.

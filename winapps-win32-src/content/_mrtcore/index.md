@@ -10,9 +10,8 @@ ms.topic: conceptual
 
 ## -description
 
-To develop with MRT Core, you need these headers:
+To develop with [MRT Core](/windows/apps/project-reunion/mrtcore/mrtcore-overview), you need these headers:
 
 * [mrm.h](../mrm/index.md)
 
-For programming guidance for this technology, see:
-* [Manage resources with MRT Core](/windows/apps/project-reunion/mrtcore/mrtcore-overview)
+For programming guidance for this technology, see [Manage resources with MRT Core](/windows/apps/project-reunion/mrtcore/mrtcore-overview).

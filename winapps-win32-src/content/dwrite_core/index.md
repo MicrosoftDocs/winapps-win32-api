@@ -1,7 +1,7 @@
 ---
-UID: NA:dwrite_3
+UID: NA:dwrite_core
 tech.root: dwritecore
-title: dwrite_3
+title: dwrite_core.h header
 ms.date: 05/18/2021 
 targetos: Windows
 description: 
@@ -9,7 +9,7 @@ req.assembly:
 req.construct-type: apiset
 req.ddi-compliance: 
 req.dll: 
-req.header: dwrite_3.h
+req.header: dwrite_core.h
 req.idl: 
 req.include-header: 
 req.irql: 
@@ -30,21 +30,21 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - dwrite_3.h
+ - dwrite_core.h
 api_name:
- - dwrite_3
+ - dwrite_core
 f1_keywords:
- - dwrite_3
- - dwrite_3/dwrite_3
+ - dwrite_core
+ - dwrite_core/dwdwrite_corerite_3
 dev_langs:
  - c++
 ---
 
+# dwrite_core.h header
+
+
 ## -description
 
-## -remarks
+This header is used by DWriteCore. For more information, see:
 
-## -see-also
-
-## -examples
-
+- [DWriteCore](../_dwritecore/index.md)
