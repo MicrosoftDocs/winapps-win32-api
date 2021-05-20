@@ -1,8 +1,8 @@
 ---
 UID: NF:mrm.MrmAllocateBuffer
-tech.root: 
+tech.root: mrtcore 
 title: MrmAllocateBuffer
-ms.date: 
+ms.date: 05/18/2021 
 targetos: Windows
 description: 
 req.assembly: 
@@ -18,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1809 (with Project Reunion) 
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 

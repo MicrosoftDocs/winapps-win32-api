@@ -1,8 +1,8 @@
 ---
 UID: NF:dwrite_core.DWriteCoreCreateFactory
-tech.root: 
+tech.root: dwritecore
 title: DWriteCoreCreateFactory
-ms.date: 
+ms.date: 05/18/2021
 targetos: Windows
 description: 
 req.assembly: 
@@ -18,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1809 (with Project Reunion)
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -41,17 +41,35 @@ dev_langs:
 
 ## -description
 
+Creates a factory object that is used for subsequent creation of individual DWriteCore objects.
+
+> [!IMPORTANT]
+> This API is available as part of the [DWriteCore](/windows/win32/directwrite/dwritecore-overview) implementation of [DirectWrite](/windows/win32/directwrite).
+
 ## -parameters
 
 ### -param factoryType
 
+A value that specifies whether the factory object will be shared, isolated, or restricted.
+
 ### -param iid
+
+A GUID value that identifies the DirectWrite factory interface, such as __uuidof(<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>).
 
 ### -param factory
 
+An address of a pointer to the newly created DirectWrite factory object.
+
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
+This is functionally the same as the [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) function exported by the system version of DirectWrite. The DWriteCore function has a different name to avoid ambiguity.
+
+For more information, see [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview) and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
+
 ## -see-also
 
+[DWriteCore overview](/windows/win32/directwrite/dwritecore-overview)

@@ -1,8 +1,8 @@
 ---
 UID: NS:mrm.MrmResourceData
-tech.root: 
+tech.root: mrtcore 
 title: MrmResourceData
-ms.date: 
+ms.date: 05/18/2021 
 targetos: Windows
 description: 
 req.construct-type: structure
@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1809 (with Project Reunion) 
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 

@@ -1,0 +1,7 @@
+{
+  "tech": "mrtcore",
+  "headers": [
+    "mrm.h"
+  ],
+  "displayName": "MRT Core"
+}

@@ -1,8 +1,8 @@
 ---
 UID: NS:dwrite_3.DWRITE_BITMAP_DATA_BGRA32
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_BITMAP_DATA_BGRA32
-ms.date: 
+ms.date: 05/18/2021
 targetos: Windows
 description: 
 req.construct-type: structure
@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1809 (with Project Reunion)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -37,15 +37,29 @@ dev_langs:
 
 ## -description
 
+Represents bitmap data in BGRA32 format.
+
+> [!IMPORTANT]
+> This API is available as part of the [DWriteCore](/windows/win32/directwrite/dwritecore-overview) implementation of [DirectWrite](/windows/win32/directwrite).
+
 ## -struct-fields
 
 ### -field width
 
+The width, in pixels, of the bitmap.
+
 ### -field height
+
+The height, in pixels, of the bitmap.
 
 ### -field pixels
 
+A pointer to the location of the bit values for the bitmap.
+
 ## -remarks
+
+For more information, see [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview) and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
 
 ## -see-also
 
+[DWriteCore overview](/windows/win32/directwrite/dwritecore-overview)

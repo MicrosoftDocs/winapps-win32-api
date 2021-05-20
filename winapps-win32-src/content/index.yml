@@ -5,12 +5,12 @@ summary: The Win32 API reference documentation is presented in several different
 
 metadata: 
   description: This section provides the Win32 API reference documentation organized by technology areas and header. 
-  author: drewbatgit
-  ms.author: drewbat
-  ms.date: 10/04/2019
+  author: mcleanbyron
+  ms.author: mcleans
+  ms.date: 05/18/2021
   ms.topic: landing-page
-  ms.prod: windows
-  ms.technology: windows-sdk
+  ms.prod: reunion
+  ms.technology: 
   services: sdk
 
   
@@ -20,56 +20,10 @@ metadata:
 
 landingContent: 
   # Card
-  - title: Get started
+  - title: TBD
     linkLists:
       - linkListType: overview
         links:
-          - text: Build desktop Windows apps using the Win32 API
+          - text: TBD
             url: /windows/win32/
-      - linkListType: download
-        links:
-          - text: Development tools
-            url: https://developer.microsoft.com/windows/downloads
-          - text: Windows code samples
-            url: https://developer.microsoft.com/windows/samples
-
-  # Card
-  - title: User Interface and desktop
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Windows controls
-            url: _controls/index.md
-          - text: Windows and messages
-            url: _winmsg/index.md
-          - text: Menus and other resources
-            url: _menurc/index.md
-          - text: Windows Shell
-            url: _shell/index.md
-          - text: Accessibility features
-            url: _winauto/index.md
-          - text: Internationalization
-            url: _intl/index.md
-
-# Card
-  - title: Graphics and gaming
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Direct2D
-            url: _direct2d/index.md
-          - text: Direct3D 11 Graphics
-            url: _direct3d11/index.md
-          - text: Direct3D 12 Graphics
-            url: _direct3d12/index.md
-          - text: DirectML
-            url: _directml/index.md
-          - text: DXGI
-            url: _direct3ddxgi/index.md
-          - text: Windows GDI
-            url: _gdi/index.md
-          - text: GDI+
-            url: _gdiplus/index.md
-          - text: Windows Imaging Component
-            url: _wic/index.md
 
