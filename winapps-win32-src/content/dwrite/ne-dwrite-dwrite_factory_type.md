@@ -4,7 +4,7 @@ tech.root: dwritecore
 title: DWRITE_FACTORY_TYPE
 ms.date: 05/18/2021
 targetos: Windows
-description: 
+description: Specifies the type of DirectWrite factory object.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dwrite.h

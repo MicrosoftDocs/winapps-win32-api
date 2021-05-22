@@ -4,7 +4,7 @@ tech.root: dwritecore
 title: DWRITE_BITMAP_DATA_BGRA32
 ms.date: 05/18/2021
 targetos: Windows
-description: 
+description: Represents bitmap data in BGRA32 format.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

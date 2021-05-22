@@ -4,7 +4,7 @@ tech.root: dwritecore
 title: DWriteCoreCreateFactory
 ms.date: 05/18/2021
 targetos: Windows
-description: 
+description: Creates a factory object that is used for subsequent creation of individual DWriteCore objects.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
