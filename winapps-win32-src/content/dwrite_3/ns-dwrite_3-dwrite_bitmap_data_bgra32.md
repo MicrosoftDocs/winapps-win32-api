@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1809 (with Project Reunion)
+req.target-min-winverclnt: Windows 10, version 1809 and Project Reunion 0.5 (and later)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
