@@ -55,4 +55,8 @@ landingContent:
             url: /windows/apps/project-reunion/
           - text: Get started with Project Reunion
             url: /windows/apps/project-reunion/get-started-with-project-reunion
+          - text: Manage resources with MRT Core
+            url: /windows/apps/project-reunion/mrtcore/mrtcore-overview
+          - text: Render text with DWriteCore
+            url: /windows/win32/directwrite/dwritecore-overview
 

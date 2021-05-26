@@ -2,6 +2,9 @@
   "build": {
     "content": [
       {
+        "files": ["breadcrumb/toc.yml"]
+      },
+      {
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -41,9 +44,42 @@
     "globalMetadata": {
       "breadcrumb_path": "/windows/project-reunion/api/c/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "uhfHeaderId": "MSDocsHeader-WinDevCenter",
+      "titleSuffix": "Project Reunion",
+      "ms.prod": "reunion",
+      "ms.technology": "",
+      "ms.author": "jken",
+      "author": "GrantMeStrength"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "author": {
+        "_dwritecore/*.md": "stevewhims",
+        "_mrtcore/*.md": "hickeys",
+        "dwrite/*.md": "stevewhims",
+        "dwrite_3/*.md": "stevewhims",
+        "dwritecore/*.md": "stevewhims",
+        "mrm/*.md": "hickeys"
+      },
+      "ms.author":
+      {
+        "_dwritecore/*.md": "stwhi",
+        "_mrtcore/*.md": "hickeys",
+        "dwrite/*.md": "stwhi",
+        "dwrite_3/*.md": "stwhi",
+        "dwritecore/*.md": "stwhi",
+        "mrm/*.md": "hickeys"
+      },
+      "ms.technology":
+      {
+        "_dwritecore/*.md": "dwrite-core",
+        "_mrtcore/*.md": "mrt-core",
+        "dwrite/*.md": "dwrite-core",
+        "dwrite_3/*.md": "dwrite-core",
+        "dwritecore/*.md": "dwrite-core",
+        "mrm/*.md": "mrt-core"
+      }
+    },
     "template": [],
     "dest": "winapps-win32-api-build",
     "markdownEngineName": "markdig"
