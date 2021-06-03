@@ -10,7 +10,7 @@ ms.topic: conceptual
 
 ## -description
 
-To develop with [DWriteCore](/windows/win32/directwrite/dwritecore-overview), you need these headers.
+To develop with DWriteCore, you need these headers.
 
  * [dwrite.h](../dwrite/index.md)
  * [dwrite_3.h](../dwrite_3/index.md)

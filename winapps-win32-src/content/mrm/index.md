@@ -45,6 +45,4 @@ dev_langs:
 
 ## -description
 
-This header is used by MRT Core. For more information, see:
-
-- [MRT Core](../_mrtcore/index.md)
+This header is used by [MRT Core](../_mrtcore/index.md).

@@ -45,4 +45,7 @@ dev_langs:
 
 ## -description
 
-This header is used by [DWriteCore](../_dwritecore/index.md). The sections below list only the APIs in this header that are unique to DWriteCore. For information about other APIs in this header that are shared by DWriteCore and DirectWrite, see [dwrite.h header](/windows/win32/api/dwrite/) in the Windows SDK documentation.
+This header is used by [DWriteCore](../_dwritecore/index.md).
+
+> [!NOTE]
+> The sections below list only the APIs in this header that are unique to DWriteCore. For information about other APIs in this header that are shared by DWriteCore and DirectWrite, see [dwrite.h header](/windows/win32/api/dwrite/) in the Windows SDK documentation.

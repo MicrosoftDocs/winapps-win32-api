@@ -45,6 +45,4 @@ dev_langs:
 
 ## -description
 
-This header is used by DWriteCore. For more information, see:
-
-- [DWriteCore](../_dwritecore/index.md)
+This header is used by [DWriteCore](../_dwritecore/index.md).
