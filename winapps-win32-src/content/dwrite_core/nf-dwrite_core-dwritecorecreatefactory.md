@@ -18,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1809 and Project Reunion 0.5 (and later)
+req.target-min-winverclnt: Windows 10, version 1809 | Windows App SDK 0.5 (and later)
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 

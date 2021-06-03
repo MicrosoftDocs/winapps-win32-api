@@ -69,15 +69,6 @@
         "dwrite_3/*.md": "stwhi",
         "dwritecore/*.md": "stwhi",
         "mrm/*.md": "hickeys"
-      },
-      "ms.technology":
-      {
-        "_dwritecore/*.md": "dwrite-core",
-        "_mrtcore/*.md": "mrt-core",
-        "dwrite/*.md": "dwrite-core",
-        "dwrite_3/*.md": "dwrite-core",
-        "dwritecore/*.md": "dwrite-core",
-        "mrm/*.md": "mrt-core"
       }
     },
     "template": [],
