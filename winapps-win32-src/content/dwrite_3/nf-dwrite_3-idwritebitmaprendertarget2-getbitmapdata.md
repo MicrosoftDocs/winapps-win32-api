@@ -45,21 +45,31 @@ dev_langs:
 Retrieves the pixel data from a bitmap render target.
 
 > [!IMPORTANT]
-> This API is available as part of the [DWriteCore](/windows/win32/directwrite/dwritecore-overview) implementation of [DirectWrite](/windows/win32/directwrite).
+> This API is available as part of the DWriteCore implementation of [DirectWrite](/windows/win32/directwrite/direct-write-portal). For more info, and code examples, see [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview).
 
 ## -parameters
 
 ### -param bitmapData
 
+Type: \_Out\_**[DWRITE_BITMAP_DATA_BGRA32](./ns-dwrite_3-dwrite_bitmap_data_bgra32.md)\***
+
 A pointer to the pixel data.
 
 ## -returns
 
+Type: <b>HRESULT</b>
+
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
+
+## Examples
+
+See the [DWriteCore overview](../dwritecore-overview.md) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
 
 ## -remarks
 
 ## -see-also
+
+[IDWriteBitmapRenderTarget2](/windows/win32/api/dwrite_1/nn-dwrite_3-idwritebitmaprendertarget2)
 
 [DWriteCore](/windows/win32/directwrite/dwritecore-overview)
 

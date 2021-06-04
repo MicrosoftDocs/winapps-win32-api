@@ -39,7 +39,7 @@ dev_langs:
 Encapsulates a 32-bit device independent bitmap and device context, which can be used for rendering glyphs.
 
 > [!IMPORTANT]
-> This API is available as part of the [DWriteCore](/windows/win32/directwrite/dwritecore-overview) implementation of [DirectWrite](/windows/win32/directwrite).
+> This API is available as part of the DWriteCore implementation of [DirectWrite](/windows/win32/directwrite/direct-write-portal). For more info, and code examples, see [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview).
 
 ## -inheritance
 

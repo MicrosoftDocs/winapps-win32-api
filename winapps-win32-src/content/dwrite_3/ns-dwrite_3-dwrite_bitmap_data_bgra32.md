@@ -40,26 +40,36 @@ dev_langs:
 Represents bitmap data in BGRA32 format.
 
 > [!IMPORTANT]
-> This API is available as part of the [DWriteCore](/windows/win32/directwrite/dwritecore-overview) implementation of [DirectWrite](/windows/win32/directwrite).
+> This API is available as part of the DWriteCore implementation of [DirectWrite](/windows/win32/directwrite/direct-write-portal). For more info, and code examples, see [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview).
 
 ## -struct-fields
 
 ### -field width
 
+Type: **[UINT32](../../winprog/windows-data-types.md)**
+
 The width, in pixels, of the bitmap.
 
 ### -field height
+
+Type: **[UINT32](../../winprog/windows-data-types.md)**
 
 The height, in pixels, of the bitmap.
 
 ### -field pixels
 
+Type: \_Field\_size\_(width * height)**[UINT32](../../winprog/windows-data-types.md)\***
+
 A pointer to the location of the bit values for the bitmap.
 
-## -remarks
+## Examples
 
-For more information, see [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview) and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
+See the [DWriteCore overview](../dwritecore-overview.md) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
+
+## -remarks
 
 ## -see-also
 
 [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview)
+
+[DWriteCoreGallery sample](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery)

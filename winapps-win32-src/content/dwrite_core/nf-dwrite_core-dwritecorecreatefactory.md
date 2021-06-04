@@ -44,32 +44,44 @@ dev_langs:
 Creates a factory object that is used for subsequent creation of individual DWriteCore objects.
 
 > [!IMPORTANT]
-> This API is available as part of the [DWriteCore](/windows/win32/directwrite/dwritecore-overview) implementation of [DirectWrite](/windows/win32/directwrite).
+> This API is available as part of the DWriteCore implementation of [DirectWrite](/windows/win32/directwrite/direct-write-portal). For more info, and code examples, see [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview).
 
 ## -parameters
 
 ### -param factoryType
 
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_factory_type">DWRITE_FACTORY_TYPE</a></b>
+
 A value that specifies whether the factory object will be shared, isolated, or restricted.
 
 ### -param iid
+
+Type: <b>REFIID</b>
 
 A GUID value that identifies the DirectWrite factory interface, such as __uuidof(<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>).
 
 ### -param factory
 
+Type: <b>IUnknown**</b>
+
 An address of a pointer to the newly created DirectWrite factory object.
 
 ## -returns
 
+Type: <b>HRESULT</b>
+
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## Examples
+
+See the [DWriteCore overview](../dwritecore-overview.md) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
 
 ## -remarks
 
 This is functionally the same as the [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) function exported by the system version of DirectWrite. The DWriteCore function has a different name to avoid ambiguity.
 
-For more information, see [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview) and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
-
 ## -see-also
 
 [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview)
+
+[DWriteCoreGallery sample](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery)
