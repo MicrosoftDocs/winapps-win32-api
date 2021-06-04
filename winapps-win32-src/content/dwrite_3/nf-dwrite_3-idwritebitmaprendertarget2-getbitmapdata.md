@@ -4,7 +4,7 @@ tech.root: dwritecore
 title: IDWriteBitmapRenderTarget2::GetBitmapData
 ms.date: 
 targetos: Windows
-description: 
+description: Retrieves the pixel data from a bitmap render target.
 prerelease: false
 req.assembly: 
 req.construct-type: function

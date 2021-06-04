@@ -4,7 +4,7 @@ tech.root: dwritecore
 title: IDWriteBitmapRenderTarget2
 ms.date: 
 targetos: Windows
-description: 
+description: Encapsulates a 32-bit device independent bitmap and device context, which can be used for rendering glyphs.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
