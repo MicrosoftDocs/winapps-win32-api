@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
-title: Programming reference for the Project Reunion Win32 API
-summary: The Project Reunion Win32 API reference documentation is presented in several different views. You can browse a list of technologies or the full list of headers for Project Reunion.
+title: Programming reference for the Win32 APIs in the Windows App SDK
+summary: This reference documentation is presented in several different views. You can browse a list of technologies or the full list of headers for the Windows App SDK.
 
 metadata: 
   description: This section provides the Win32 API reference documentation organized by technology areas and header. 
@@ -10,7 +10,7 @@ metadata:
   ms.date: 05/18/2021
   ms.topic: landing-page
   ms.prod: reunion
-  ms.technology: 
+  ms.technology: reunino-reference
   services: sdk
 
   
@@ -47,16 +47,16 @@ landingContent:
             url: mrm/index.md
 
   # Card
-  - title: Project Reunion concepts
+  - title: Concepts
     linkLists:
       - linkListType: overview
         links:
           - text: Overview
-            url: /windows/apps/project-reunion/
-          - text: Get started with Project Reunion
-            url: /windows/apps/project-reunion/get-started-with-project-reunion
+            url: /windows/apps/windows-app-sdk/
+          - text: Get started with the Windows App SDK
+            url: /windows/apps/windows-app-sdk/get-started
           - text: Manage resources with MRT Core
-            url: /windows/apps/project-reunion/mrtcore/mrtcore-overview
+            url: /windows/apps/windows-app-sdk/mrtcore/mrtcore-overview
           - text: Render text with DWriteCore
             url: /windows/win32/directwrite/dwritecore-overview
 
