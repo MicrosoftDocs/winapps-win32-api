@@ -42,11 +42,11 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/windows/project-reunion/api/c/breadcrumb/toc.json",
+      "breadcrumb_path": "/windows/windows-app-sdk/api/win32/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None",
       "uhfHeaderId": "MSDocsHeader-WinDevCenter",
-      "titleSuffix": "Project Reunion",
+      "titleSuffix": "Windows App SDK",
       "ms.prod": "reunion",
       "ms.technology": "reunion-reference",
       "ms.author": "jken",
