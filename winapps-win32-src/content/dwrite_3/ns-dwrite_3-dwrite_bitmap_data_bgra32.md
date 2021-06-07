@@ -46,25 +46,25 @@ Represents bitmap data in BGRA32 format.
 
 ### -field width
 
-Type: **[UINT32](../../winprog/windows-data-types.md)**
+Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
 The width, in pixels, of the bitmap.
 
 ### -field height
 
-Type: **[UINT32](../../winprog/windows-data-types.md)**
+Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
 The height, in pixels, of the bitmap.
 
 ### -field pixels
 
-Type: \_Field\_size\_(width * height)**[UINT32](../../winprog/windows-data-types.md)\***
+Type: \_Field\_size\_(width * height)**[UINT32](/windows/win32/winprog/windows-data-types)\***
 
 A pointer to the location of the bit values for the bitmap.
 
 ## Examples
 
-See the [DWriteCore overview](../dwritecore-overview.md) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
+See the [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
 
 ## -remarks
 
