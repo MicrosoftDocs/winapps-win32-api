@@ -1,16 +1,16 @@
 ### YamlMime:Landing
 
-title: Programming reference for the Project Reunion Win32 API
-summary: The Win32 API reference documentation is presented in several different views. You can browse a list of popular technologies on this page, or you can browse the full list of technologies in the table of contents. To browse all of the headers, see the list at the bottom of the table of contents.
+title: Programming reference for the Win32 APIs in the Windows App SDK
+summary: This reference documentation is presented in several different views. You can browse a list of technologies or the full list of headers for the Windows App SDK.
 
 metadata: 
   description: This section provides the Win32 API reference documentation organized by technology areas and header. 
-  author: drewbatgit
-  ms.author: drewbat
-  ms.date: 10/04/2019
+  author: mcleanbyron
+  ms.author: mcleans
+  ms.date: 05/18/2021
   ms.topic: landing-page
-  ms.prod: windows
-  ms.technology: windows-sdk
+  ms.prod: reunion
+  ms.technology: reunino-reference
   services: sdk
 
   
@@ -20,56 +20,43 @@ metadata:
 
 landingContent: 
   # Card
-  - title: Get started
+  - title: Technologies
     linkLists:
       - linkListType: overview
         links:
-          - text: Build desktop Windows apps using the Win32 API
-            url: /windows/win32/
-      - linkListType: download
+          - text: DWriteCore
+            url: _dwritecore/index.md
+          - text: MRT Core
+            url: _mrtcore/index.md
+
+            
+  # Card
+  - title: Headers
+    linkLists:
+      - linkListType: overview
         links:
-          - text: Development tools
-            url: https://developer.microsoft.com/windows/downloads
-          - text: Windows code samples
-            url: https://developer.microsoft.com/windows/samples
+          - text: dwrite.h
+            url: dwrite/index.md
+          - text: dwrite_2.h
+            url: /windows/win32/api/dwrite_2/
+          - text: dwrite_3.h
+            url: dwrite_3/index.md
+          - text: dwrite_core.h
+            url: dwrite_core/index.md
+          - text: mrm.h
+            url: mrm/index.md
 
   # Card
-  - title: User Interface and desktop
+  - title: Concepts
     linkLists:
-      - linkListType: reference
+      - linkListType: overview
         links:
-          - text: Windows controls
-            url: _controls/index.md
-          - text: Windows and messages
-            url: _winmsg/index.md
-          - text: Menus and other resources
-            url: _menurc/index.md
-          - text: Windows Shell
-            url: _shell/index.md
-          - text: Accessibility features
-            url: _winauto/index.md
-          - text: Internationalization
-            url: _intl/index.md
-
-# Card
-  - title: Graphics and gaming
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Direct2D
-            url: _direct2d/index.md
-          - text: Direct3D 11 Graphics
-            url: _direct3d11/index.md
-          - text: Direct3D 12 Graphics
-            url: _direct3d12/index.md
-          - text: DirectML
-            url: _directml/index.md
-          - text: DXGI
-            url: _direct3ddxgi/index.md
-          - text: Windows GDI
-            url: _gdi/index.md
-          - text: GDI+
-            url: _gdiplus/index.md
-          - text: Windows Imaging Component
-            url: _wic/index.md
+          - text: Overview
+            url: /windows/apps/windows-app-sdk/
+          - text: Get started with the Windows App SDK
+            url: /windows/apps/windows-app-sdk/get-started
+          - text: Manage resources with MRT Core
+            url: /windows/apps/windows-app-sdk/mrtcore/mrtcore-overview
+          - text: Render text with DWriteCore
+            url: /windows/win32/directwrite/dwritecore-overview
 

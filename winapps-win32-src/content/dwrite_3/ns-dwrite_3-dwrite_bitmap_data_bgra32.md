@@ -1,10 +1,10 @@
 ---
 UID: NS:dwrite_3.DWRITE_BITMAP_DATA_BGRA32
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_BITMAP_DATA_BGRA32
-ms.date: 
+ms.date: 05/18/2021
 targetos: Windows
-description: 
+description: Represents bitmap data in BGRA32 format.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 0.5 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -37,15 +37,39 @@ dev_langs:
 
 ## -description
 
+Represents bitmap data in BGRA32 format.
+
+> [!IMPORTANT]
+> This API is available as part of the DWriteCore implementation of [DirectWrite](/windows/win32/directwrite/direct-write-portal). For more info, and code examples, see [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview).
+
 ## -struct-fields
 
 ### -field width
 
+Type: **[UINT32](../../winprog/windows-data-types.md)**
+
+The width, in pixels, of the bitmap.
+
 ### -field height
 
+Type: **[UINT32](../../winprog/windows-data-types.md)**
+
+The height, in pixels, of the bitmap.
+
 ### -field pixels
+
+Type: \_Field\_size\_(width * height)**[UINT32](../../winprog/windows-data-types.md)\***
+
+A pointer to the location of the bit values for the bitmap.
+
+## Examples
+
+See the [DWriteCore overview](../dwritecore-overview.md) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
 
 ## -remarks
 
 ## -see-also
 
+[DWriteCore overview](/windows/win32/directwrite/dwritecore-overview)
+
+[DWriteCoreGallery sample](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery)

@@ -1,8 +1,8 @@
 ---
 UID: NE:mrm.MrmType
-tech.root: 
+tech.root: mrtcore 
 title: MrmType
-ms.date: 
+ms.date: 05/18/2021 
 targetos: Windows
 description: 
 req.construct-type: enumeration
@@ -11,7 +11,7 @@ req.header: mrm.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 0.5 or later) 
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
