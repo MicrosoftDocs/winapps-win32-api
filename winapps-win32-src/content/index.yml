@@ -4,7 +4,7 @@ title: Win32 APIs in the Windows App SDK
 summary: This reference documentation is presented in several different views. You can browse a list of technologies or the full list of headers for the Windows App SDK.
 
 metadata: 
-  description: This section provides the Win32 API reference documentation organized by technology areas and header. 
+  description: This section provides the Win32 API reference documentation for the Windows App SDK organized by technology areas and header. 
   author: mcleanbyron
   ms.author: mcleans
   ms.date: 05/18/2021
