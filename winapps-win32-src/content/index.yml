@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 
-title: Programming reference for the Win32 APIs in the Windows App SDK
+title: Win32 APIs in the Windows App SDK
 summary: This reference documentation is presented in several different views. You can browse a list of technologies or the full list of headers for the Windows App SDK.
 
 metadata: 
@@ -10,7 +10,7 @@ metadata:
   ms.date: 05/18/2021
   ms.topic: landing-page
   ms.prod: reunion
-  ms.technology: reunino-reference
+  ms.technology: reunion-reference
   services: sdk
 
   
@@ -22,7 +22,7 @@ landingContent:
   # Card
   - title: Technologies
     linkLists:
-      - linkListType: overview
+      - linkListType: reference
         links:
           - text: DWriteCore
             url: _dwritecore/index.md
@@ -33,7 +33,7 @@ landingContent:
   # Card
   - title: Headers
     linkLists:
-      - linkListType: overview
+      - linkListType: reference
         links:
           - text: dwrite.h
             url: dwrite/index.md
@@ -51,12 +51,10 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Overview
+          - text: Build desktop Windows apps with the Windows App SDK
             url: /windows/apps/windows-app-sdk/
-          - text: Get started with the Windows App SDK
+          - text: Set up your development environment
+            url: /windows/apps/windows-app-sdk/set-up-your-development-environment
+          - text: Get started developing apps
             url: /windows/apps/windows-app-sdk/get-started
-          - text: Manage resources with MRT Core
-            url: /windows/apps/windows-app-sdk/mrtcore/mrtcore-overview
-          - text: Render text with DWriteCore
-            url: /windows/win32/directwrite/dwritecore-overview
 
