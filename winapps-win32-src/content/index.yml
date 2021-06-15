@@ -55,6 +55,6 @@ landingContent:
             url: /windows/apps/windows-app-sdk/
           - text: Set up your development environment
             url: /windows/apps/windows-app-sdk/set-up-your-development-environment
-          - text: Get started developing apps with the Windows App SDK
+          - text: Get started developing apps
             url: /windows/apps/windows-app-sdk/get-started
 
