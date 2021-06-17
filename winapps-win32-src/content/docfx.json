@@ -56,6 +56,7 @@
       "author": {
         "_dwritecore/*.md": "stevewhims",
         "_mrtcore/*.md": "hickeys",
+        "_winuicominterop/*.md": "Karl-Bridge-Microsoft",
         "dwrite/*.md": "stevewhims",
         "dwrite_3/*.md": "stevewhims",
         "dwritecore/*.md": "stevewhims",
@@ -68,6 +69,7 @@
         "dwrite/*.md": "stwhi",
         "dwrite_3/*.md": "stwhi",
         "dwritecore/*.md": "stwhi",
+        "microsoft.ui.xaml.window/*.md": "kbridge",
         "mrm/*.md": "hickeys"
       }
     },
