@@ -28,6 +28,8 @@ landingContent:
             url: _dwritecore/index.md
           - text: MRT Core
             url: _mrtcore/index.md
+          - text: WinUI COM Interop
+            url: _winuicominterop/index.md
 
             
   # Card
@@ -43,6 +45,8 @@ landingContent:
             url: dwrite_3/index.md
           - text: dwrite_core.h
             url: dwrite_core/index.md
+          - text: microsoft.ui.xaml.window.h
+            url: microsoft.ui.xaml.window/index.md
           - text: mrm.h
             url: mrm/index.md
 
@@ -51,10 +55,12 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Build desktop Windows apps with the Windows App SDK
+          - text: Windows App SDK
             url: /windows/apps/windows-app-sdk/
-          - text: Set up your development environment
-            url: /windows/apps/windows-app-sdk/set-up-your-development-environment
-          - text: Get started developing apps
-            url: /windows/apps/windows-app-sdk/get-started
+          - text: Render text with DWriteCore
+            url: /windows/apps/windows-app-sdk/dwritecore
+          - text: Manage resources with MRT Core
+            url: /windows/apps/windows-app-sdk/mrtcore/mrtcore-overview
+          - text: Windows UI Library (WinUI)
+            url: /windows/apps/winui/
 
