@@ -1,0 +1,7 @@
+{
+  "tech": "winuicominterop",
+  "headers": [
+    "microsoft.ui.xaml.window.h"
+  ],
+  "displayName": "WinUI COM Interop"
+}
