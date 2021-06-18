@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmCreateResourceContext
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Creates a new **ResourceContext**.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,15 +41,26 @@ dev_langs:
 
 ## -description
 
+Creates a new **ResourceContext**.
+
 ## -parameters
 
 ### -param resourceManager
 
+The **ResourceManager** that will create the **ResourceContext**.
+
 ### -param resourceContext
+
+Contains the created **ResourceContext** if the call was successful.
 
 ## -returns
 
+**HRESULT** that indicates the result of the operation.
+
 ## -remarks
+
+**ResourceContext** must be freed with [MrmDestroyResourceContext](nf-mrm-mrmdestroyresourcecontext.md).
 
 ## -see-also
 
+- [MrmDestroyResourceContext](nf-mrm-mrmdestroyresourcecontext.md)

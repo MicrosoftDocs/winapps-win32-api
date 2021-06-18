@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmLoadEmbeddedResource
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Loads a resource of type **MrmType_Embedded**.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,21 +41,38 @@ dev_langs:
 
 ## -description
 
+Loads a resource of type [MrmType_Embedded](ne-mrm-mrmtype.md).
+
 ## -parameters
 
 ### -param resourceManager
 
+The **ResourceManager**.
+
 ### -param resourceContext
+
+The **ResourceContext**. Uses the default context if null.
 
 ### -param resourceMap
 
+The **ResourceMap**. Uses root if null.
+
 ### -param resourceId
+
+The name of the resource to load.
 
 ### -param data
 
+Contains the resource data if the call was successful.
+
+Resource data must be freed by calling [MrmFreeResource](nf-mrm-mrmfreeresource.md).
+
 ## -returns
+
+**HRESULT** that indicates the result of the operation.
 
 ## -remarks
 
 ## -see-also
 
+- [MrmFreeResource](nf-mrm-mrmfreeresource.md).

@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmCreateResourceManager
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Creates a new **ResourceManager**.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,15 +41,26 @@ dev_langs:
 
 ## -description
 
+Creates a new **ResourceManager**.
+
 ## -parameters
 
 ### -param priFileName
 
+The filename of the resource file the new **ResourceManager** will use.
+
 ### -param resourceManager
+
+Contains the created **ResourceManager** if the call was successful.
 
 ## -returns
 
+**HRESULT** that indicates the result of the operation.
+
 ## -remarks
+
+**ResourceManager** must be freed with [MrmDestroyResourceManager](nf-mrm-mrmdestroyresourcemanager.md).
 
 ## -see-also
 
+- [MrmDestroyResourceManager](nf-mrm-mrmdestroyresourcemanager.md)

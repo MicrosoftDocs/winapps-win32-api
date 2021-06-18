@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmFreeResource
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Frees a buffer that was allocated with **MrmAllocateBuffer**.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,11 +41,19 @@ dev_langs:
 
 ## -description
 
+Frees a buffer that was allocated with [MrmAllocateBuffer](nf-mrm-mrmallocatebuffer.md).
+
 ## -parameters
 
 ### -param resource
 
+The resource buffer which will be freed.
+
 ## -remarks
+
+Do not use this method to free arrays of names or values, such as those created by [MrmGetAllQualifierNames](nf-mrm-mrmgetallqualifiernames.md). For these types of arrays, use  [MrmFreeQualifierNamesOrValues](nf-mrm-mrmfreequalifiernamesorvalues.md) instead.
 
 ## -see-also
 
+- [MrmAllocateBuffer](nf-mrm-mrmallocatebuffer.md)
+-[MrmFreeQualifierNamesOrValues](nf-mrm-mrmfreequalifiernamesorvalues.md)

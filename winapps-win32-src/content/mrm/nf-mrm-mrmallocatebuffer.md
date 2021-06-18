@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmAllocateBuffer
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Allocates a resource buffer.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,13 +41,22 @@ dev_langs:
 
 ## -description
 
+Allocates a resource buffer.
+
 ## -parameters
 
 ### -param size
 
+Buffer size in bytes.
+
 ## -returns
+
+Pointer to the allocated buffer.
 
 ## -remarks
 
+Buffer must be freed with [MrmFreeResource](nf-mrm-mrmfreeresource.md).
+
 ## -see-also
 
+- [MrmFreeResource](nf-mrm-mrmfreeresource.md)

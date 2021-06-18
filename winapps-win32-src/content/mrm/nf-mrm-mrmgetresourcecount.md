@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmGetResourceCount
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Gets the number of resources contained in a **ResourceMap**.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,17 +41,26 @@ dev_langs:
 
 ## -description
 
+Gets the number of resources contained in a **ResourceMap**.
+
 ## -parameters
 
 ### -param resourceManager
 
+The **ResourceManager** that contains the **ResourceMap**.
+
 ### -param resourceMap
+
+The **ResourceMap** that contains the resources.
 
 ### -param count
 
+Contains the number of resources in the **ResourceMap** if the call was successful.
+
 ## -returns
+
+**HRESULT** that indicates the result of the operation.
 
 ## -remarks
 
 ## -see-also
-

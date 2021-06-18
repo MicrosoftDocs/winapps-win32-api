@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmDestroyResourceContext
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Destroys a **ResourceContext** created with **MrmCreateResourceContext**.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,11 +41,16 @@ dev_langs:
 
 ## -description
 
+Destroys a **ResourceContext** created with [MrmCreateResourceContext](nf-mrm-mrmcreateresourcecontext.md).
+
 ## -parameters
 
 ### -param resourceContext
+
+The **ResourceContext** to destroy.
 
 ## -remarks
 
 ## -see-also
 
+- [MrmCreateResourceContext](nf-mrm-mrmcreateresourcecontext.md)
