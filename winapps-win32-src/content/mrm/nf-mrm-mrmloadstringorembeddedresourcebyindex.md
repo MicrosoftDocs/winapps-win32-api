@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmLoadStringOrEmbeddedResourceByIndex
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Loads a resource of any **MrmType**.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,27 +41,54 @@ dev_langs:
 
 ## -description
 
+Load a resource of any [MrmType](ne-mrm-mrmtype.md).
+
 ## -parameters
 
 ### -param resourceManager
 
+The **ResourceManager**.
+
 ### -param resourceContext
+
+The **ResourceContext**. Uses the default context if null.
 
 ### -param resourceMap
 
+The **ResourceMap**. Uses root if null.
+
 ### -param index
+
+The index of the desired resource within the **ResourceMap**.
 
 ### -param resourceType
 
+The [MrmType](ne-mrm-mrmtype.md) of the resource to be loaded.
+
 ### -param resourceName
+
+Contains the name of the loaded resource if the call was successful.
+
+Resource name must be freed by calling [MrmFreeResource](nf-mrm-mrmfreeresource.md).
 
 ### -param resourceString
 
+Contains the resource string if the call was successful and resourceType was either [MrmType](ne-mrm-mrmtype.md).String or [MrmType](ne-mrm-mrmtype.md).Path.
+
+Resource data must be freed by calling [MrmFreeResource](nf-mrm-mrmfreeresource.md).
+
 ### -param data
 
+Contains the resource data if the call was successful and resourceType was [MrmType](ne-mrm-mrmtype.md).Embedded.
+
+Resource data must be freed by calling [MrmFreeResource](nf-mrm-mrmfreeresource.md).
+
 ## -returns
+
+**HRESULT** that indicates the result of the operation.
 
 ## -remarks
 
 ## -see-also
 
+- [MrmFreeResource](nf-mrm-mrmfreeresource.md)

@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmDestroyResourceManager
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Destroys a **ResourceManager** created with **MrmCreateResourceManager**.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,11 +41,16 @@ dev_langs:
 
 ## -description
 
+Destroys a **ResourceManager** created with [MrmCreateResourceManager](nf-mrm-mrmcreateresourcemanager.md).
+
 ## -parameters
 
-### -param resourceManager
+### -param resourceContext
+
+The **ResourceManager** to destroy.
 
 ## -remarks
 
 ## -see-also
 
+- [MrmCreateResourceManager](nf-mrm-mrmcreateresourcemanager.md)

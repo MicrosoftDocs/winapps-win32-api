@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: mrm
 ms.date: 05/18/2021
 targetos: Windows
-description: 
+description: This header is used by MRT Core.
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 
@@ -41,7 +41,6 @@ dev_langs:
 ---
 
 # mrm.h header
-
 
 ## -description
 

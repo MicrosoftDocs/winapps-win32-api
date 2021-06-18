@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmResourceData
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Contains resource data for a resource of type **MrmType_Embedded**.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -37,13 +37,18 @@ dev_langs:
 
 ## -description
 
+Contains resource data for a resource of type [MrmType_Embedded](ne-mrm-mrmtype.md).
+
 ## -struct-fields
 
 ### -field size
 
+The size of the data in bytes.
+
 ### -field data
+
+The resource data.
 
 ## -remarks
 
 ## -see-also
-

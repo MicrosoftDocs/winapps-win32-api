@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmType
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Describes the type of resource data.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: mrm.h
@@ -33,17 +33,26 @@ dev_langs:
 
 ## -description
 
+Describes the type of resource data.
+
 ## -enum-fields
 
 ### -field MrmType_Unknown
 
+Data is of an unknown type.
+
 ### -field MrmType_String
+
+Data is a string.
 
 ### -field MrmType_Path
 
+Data is a file path.
+
 ### -field MrmType_Embedded
+
+Data is embedded.
 
 ## -remarks
 
 ## -see-also
-

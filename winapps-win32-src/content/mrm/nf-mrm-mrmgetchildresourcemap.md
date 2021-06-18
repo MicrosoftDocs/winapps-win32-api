@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmGetChildResourceMap
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Gets the child resource map.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,19 +41,30 @@ dev_langs:
 
 ## -description
 
+Gets the child resource map.
+
 ## -parameters
 
 ### -param resourceManager
 
+The **ResourceManager** that contains the child **ResourceMap**.
+
 ### -param resourceMap
+
+The parent **ResourceMap**.
 
 ### -param childResourceMapName
 
+The name of the child **ResourceMap**.
+
 ### -param childResourceMap
 
+Will contain the child **ResourceMap** if the call was successful.
+
 ## -returns
+
+**HRESULT** that indicates the result of the operation.
 
 ## -remarks
 
 ## -see-also
-

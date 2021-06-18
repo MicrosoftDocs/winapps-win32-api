@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmGetFilePathFromName
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Gets the default path for a filename.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,15 +41,31 @@ dev_langs:
 
 ## -description
 
+Gets the default path for a filename.
+
 ## -parameters
 
 ### -param filename
 
+The filename.
+
 ### -param filePath
+
+Will contain the file path if the call was successful.
 
 ## -returns
 
+**HRESULT** that indicates the result of the operation.
+
 ## -remarks
 
-## -see-also
+This method first looks in the current module path for a file with the specified name (or `resources.pri` if no name was provided). If this file exists, the `filePath` parameter will be set to the full path of that file.
 
+If no file was found in the previous step, this method looks in the parent directory of the current module path for a file with the specified name (or `[current module name].pri` if no name was provided). If this file exists, the `filePath` parameter will be set to the full path of that file.
+
+If neither file exists, the `filePath` parameter will be set to `[current module path]\[fileName]`, where fileName defaults to `resources.pri` if no filename was specified. Note that **this file may not exist**.
+
+> [!WARNING]
+> `MrmGetFilePathFromName` will always return a path on success. The path may not always exist.
+
+## -see-also

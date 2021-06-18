@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmFreeQualifierNamesOrValues
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Frees an array of qualifier names or values.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,13 +41,18 @@ dev_langs:
 
 ## -description
 
+Frees an array of qualifier names or values.
+
 ## -parameters
 
 ### -param size
 
+The size of the array.
+
 ### -param names
+
+The array of names or values.
 
 ## -remarks
 
 ## -see-also
-

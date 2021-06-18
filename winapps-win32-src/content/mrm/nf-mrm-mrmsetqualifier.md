@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmSetQualifier
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Sets a resource qualifier value.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,17 +41,28 @@ dev_langs:
 
 ## -description
 
+Sets a resource qualifier value.
+
 ## -parameters
 
 ### -param resourceContext
 
+The **ResourceContext**.
+
 ### -param qualifierName
+
+The qualifier name.
 
 ### -param qualifierValue
 
+The qualifier value to be set.
+
 ## -returns
+
+**HRESULT** that indicates the result of the operation.
 
 ## -remarks
 
 ## -see-also
 
+-[MrmGetQualifier](nf-mrm-mrmgetqualifier.md)
