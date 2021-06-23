@@ -1,6 +1,7 @@
 ---
 UID: TP:mrtcore
 title: MRT Core
+description: Provides information about the header files for the MRT Core APIs.
 ms.date: 05/18/2021
 ms.keywords: 
 ms.topic: conceptual

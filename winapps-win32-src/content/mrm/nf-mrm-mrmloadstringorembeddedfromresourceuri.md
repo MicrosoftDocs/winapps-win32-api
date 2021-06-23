@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmLoadStringOrEmbeddedFromResourceUri
 ms.date: 05/18/2021 
 targetos: Windows
-description: Loads a resource of any **MrmType**.
+description: Loads a resource of any **MrmType** from the specified URI.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Loads a resource of any [MrmType](ne-mrm-mrmtype.md).
+Loads a resource of any [MrmType](ne-mrm-mrmtype.md) from the specified URI.
 
 ## -parameters
 

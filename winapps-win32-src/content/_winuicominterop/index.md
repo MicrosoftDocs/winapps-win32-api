@@ -1,6 +1,7 @@
 ---
 UID: TP:winuicominterop
 title: WinUI COM Interop
+description: Provides information about the header files for the WinUI COM interop APIs.
 ms.date: 05/18/2021
 ms.keywords: 
 ms.topic: conceptual

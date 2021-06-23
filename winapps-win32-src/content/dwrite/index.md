@@ -4,7 +4,7 @@ tech.root: dwritecore
 title: dwrite.h header
 ms.date: 05/18/2021 
 targetos: Windows
-description: 
+description: Provides information about the dwrite.h header for DWriteCore.
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 

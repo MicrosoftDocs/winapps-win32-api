@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: microsoft.ui.xaml.window
 ms.date: 05/21/2021
 targetos: Windows
-description: 
+description: Provides information about the microsoft.ui.xaml.window.h header for WinUI COM interop.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset

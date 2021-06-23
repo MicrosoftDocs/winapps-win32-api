@@ -1,6 +1,7 @@
 ---
 UID: TP:dwritecore
 title: DWriteCore
+description: Provides information about the header files for the DWriteCore APIs.
 ms.date: 05/18/2021
 ms.keywords: 
 ms.topic: conceptual

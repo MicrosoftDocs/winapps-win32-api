@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmLoadStringOrEmbeddedResourceByIndex
 ms.date: 05/18/2021 
 targetos: Windows
-description: Loads a resource of any **MrmType**.
+description: Loads a resource of any **MrmType** by the specified index.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Load a resource of any [MrmType](ne-mrm-mrmtype.md).
+Load a resource of any [MrmType](ne-mrm-mrmtype.md) by the specified index.
 
 ## -parameters
 

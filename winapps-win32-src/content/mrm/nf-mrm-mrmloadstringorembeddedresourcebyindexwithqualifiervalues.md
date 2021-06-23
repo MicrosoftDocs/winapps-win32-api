@@ -4,7 +4,7 @@ tech.root: mrtcore
 title: MrmLoadStringOrEmbeddedResourceByIndexWithQualifierValues
 ms.date: 05/18/2021 
 targetos: Windows
-description: Loads a resource of any **MrmType**, along with that resource's qualifier values.
+description: Loads a resource of any **MrmType** by the specified index, along with that resource's qualifier values.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Loads a resource of any [MrmType](ne-mrm-mrmtype.md), along with that resource's qualifier values.
+Loads a resource of any [MrmType](ne-mrm-mrmtype.md) by the specified index, along with that resource's qualifier values.
 
 ## -parameters
 
