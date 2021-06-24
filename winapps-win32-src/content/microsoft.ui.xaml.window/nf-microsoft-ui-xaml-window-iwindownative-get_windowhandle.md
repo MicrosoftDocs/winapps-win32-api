@@ -56,12 +56,10 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -remarks
 
-## -examples
-
 Before trying the following example, review the following topics:
 
-- To use the WinUI 3 for desktop project templates, configure your development computer and [set up your development environment](/windows/apps/project-reunion/get-started-with-project-reunion#set-up-your-development-environment).
-- Confirm your dev environment is functioning as expected by creating and running an initial template app as described in [Get started with WinUI 3 for desktop apps](/windows/apps/winui/winui3/get-started-winui3-for-desktop).
+- To use the WinUI 3 for desktop project templates, configure your development computer and [set up your development environment](/windows/apps/windows-app-sdk/set-up-your-development-environment).
+- Confirm your dev environment is functioning as expected by creating and running an initial template app as described in [Create your first WinUI 3 app](/windows/apps/winui/winui3/create-your-first-winui3-app).
 
 ### Customized window icon
 
@@ -130,5 +128,7 @@ In the following example, we start with the initial **WinUI in Desktop C#/.NET 5
 6. If you've followed these steps in your own app, build and run the app. You should see an application window similar to the following (with the custom app icon):
 
     :::image type="content" source="images/template-app-windowhandle.png" alt-text="Template app with custom application icon.":::<br/>*Template app with custom application icon.*
+
+## -examples
 
 ## -see-also
