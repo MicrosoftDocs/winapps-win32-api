@@ -2,7 +2,7 @@
 UID: NN:microsoft.ui.xaml.window.IWindowNative
 tech.root: winuicominterop
 title: IWindowNative
-ms.date: 05/21/2021
+ms.date: 09/10/2021
 targetos: Windows
 description: Enables interoperability between XAML and a native window.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:microsoft.ui.xaml.window.IWindowNative.get_WindowHandle
 tech.root: winuicominterop
 title: IWindowNative::get_WindowHandle
-ms.date: 05/21/2021
+ms.date: 09/10/2021
 targetos: Windows
 description: Gets the requested handle for the window
 prerelease: false
@@ -63,71 +63,45 @@ Before trying the following example, review the following topics:
 
 ### Customized window icon
 
-In the following example, we start with the initial **WinUI in Desktop C#/.NET 5** template code and show how to customize the icon used for an app window using a **WindowHandle**.
+In the following example, we start with the initial **WinUI in Desktop C#/.NET 5** template code and show how to customize the window title bar and its content using a **WindowHandle**.
+
+#### MainWindow.xaml
+
+1. In MainWindow.xaml, we add two buttons and specify Click handlers for each. In the Click handler for the first button (`basicButton_Click`) we set the title bar icon and text, while in the second (`customButton_Click`) we demonstrate more significant customization by replacing the title bar with the content of the `customTitleBarPanel` StackPanel.
+
+:::code language="xaml" source="snippets/window-titlebar/window-titlebar/MainWindow.xaml":::
 
 #### MainWindow.xaml.cs
 
-1. First we add the following using directives:
+1. In the `basicButton_Click` handler, we first ensure that the custom title bar is not being displayed by collapsing the `customTitleBarPanel` StackPanel and setting the [ExtendsContentIntoTitleBar](/windows/winui/api/microsoft.ui.xaml.window.extendscontentintotitlebar) property to false.
+1. We then call **GetWindowHandle** for the hwnd of the current window.
+1. Next, we set the application icon using PInvoke to call the [LoadImage](/windows/win32/api/winuser/nf-winuser-loadimagea) and [SendMessage](/windows/win32/api/winuser/nf-winuser-sendmessage) functions.
+1. Finally, we call [SetWindowText](/windows/win32/api/winuser/nf-winuser-setwindowtexta) to update the title bar string.
 
-    - [System.Runtime.InteropServices](/dotnet/api/system.runtime.interopservices): Provides support for COM interop and platform invoke services. In this example, required for the PInvoke functionality.
-    - [WinRT](/uwp/cpp-ref-for-winrt/winrt): Provides custom data types belonging to C++/WinRT. In this example, required for the IWindowNative COM interface.
+:::code language="csharp" source="snippets/window-titlebar/window-titlebar/MainWindow.xaml.cs" id="basicButton_Click" highlight="3-7,8-9,12-23":::
 
-    ```csharp
-    using System.Runtime.InteropServices;
-    using WinRT;
-    ```
+1. In the `customButton_Click` handler, we set the visibility of the `customTitleBarPanel` StackPanel to Visible.
+1. We then set the [ExtendsContentIntoTitleBar](/windows/winui/api/microsoft.ui.xaml.window.xtendscontentintotitlebar) property to true and call [SetTitleBar](/windows/winui/api/microsoft.ui.xaml.window.settitlebar) to display the `customTitleBarPanel` StackPanel as our custom title bar.
 
-2. We then add an .ico file to our project ("Images/windowIcon.ico") and set the "Build action" (right click the file and select Properties) for this file to "Content".
+:::code language="csharp" source="snippets/window-titlebar/window-titlebar/MainWindow.xaml.cs" id="customButton_Click":::
 
-3. In the MainWindow method, we add a call to a `LoadIcon("Images/windowIcon.ico");` function (described in the next step) with a reference to the .ico file we added in the previous step.
+#### App.xaml
 
-    ```csharp
-    public MainWindow()
-    {
-        LoadIcon("Images/windowIcon.ico");
-    
-        this.InitializeComponent();
-    }
-    ```
+In the App.xaml file we define some custom colors for the title bar as shown here.
 
-4. Next, we add a `LoadIcon(string iconName)` function that gets a handle to the application and uses various [PInvoke](/dotnet/standard/native-interop/pinvoke) features, including [LoadImage](/windows/win32/api/winuser/nf-winuser-loadimagew) and [SendMessage](/windows/win32/api/winuser/nf-winuser-sendmessage), to set the application icon.
-
-    ```csharp
-    private void LoadIcon(string iconName)
-    {
-        //Get the Window's HWND
-        var hwnd = this.As<IWindowNative>().WindowHandle;
-    
-        IntPtr hIcon = PInvoke.User32.LoadImage(
-            IntPtr.Zero, 
-            iconName,
-            PInvoke.User32.ImageType.IMAGE_ICON, 
-            16, 16, 
-            PInvoke.User32.LoadImageFlags.LR_LOADFROMFILE);
-    
-        PInvoke.User32.SendMessage(
-            hwnd, 
-            PInvoke.User32.WindowMessage.WM_SETICON, 
-            (IntPtr)0, 
-            hIcon);
-    }    
-    ```
-
-5. Finally, we embed the type information from the public IWindowNative interface and create an instance of the class from the runtime assembly. For more details, see [Embed types from managed assemblies](/dotnet/standard/assembly/embed-types-visual-studio).
-
-    ```csharp
-    [ComImport]
-    [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-    [Guid("EECDBF0E-BAE9-4CB6-A68E-9598E1CB57BB")]
-    internal interface IWindowNative
-    {
-        IntPtr WindowHandle { get; }
-    }
-    ```
+:::code language="csharp" source="snippets/window-titlebar/window-titlebar/App.xaml":::
 
 6. If you've followed these steps in your own app, build and run the app. You should see an application window similar to the following (with the custom app icon):
 
-    :::image type="content" source="images/template-app-windowhandle.png" alt-text="Template app with custom application icon.":::<br/>*Template app with custom application icon.*
+    :::image type="content" source="images/template-app-windowhandle.png" alt-text="Template app with no customization.":::<br/>*Template app.*
+
+- Here's the basic custom title bar:
+
+    :::image type="content" source="images/template-app-windowhandle-basic-custom.png" alt-text="Template app with custom application icon.":::<br/>*Template app with custom application icon.*
+
+- Here's the fully custom title bar:
+
+    :::image type="content" source="images/template-app-windowhandle-full-custom.png" alt-text="Template app with custom title bar.":::<br/>*Template app with custom title bar.*
 
 ## -examples
 

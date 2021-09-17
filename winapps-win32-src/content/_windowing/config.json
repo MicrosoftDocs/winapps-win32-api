@@ -1,0 +1,7 @@
+{
+  "tech": "windowing",
+  "headers": [
+    "microsoft.ui.interop.h"
+  ],
+  "displayName": "Windowing"
+}

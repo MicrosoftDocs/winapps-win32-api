@@ -54,23 +54,36 @@
     },
     "fileMetadata": {
       "author": {
+        "_bootstrap/*.md": "mcleanbyron",
+        "_dynamicdependency/*.md": "mcleanbyron",
         "_dwritecore/*.md": "stevewhims",
         "_mrtcore/*.md": "hickeys",
+        "_windowing/*.md": "jwmsft",
         "_winuicominterop/*.md": "Karl-Bridge-Microsoft",
         "dwrite/*.md": "stevewhims",
         "dwrite_3/*.md": "stevewhims",
         "dwritecore/*.md": "stevewhims",
-        "mrm/*.md": "hickeys"
+        "mddbootstrap/*.md": "mcleanbyron",
+        "microsoft.ui.interop/*.md": "jwmsft",
+        "microsoft.ui.xaml.window/*.md": "Karl-Bridge-Microsoft",
+        "mrm/*.md": "hickeys",
+        "msixdynamicdependency/*.md": "mcleanbyron"
       },
       "ms.author":
       {
+        "_bootstrap/*.md": "mcleans",
+        "_dynamicdependency/*.md": "mcleans",
         "_dwritecore/*.md": "stwhi",
         "_mrtcore/*.md": "hickeys",
+        "_windowing/*.md": "jimwalk",
         "dwrite/*.md": "stwhi",
         "dwrite_3/*.md": "stwhi",
         "dwritecore/*.md": "stwhi",
+        "mddbootstrap/*.md": "mcleans",
+        "microsoft.ui.interop/*.md": "jimwalk",
         "microsoft.ui.xaml.window/*.md": "kbridge",
-        "mrm/*.md": "hickeys"
+        "mrm/*.md": "hickeys",
+        "msixdynamicdependency/*.md": "mcleans"
       }
     },
     "template": [],

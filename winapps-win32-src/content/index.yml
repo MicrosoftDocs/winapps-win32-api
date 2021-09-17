@@ -24,10 +24,16 @@ landingContent:
     linkLists:
       - linkListType: reference
         links:
+          - text: Bootstrapper API
+            url: _bootstrap/index.md
           - text: DWriteCore
             url: _dwritecore/index.md
+          - text: Dynamic Dependency API
+            url: _dynamicdependency/index.md
           - text: MRT Core
             url: _mrtcore/index.md
+          - text: Windowing
+            url: _windowing/index.md
           - text: WinUI COM Interop
             url: _winuicominterop/index.md
 
@@ -45,10 +51,16 @@ landingContent:
             url: dwrite_3/index.md
           - text: dwrite_core.h
             url: dwrite_core/index.md
+          - text: Mddbootstrap.h
+            url: mddbootstrap/index.md
+          - text: microsoft.ui.interop.h
+            url: microsoft.ui.interop/index.md
           - text: microsoft.ui.xaml.window.h
             url: microsoft.ui.xaml.window/index.md
           - text: mrm.h
             url: mrm/index.md
+          - text: msixdynamicdependency.h
+            url: msixdynamicdependency/index.md
 
   # Card
   - title: Concepts
@@ -61,6 +73,8 @@ landingContent:
             url: /windows/apps/windows-app-sdk/dwritecore
           - text: Manage resources with MRT Core
             url: /windows/apps/windows-app-sdk/mrtcore/mrtcore-overview
+          - text: Manage app windows
+            url: /windows/apps/windows-app-sdk/windowing/windowing-overview
           - text: Windows UI Library (WinUI)
             url: /windows/apps/winui/
 
