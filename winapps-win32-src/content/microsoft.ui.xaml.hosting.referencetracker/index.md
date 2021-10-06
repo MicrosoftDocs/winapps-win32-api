@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: microsoft.ui.xaml.hosting.referencetracker
 ms.date: 10/01/2021
 targetos: Windows
-description: 
+description: This header is used by the Windows App SDK framework package for managing XAML object references.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
