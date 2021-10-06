@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerManager::ReferenceTrackingStarted
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Indicates that a garbage collector is performing a collection.
 prerelease: false
 req.assembly: 
 req.construct-type: function

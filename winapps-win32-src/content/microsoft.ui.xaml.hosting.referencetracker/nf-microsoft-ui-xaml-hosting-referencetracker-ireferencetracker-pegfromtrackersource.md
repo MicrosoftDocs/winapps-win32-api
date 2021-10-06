@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTracker::PegFromTrackerSource
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Indicates that a tracker source is unable to protected a reference tracker object.
 prerelease: false
 req.assembly: 
 req.construct-type: function

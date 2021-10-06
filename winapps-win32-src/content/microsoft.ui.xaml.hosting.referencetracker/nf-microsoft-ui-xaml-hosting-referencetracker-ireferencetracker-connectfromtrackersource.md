@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTracker::ConnectFromTrackerSource
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Indicates that a reference tracker source has created its first COM reference on a reference tracker object.
 prerelease: false
 req.assembly: 
 req.construct-type: function

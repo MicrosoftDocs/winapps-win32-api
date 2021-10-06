@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTracker::ReleaseFromTrackerSource
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Indicates each time that a tracker source calls **IUnknown::Release** on the reference tracker (must be called before the **Release** call).
 prerelease: false
 req.assembly: 
 req.construct-type: function

@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IFindReferenceTargetsCallback::FoundTrackerTarget
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Called whenever a XAML object reference tracker target is found.
 prerelease: false
 req.assembly: 
 req.construct-type: function

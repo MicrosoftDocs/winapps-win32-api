@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerTarget::Peg
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Marks that the reference tracker target is in use by the XAML framework, and should not be collected.
 prerelease: false
 req.assembly: 
 req.construct-type: function

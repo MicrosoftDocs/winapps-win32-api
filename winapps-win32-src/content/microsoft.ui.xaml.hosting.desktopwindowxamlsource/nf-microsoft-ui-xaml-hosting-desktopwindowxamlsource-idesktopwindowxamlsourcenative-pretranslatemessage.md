@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IDesktopWindowXamlSourceNative::PreTranslateMessage
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Enables the WinRT XAML framework to process a Windows message for an IDesktopWindowXamlSourceNative object that hosts a WinRT XAML control.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Enables the WinRT XAML framework to process a Windows message for a [IDesktopWindowXamlSourceNative](nn-microsoft-ui-xaml-hosting-desktopwindowxamlsource-idesktopwindowxamlsourcenative.md) object that hosts a WinRT XAML control.
+Enables the WinRT XAML framework to process a Windows message for an [IDesktopWindowXamlSourceNative](nn-microsoft-ui-xaml-hosting-desktopwindowxamlsource-idesktopwindowxamlsourcenative.md) object that hosts a WinRT XAML control.
 
 ## -parameters
 

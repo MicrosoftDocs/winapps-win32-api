@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerTarget::AddRefFromReferenceTracker
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Indicates that the reference tracker is returning the target XAML object(s) from previous calls to FindTrackerTargets.
 prerelease: false
 req.assembly: 
 req.construct-type: function

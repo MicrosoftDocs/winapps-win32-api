@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerManager::ReferenceTrackingCompleted
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Indicates that a garbage collection system has finished with its collection process (at this point, XAML unblocks threads attempting to update tracked references).
 prerelease: false
 req.assembly: 
 req.construct-type: function

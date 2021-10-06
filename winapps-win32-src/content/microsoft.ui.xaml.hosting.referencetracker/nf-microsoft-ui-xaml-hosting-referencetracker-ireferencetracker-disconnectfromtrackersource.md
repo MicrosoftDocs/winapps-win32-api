@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTracker::DisconnectFromTrackerSource
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Indicates that a reference tracker source has stopped tracking a reference tracker.
 prerelease: false
 req.assembly: 
 req.construct-type: function

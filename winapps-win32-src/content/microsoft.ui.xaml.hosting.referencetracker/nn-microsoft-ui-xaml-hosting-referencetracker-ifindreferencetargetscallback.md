@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IFindReferenceTargetsCallback
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Defines the interface for callbacks from FindTrackerTargets.
 prerelease: false
 req.assembly: 
 req.construct-type: iface

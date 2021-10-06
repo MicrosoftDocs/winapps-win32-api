@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IDesktopWindowXamlSourceNative::get_WindowHandle
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Gets the window handle of the parent UI element that is associated with the current IDesktopWindowXamlSourceNative instance.
 prerelease: false
 req.assembly: 
 req.construct-type: function

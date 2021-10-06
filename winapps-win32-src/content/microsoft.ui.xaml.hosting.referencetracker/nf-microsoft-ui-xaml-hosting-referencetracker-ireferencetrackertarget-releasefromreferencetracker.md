@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerTarget::ReleaseFromReferenceTracker
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Releases the XAML object reference marked in a previous call to AddRefFromReferenceTracker.
 prerelease: false
 req.assembly: 
 req.construct-type: function

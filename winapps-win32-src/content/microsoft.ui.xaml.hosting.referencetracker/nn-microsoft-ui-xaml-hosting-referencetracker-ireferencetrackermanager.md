@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerManager
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Defines the interface for  a XAML object reference manager. Implement this interface to manage instances of IReferenceTracker on XAML objects.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -36,7 +36,7 @@ dev_langs:
 
 ## -description
 
-Defines the interface for  a XAML object reference manager. Implement this interface to manage instances of [-description](nn-microsoft-ui-xaml-hosting-referencetracker-ireferencetracker.md) on XAML objects.
+Defines the interface for  a XAML object reference manager. Implement this interface to manage instances of [IReferenceTracker](nn-microsoft-ui-xaml-hosting-referencetracker-ireferencetracker.md) on XAML objects.
 
 ## -inheritance
 

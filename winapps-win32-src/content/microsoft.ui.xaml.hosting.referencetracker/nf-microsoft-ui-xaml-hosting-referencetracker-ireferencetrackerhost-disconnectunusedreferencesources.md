@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerHost::DisconnectUnusedReferenceSources
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Requests that the host perform garbage collection and remove all unnecessary reference sources.
 prerelease: false
 req.assembly: 
 req.construct-type: function

@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerHost::AddMemoryPressure
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Informs the host of increased memory allocations since the last notification.
 prerelease: false
 req.assembly: 
 req.construct-type: function

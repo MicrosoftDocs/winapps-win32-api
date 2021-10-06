@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Notifies the host that reference tracking is no longer available on the calling thread; XAML calls this when the **FrameworkView** is uninitialized.
 prerelease: false
 req.assembly: 
 req.construct-type: function

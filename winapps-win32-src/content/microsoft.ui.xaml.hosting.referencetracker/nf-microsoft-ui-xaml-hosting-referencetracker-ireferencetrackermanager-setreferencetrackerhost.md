@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerManager::SetReferenceTrackerHost
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Registers an IReferenceTrackerHost interface with XAML.
 prerelease: false
 req.assembly: 
 req.construct-type: function

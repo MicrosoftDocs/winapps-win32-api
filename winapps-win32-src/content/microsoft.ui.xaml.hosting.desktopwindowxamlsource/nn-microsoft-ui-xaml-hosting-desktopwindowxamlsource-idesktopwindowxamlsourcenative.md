@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IDesktopWindowXamlSourceNative
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Provides members you can use to attach an IDesktopWindowXamlSourceNative object that hosts a WinRT XAML control to a parent UI element in your desktop app.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -36,7 +36,7 @@ dev_langs:
 
 ## -description
 
-Provides members you can use to attach a [IDesktopWindowXamlSourceNative](nn-microsoft-ui-xaml-hosting-desktopwindowxamlsource-idesktopwindowxamlsourcenative.md) object that hosts a WinRT XAML control to a parent UI element in your desktop app.
+Provides members you can use to attach an [IDesktopWindowXamlSourceNative](nn-microsoft-ui-xaml-hosting-desktopwindowxamlsource-idesktopwindowxamlsourcenative.md) object that hosts a WinRT XAML control to a parent UI element in your desktop app.
 
 ## -remarks
 

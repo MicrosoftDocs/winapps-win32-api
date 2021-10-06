@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTracker
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Defines the interface implemented by the XAML framework for managing XAML object references.
 prerelease: false
 req.assembly: 
 req.construct-type: iface

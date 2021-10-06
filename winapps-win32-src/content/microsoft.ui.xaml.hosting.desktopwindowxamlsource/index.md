@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: microsoft.ui.xaml.hosting.desktopwindowxamlsource
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: This header is used by the WinRT XAML hosting API (XAML Islands).
 prerelease: false
 req.assembly: 
 req.construct-type: apiset

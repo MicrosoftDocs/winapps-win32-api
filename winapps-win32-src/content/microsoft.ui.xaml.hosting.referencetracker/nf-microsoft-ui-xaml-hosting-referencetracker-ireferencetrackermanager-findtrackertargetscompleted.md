@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerManager::FindTrackerTargetsCompleted
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Indicates that a garbage collection system has finished making all the calls it needs to IReferenceTracker::FindTrackerTargets (by this time, XAML has pegged all reference tracker targets that it wants to protect).
 prerelease: false
 req.assembly: 
 req.construct-type: function

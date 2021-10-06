@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerTarget
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Defines an interface implemented by a garbage collector object referenced from XAML.
 prerelease: false
 req.assembly: 
 req.construct-type: iface

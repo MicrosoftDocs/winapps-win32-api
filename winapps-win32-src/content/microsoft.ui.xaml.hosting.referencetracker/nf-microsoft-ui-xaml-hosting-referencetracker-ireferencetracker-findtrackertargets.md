@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTracker::FindTrackerTargets
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Finds the reference tracker targets that are reachable from a reference tracker source.
 prerelease: false
 req.assembly: 
 req.construct-type: function

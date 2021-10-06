@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IDesktopWindowXamlSourceNative::AttachToWindow
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Attaches the current IDesktopWindowXamlSourceNative instance to a parent UI element in a desktop app that is associated with a window handle.
 prerelease: false
 req.assembly: 
 req.construct-type: function

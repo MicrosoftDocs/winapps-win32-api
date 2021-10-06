@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTracker::GetReferenceTrackerManager
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Gets an IReferenceTrackerManager interface from a XAML object.
 prerelease: false
 req.assembly: 
 req.construct-type: function

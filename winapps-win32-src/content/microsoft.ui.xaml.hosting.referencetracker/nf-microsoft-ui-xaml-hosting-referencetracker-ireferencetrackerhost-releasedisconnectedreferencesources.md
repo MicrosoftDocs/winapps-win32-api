@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerHost::ReleaseDisconnectedReferenceSources
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Requests that the host call **IUnknown::Release** on any reference tracker objects that have been disconnected by a reference source.
 prerelease: false
 req.assembly: 
 req.construct-type: function

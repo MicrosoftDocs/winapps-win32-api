@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerHost::GetTrackerTarget
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Requests the host provide a reference tracker target that references a reference tracker source. This tracker target then controls the lifetime of the tracker source.
 prerelease: false
 req.assembly: 
 req.construct-type: function

@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTrackerHost
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Defines an interface that provides the global services used by the garbage collection (GC) system used by the XAML framework.
 prerelease: false
 req.assembly: 
 req.construct-type: iface

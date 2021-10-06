@@ -4,7 +4,7 @@ tech.root: winuicominterop
 title: IReferenceTracker::AddRefFromTrackerSource
 ms.date: 09/10/2021
 targetos: Windows
-description: 
+description: Indicates each time that a tracker source calls **IUnknown::AddRef** on the reference tracker (called after **AddRef**).
 prerelease: false
 req.assembly: 
 req.construct-type: function
