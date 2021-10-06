@@ -42,9 +42,14 @@ dev_langs:
 
 ## -description
 
+Indicates that a garbage collector is performing a collection; when the collection is finished, the garbage collector calls [FindTrackerTargetsCompleted](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackermanager-findtrackertargetscompleted.md).
+
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-## -see-also
+When this method is called, XAML blocks all threads where it is attempting to update tracked references.  Between calls to **ReferenceTrackingStarted** and [ReferenceTrackingCompleted](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackermanager-referencetrackingcompleted.md), XAML does not make any calls to reference tracker target objects other than [Peg](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackertarget-peg.md) and [Unpeg](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackertarget-unpeg.md).
 
+## -see-also

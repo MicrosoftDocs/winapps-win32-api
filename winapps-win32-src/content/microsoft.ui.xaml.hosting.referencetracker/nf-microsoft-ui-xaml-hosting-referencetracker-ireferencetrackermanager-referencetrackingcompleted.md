@@ -42,9 +42,12 @@ dev_langs:
 
 ## -description
 
+Indicates that a garbage collection system has finished with its collection process (at this point, XAML unblocks threads attempting to update tracked references).
+
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
-

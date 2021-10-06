@@ -42,13 +42,22 @@ dev_langs:
 
 ## -description
 
+Requests that the host perform garbage collection and remove all unnecessary reference sources.
+
 ## -parameters
 
-### -param options
+### -param options [in]
+
+0 or 1.
+
+1 indicates that an application suspend is in progress.
 
 ## -returns
 
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+
 ## -remarks
 
-## -see-also
+This method is expected to potentially cause the reference source to call [DisconnectFromTrackerSource](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetracker-disconnectfromtrackersource.md), but it is not necessary to call **IUnknown::Release** immediately on the tracker source.  In the CLR, this call triggers a garbage collection, but not a **WaitForPendingFinalizers**.  When flags is one, the garbage collection is executed in the **GCCollectionMode.Optimized** state.
 
+## -see-also

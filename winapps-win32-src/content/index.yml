@@ -32,8 +32,8 @@ landingContent:
             url: _dynamicdependency/index.md
           - text: MRT Core
             url: _mrtcore/index.md
-          - text: Windowing
-            url: _windowing/index.md
+          - text: UI Interop
+            url: _uiinterop/index.md
           - text: WinUI COM Interop
             url: _winuicominterop/index.md
 

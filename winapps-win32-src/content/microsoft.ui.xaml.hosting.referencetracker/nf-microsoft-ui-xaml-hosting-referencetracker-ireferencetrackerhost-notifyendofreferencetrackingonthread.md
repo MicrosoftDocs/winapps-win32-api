@@ -42,9 +42,10 @@ dev_langs:
 
 ## -description
 
+Notifies the host that reference tracking is no longer available on the calling thread; XAML calls this when the **FrameworkView** is uninitialized.
+
 ## -returns
 
-## -remarks
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
-

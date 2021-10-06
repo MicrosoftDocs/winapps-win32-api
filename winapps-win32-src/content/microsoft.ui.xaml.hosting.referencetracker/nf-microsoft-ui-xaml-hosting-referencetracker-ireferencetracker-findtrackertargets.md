@@ -42,13 +42,16 @@ dev_langs:
 
 ## -description
 
+Finds the reference tracker targets that are reachable from a reference tracker source; must be called by a garbage collector between calls to [ReferenceTrackingStarted](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackermanager-referencetrackingstarted.md) and [FindTrackerTargetsCompleted](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackermanager-findtrackertargetscompleted.md).
+
 ## -parameters
 
-### -param callback
+### -param callback [in]
+
+The application-defined callback function.
 
 ## -returns
 
-## -remarks
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
-

@@ -42,9 +42,12 @@ dev_langs:
 
 ## -description
 
+Releases the XAML object reference marked in a previous call to [AddRefFromReferenceTracker](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackertarget-addreffromreferencetracker.md).
+
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
-

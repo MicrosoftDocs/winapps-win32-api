@@ -42,13 +42,20 @@ dev_langs:
 
 ## -description
 
+Informs the host of increased memory allocations since the last notification.
+
 ## -parameters
 
 ### -param bytesAllocated
 
+The number of bytes currently allocated.
+
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-## -see-also
+The CLR uses this to inform the algorithm that determines when to run garbage collection.
 
+## -see-also

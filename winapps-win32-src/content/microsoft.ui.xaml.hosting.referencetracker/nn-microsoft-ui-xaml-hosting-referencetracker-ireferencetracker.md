@@ -36,7 +36,14 @@ dev_langs:
 
 ## -description
 
+Defines the interface implemented by the XAML framework for managing XAML object references.
+
+## -inheritance
+
+The **IReferenceTracker** interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IReferenceTracker** also has these types of members:
+
 ## -remarks
 
-## -see-also
+This interface is implemented by most XAML framework objects. It is not defined as **agile**, nor does it marshal across apartments. Use it only from within the apartment of the XAML object that implements it.
 
+## -see-also

@@ -1,11 +1,11 @@
 ---
-UID: NF:microsoft.ui.interop.GetWindowIdFromWindowHandle
+UID: NF:microsoft.ui.interop.GetDisplayIdFromMonitor
 tech.root: uiinterop
-title: GetWindowIdFromWindowHandle
-ms.date: 09/03/2021
+title: GetDisplayIdFromMonitor
+ms.date: 09/29/2021
 targetos: Windows
-description: Gets the `WindowId` that corresponds to the specified _hwnd_, if the provided `HWND` is a valid.
-prerelease: false
+description: Gets the `DisplayId` that corresponds to the specified *hmonitor*, if the provided `hmonitor` is valid.
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -32,31 +32,31 @@ api_type:
 api_location:
  - microsoft.ui.interop.h
 api_name:
- - GetWindowIdFromWindowHandle
+ - GetDisplayIdFromMonitor
 f1_keywords:
- - GetWindowIdFromWindowHandle
- - microsoft.ui.interop/GetWindowIdFromWindowHandle
+ - GetDisplayIdFromMonitor
+ - microsoft.ui.interop/GetDisplayIdFromMonitor
 dev_langs:
  - c++
 ---
 
 ## -description
 
-Gets the `WindowId` that corresponds to the specified *hwnd*, if the provided `HWND` is valid.
+Gets the `DisplayId` that corresponds to the specified *hmonitor*, if the provided `hmonitor` is valid.
 
 ## -parameters
 
-### -param hwnd
+### -param hmonitor
 
-Type: **[HWND](/windows/win32/winprog/windows-data-types)**
+Type: **[HMONITOR](/windows/win32/winprog/windows-data-types)**
 
-The handle of the window for which to get the `WindowId`.
+The handle of the display monitor for which to get the `DisplayId`.
 
-### -param result
+### -param displayId
 
-Type: **[WindowId](/windows/winui/api/microsoft.ui.windowid)**
+Type: **[DisplayId](/windows/winui/api/microsoft.ui.displayid)**
 
-The identifier that corresponds to the specified *hwnd*, if the provided *hwnd* is valid. Otherwise, `null`.
+The display monitor identifier that corresponds to the specified *hmonitor*, if the provided *hmonitor* is valid. Otherwise, `null`.
 
 ## -returns
 

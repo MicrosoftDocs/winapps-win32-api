@@ -1,11 +1,11 @@
 ---
-UID: NF:microsoft.ui.interop.GetWindowIdFromWindowHandle
+UID: NF:microsoft.ui.interop.GetIconIdFromIcon
 tech.root: uiinterop
-title: GetWindowIdFromWindowHandle
-ms.date: 09/03/2021
+title: GetIconIdFromIcon
+ms.date: 09/29/2021
 targetos: Windows
-description: Gets the `WindowId` that corresponds to the specified _hwnd_, if the provided `HWND` is a valid.
-prerelease: false
+description: Gets the `IconId` that corresponds to the specified *hicon*, if the provided `hicon` is valid.
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -32,31 +32,31 @@ api_type:
 api_location:
  - microsoft.ui.interop.h
 api_name:
- - GetWindowIdFromWindowHandle
+ - GetIconIdFromIcon
 f1_keywords:
- - GetWindowIdFromWindowHandle
- - microsoft.ui.interop/GetWindowIdFromWindowHandle
+ - GetIconIdFromIcon
+ - microsoft.ui.interop/GetIconIdFromIcon
 dev_langs:
  - c++
 ---
 
 ## -description
 
-Gets the `WindowId` that corresponds to the specified *hwnd*, if the provided `HWND` is valid.
+Gets the `IconId` that corresponds to the specified *hicon*, if the provided `hicon` is valid.
 
 ## -parameters
 
-### -param hwnd
+### -param hicon
 
-Type: **[HWND](/windows/win32/winprog/windows-data-types)**
+Type: **[HICON](/windows/win32/winprog/windows-data-types)**
 
-The handle of the window for which to get the `WindowId`.
+The handle of the icon for which to get the `IconId`.
 
-### -param result
+### -param iconId
 
-Type: **[WindowId](/windows/winui/api/microsoft.ui.windowid)**
+Type: **[IconId](/windows/winui/api/microsoft.ui.iconid)**
 
-The identifier that corresponds to the specified *hwnd*, if the provided *hwnd* is valid. Otherwise, `null`.
+The icon identifier that corresponds to the specified *hicon*, if the provided *hicon* is valid. Otherwise, `null`.
 
 ## -returns
 

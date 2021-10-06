@@ -42,9 +42,14 @@ dev_langs:
 
 ## -description
 
+Indicates that the reference tracker is returning the target XAML object(s) from previous calls to [FindTrackerTargets](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets.md).
+
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-## -see-also
+The reference is held by the reference tracker object in lieu of **IUnknown::AddRef**.
 
+## -see-also

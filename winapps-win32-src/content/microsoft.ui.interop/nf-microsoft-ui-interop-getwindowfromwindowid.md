@@ -1,11 +1,11 @@
 ---
-UID: NF:microsoft.ui.interop.GetWindowHandleFromWindowId
+UID: NF:microsoft.ui.interop.GetWindowFromWindowId
 tech.root: uiinterop
-title: GetWindowHandleFromWindowId
-ms.date: 09/03/2021
+title: GetWindowFromWindowId
+ms.date: 09/29/2021
 targetos: Windows
 description: Gets the window handle that corresponds to the specified *windowId*, if the provided *windowId* is valid and the system has an `HWND` that represents the window.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.0 Preview 1 or later) 
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.0 Preview 1 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -32,10 +32,10 @@ api_type:
 api_location:
  - microsoft.ui.interop.h
 api_name:
- - GetWindowHandleFromWindowId
+ - GetWindowFromWindowId
 f1_keywords:
- - GetWindowHandleFromWindowId
- - microsoft.ui.interop/GetWindowHandleFromWindowId
+ - GetWindowFromWindowId
+ - microsoft.ui.interop/GetWindowFromWindowId
 dev_langs:
  - c++
 ---
@@ -52,7 +52,7 @@ Type: **[WindowId](/windows/winui/api/microsoft.ui.windowid)**
 
 The identifier for the window.
 
-### -param result
+### -param hwnd
 
 Type: **[HWND](/windows/win32/winprog/windows-data-types)**
 

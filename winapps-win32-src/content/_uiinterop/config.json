@@ -1,0 +1,7 @@
+{
+  "tech": "uiinterop",
+  "headers": [
+    "microsoft.ui.interop.h"
+  ],
+  "displayName": "UI Interop"
+}

@@ -42,15 +42,26 @@ dev_langs:
 
 ## -description
 
+Enables the WinRT XAML framework to process a Windows message for a [IDesktopWindowXamlSourceNative](nn-microsoft-ui-xaml-hosting-desktopwindowxamlsource-idesktopwindowxamlsourcenative.md) object that hosts a WinRT XAML control.
+
 ## -parameters
 
 ### -param message
 
+The Windows message to process.
+
 ### -param result
+
+True if the message was processed. Otherwise, false.
 
 ## -returns
 
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+
 ## -remarks
+
+For a code example that demonstrates how to use this method, see [XamlBridge.cpp](https://github.com/microsoft/Xaml-Islands-Samples/blob/master/Samples/Win32/SampleCppApp/XamlBridge.cpp) from the SampleCppApp sample in the XAML Island samples repo.
 
 ## -see-also
 
+[Using the UWP XAML hosting API in a C++ desktop (Win32) app](/windows/apps/desktop/modernize/using-the-xaml-hosting-api)

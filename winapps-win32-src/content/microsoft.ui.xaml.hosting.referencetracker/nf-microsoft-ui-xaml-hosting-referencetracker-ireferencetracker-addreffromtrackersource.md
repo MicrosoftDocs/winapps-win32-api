@@ -42,9 +42,10 @@ dev_langs:
 
 ## -description
 
+Indicates each time that a tracker source calls **IUnknown::AddRef** on the reference tracker (called after **AddRef**).
+
 ## -returns
 
-## -remarks
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
-

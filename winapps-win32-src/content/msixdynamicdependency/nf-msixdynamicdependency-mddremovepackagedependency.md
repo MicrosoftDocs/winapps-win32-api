@@ -67,6 +67,8 @@ If the function succeeds it returns **ERROR_SUCCESS**. Otherwise, the function r
 This function does not unload loaded resources such as DLLs. After removing a package dependency, any files loaded from the package can continue
 to be used. Future file resolution will fail to see the removed package dependency.
 
+Successful calls to this method change the generation ID value returned by [MddGetGenerationId](nf-msixdynamicdependency-mddgetgenerationid.md).
+
 ## -see-also
 
 [MddAddPackageDependency](nf-msixdynamicdependency-mddaddpackagedependency.md)

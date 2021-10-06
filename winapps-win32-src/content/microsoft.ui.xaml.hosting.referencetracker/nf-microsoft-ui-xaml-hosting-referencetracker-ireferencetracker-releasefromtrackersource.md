@@ -42,9 +42,10 @@ dev_langs:
 
 ## -description
 
+Indicates each time that a tracker source calls **IUnknown::Release** on the reference tracker (must be called before the **Release** call).
+
 ## -returns
 
-## -remarks
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
-

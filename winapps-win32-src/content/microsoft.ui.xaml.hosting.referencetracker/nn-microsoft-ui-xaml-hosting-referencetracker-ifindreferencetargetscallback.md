@@ -36,7 +36,12 @@ dev_langs:
 
 ## -description
 
+Defines the interface for callbacks from [FindTrackerTargets](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets.md). The implementation of this interface must pass any [IReferenceTrackerTarget](nn-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackertarget.md) instances it finds to the [FoundTrackerTarget](nf-microsoft-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback-foundtrackertarget.md) method.
+
+## -inheritance
+
+The **IFindReferenceTargetsCallback** interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFindReferenceTargetsCallback** also has these types of members:
+
 ## -remarks
 
 ## -see-also
-

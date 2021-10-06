@@ -42,15 +42,24 @@ dev_langs:
 
 ## -description
 
+Requests the host provide a reference tracker target that references a reference tracker source. This tracker target then controls the lifetime of the tracker source.
+
 ## -parameters
 
 ### -param unknown
 
+The reference tracker source.
+
 ### -param newReference
+
+The reference tracker target.
 
 ## -returns
 
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+
 ## -remarks
 
-## -see-also
+For example, after calling this method, calling [Peg](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackertarget-peg.md) on the tracker target will prevent the tracker source from being collected.
 
+## -see-also

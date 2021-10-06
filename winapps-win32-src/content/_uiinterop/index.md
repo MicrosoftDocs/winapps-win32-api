@@ -1,17 +1,17 @@
 ---
-UID: TP:windowing
-title: Windowing
-description: Provides information about the header files for the Windowing APIs.
-ms.date: 07/28/2021
+UID: TP:uiinterop
+title: UI Interop
+description: Provides information about the header files for the UI Interop APIs.
+ms.date: 10/05/2021
 ms.keywords: 
 ms.topic: conceptual
 ---
 
-# Windowing
+# UI Interop
 
 ## -description
 
-To develop with the Windowing APIs, you need these headers.
+To develop with the UI Interop APIs, you need these headers.
 
  * [microsoft.ui.interop.h](../microsoft.ui.interop/index.md)
 

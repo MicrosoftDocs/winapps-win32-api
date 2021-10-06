@@ -1,10 +1,10 @@
 ---
 UID: NA:microsoft.ui.interop
-tech.root: windowing
+tech.root: uiinterop
 title: microsoft.ui.interop
 ms.date: 07/28/2021 
 targetos: Windows
-description: Provides information about the microsoft.ui.interop.h header for the Windowing API.
+description: Provides information about the microsoft.ui.interop.h header for the UI Interop API.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
@@ -43,4 +43,4 @@ dev_langs:
 
 ## -description
 
-This header is used by the [Windowing API](../_windowing/index.md).
+This header is used by the [UI Interop API](../_uiinterop/index.md).

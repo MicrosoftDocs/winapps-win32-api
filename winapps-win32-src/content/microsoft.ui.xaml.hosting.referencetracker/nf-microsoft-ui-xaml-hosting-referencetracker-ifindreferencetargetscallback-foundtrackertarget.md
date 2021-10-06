@@ -42,13 +42,16 @@ dev_langs:
 
 ## -description
 
+Called whenever a XAML object reference tracker target is found.
+
 ## -parameters
 
-### -param target
+### -param target [in]
+
+A XAML object reference tracker target instance found by the XAML object reference tracker manager.
 
 ## -returns
 
-## -remarks
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
-

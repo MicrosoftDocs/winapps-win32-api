@@ -42,13 +42,20 @@ dev_langs:
 
 ## -description
 
+Indicates that a garbage collection system has finished making all the calls it needs to [IReferenceTracker::FindTrackerTargets](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets.md) (by this time, XAML has pegged all reference tracker targets that it wants to protect).
+
 ## -parameters
 
-### -param findFailed
+### -param findFailed [in]
+
+True, if failed allocations are included. Otherwise, false.
 
 ## -returns
 
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+
 ## -remarks
 
-## -see-also
+This marks the end of the foreground garbage collection. At this point background garbage collection will run on a separate thread.
 
+## -see-also

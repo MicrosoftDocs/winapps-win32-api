@@ -36,7 +36,16 @@ dev_langs:
 
 ## -description
 
+Defines the interface for  a XAML object reference manager. Implement this interface to manage instances of [-description](nn-microsoft-ui-xaml-hosting-referencetracker-ireferencetracker.md) on XAML objects.
+
+## -inheritance
+
+The **IReferenceTrackerManager** interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
+
 ## -remarks
 
-## -see-also
+Obtain a reference to an implementation of this interface by calling [GetReferenceTrackerManager](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetracker-getreferencetrackermanager.md) on a XAML object that implements [IReferenceTracker](nn-microsoft-ui-xaml-hosting-referencetracker-ireferencetracker.md).
 
+There is only one instance of **IReferenceTrackerManager** for a process, and it may be called from any thread.
+
+## -see-also

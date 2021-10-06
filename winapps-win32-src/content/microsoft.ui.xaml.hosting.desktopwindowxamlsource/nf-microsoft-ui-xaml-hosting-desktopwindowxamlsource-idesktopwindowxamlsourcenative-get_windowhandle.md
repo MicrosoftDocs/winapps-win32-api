@@ -42,13 +42,20 @@ dev_langs:
 
 ## -description
 
+Gets the window handle of the parent UI element that is associated with the current [IDesktopWindowXamlSourceNative](nn-microsoft-ui-xaml-hosting-desktopwindowxamlsource-idesktopwindowxamlsourcenative.md) instance.
+
 ## -parameters
 
 ### -param hWnd
 
+On output, this parameter contains the window handle of the parent UI element that is associated with the current [IDesktopWindowXamlSourceNative](nn-microsoft-ui-xaml-hosting-desktopwindowxamlsource-idesktopwindowxamlsourcenative.md) instance.
+
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
 
+[Using the UWP XAML hosting API in a C++ desktop (Win32) app](/windows/apps/desktop/modernize/using-the-xaml-hosting-api)

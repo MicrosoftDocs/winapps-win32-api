@@ -42,13 +42,18 @@ dev_langs:
 
 ## -description
 
+Registers an [IReferenceTrackerHost](nn-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackerhost.md) interface with XAML.
+
 ## -parameters
 
-### -param value
+### -param value [in]
+
+The [IReferenceTrackerHost](nn-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackerhost.md).
 
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
-

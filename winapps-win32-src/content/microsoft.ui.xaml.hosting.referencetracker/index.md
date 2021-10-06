@@ -2,7 +2,7 @@
 UID: NA:microsoft.ui.xaml.hosting.referencetracker
 tech.root: winuicominterop
 title: microsoft.ui.xaml.hosting.referencetracker
-ms.date: 09/10/2021
+ms.date: 10/01/2021
 targetos: Windows
 description: 
 prerelease: false
@@ -43,9 +43,10 @@ dev_langs:
 
 ## -description
 
+This header is used by the Windows App SDK framework package for managing XAML object references.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

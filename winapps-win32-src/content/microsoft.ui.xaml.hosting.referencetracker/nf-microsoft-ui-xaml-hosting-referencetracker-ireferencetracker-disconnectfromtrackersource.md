@@ -42,9 +42,16 @@ dev_langs:
 
 ## -description
 
+Indicates that a reference tracker source has stopped tracking a reference tracker.
+
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-## -see-also
+Calling this method does not indicate that the tracker source has released all COM references on the reference tracker.
 
+This method is called by the CLR during garbage collection when a runtime-callable wrapper is collected, but the XAML object does not get released until it is processed by the finalizer thread.
+
+## -see-also

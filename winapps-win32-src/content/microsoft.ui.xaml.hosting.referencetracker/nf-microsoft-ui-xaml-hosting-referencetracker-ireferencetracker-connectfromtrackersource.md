@@ -42,9 +42,14 @@ dev_langs:
 
 ## -description
 
+Indicates that a reference tracker source has created its first COM reference on a reference tracker object.
+
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-## -see-also
+An example of when this method might be called is when a runtime-callable wrapper is created to a XAML object, such as when a XAML object is returned as an **out** parameter argument.
 
+## -see-also

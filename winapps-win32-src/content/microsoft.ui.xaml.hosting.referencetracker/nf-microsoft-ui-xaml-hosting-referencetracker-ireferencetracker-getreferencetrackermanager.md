@@ -42,13 +42,16 @@ dev_langs:
 
 ## -description
 
+Gets an [IReferenceTrackerManager](nn-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackermanager.md) interface from a XAML object.
+
 ## -parameters
 
-### -param value
+### -param value [out]
+
+The IReferenceTrackerManager interface.
 
 ## -returns
 
-## -remarks
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
-

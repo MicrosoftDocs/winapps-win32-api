@@ -42,9 +42,14 @@ dev_langs:
 
 ## -description
 
+Marks that the reference tracker target is no longer in use by the XAML framework and can be collected.
+
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-## -see-also
+You do not need to have parity between calls to [Peg](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackertarget-peg.md) and **Unpeg**. A single call to **Unpeg** will remove the marker set in all previous calls to **Peg**.
 
+## -see-also

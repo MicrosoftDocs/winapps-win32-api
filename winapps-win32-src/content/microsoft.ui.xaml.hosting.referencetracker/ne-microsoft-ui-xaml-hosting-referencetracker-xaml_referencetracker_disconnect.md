@@ -37,13 +37,18 @@ dev_langs:
 
 ## -description
 
+Specifies the possible disconnect values.
+
 ## -enum-fields
 
 ### -field XAML_REFERENCETRACKER_DISCONNECT_DEFAULT
 
+Default disconnection.
+
 ### -field XAML_REFERENCETRACKER_DISCONNECT_SUSPEND
+
+Suspended.
 
 ## -remarks
 
 ## -see-also
-

@@ -36,7 +36,14 @@ dev_langs:
 
 ## -description
 
+Defines an interface that provides the global services used by the garbage collection (GC) system used by the XAML framework.
+
+## -inheritance
+
+The **IReferenceTrackerHost** interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
+
 ## -remarks
 
-## -see-also
+An implementation of this interface must be registered with the XAML framework by passing it to the [SetReferenceTrackerHost](nf-microsoft-ui-xaml-hosting-referencetracker-ireferencetrackermanager-setreferencetrackerhost.md) method.
 
+## -see-also

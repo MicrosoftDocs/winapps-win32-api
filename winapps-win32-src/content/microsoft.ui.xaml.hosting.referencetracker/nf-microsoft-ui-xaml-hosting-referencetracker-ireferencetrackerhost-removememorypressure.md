@@ -42,13 +42,16 @@ dev_langs:
 
 ## -description
 
+Informs the host of reduced memory allocations since the last notification.
+
 ## -parameters
 
 ### -param bytesAllocated
 
+The number of bytes currently allocated.
+
 ## -returns
 
-## -remarks
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
-

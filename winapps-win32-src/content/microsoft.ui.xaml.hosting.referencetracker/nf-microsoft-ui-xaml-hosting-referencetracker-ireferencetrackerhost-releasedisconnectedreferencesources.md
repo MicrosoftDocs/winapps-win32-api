@@ -42,9 +42,14 @@ dev_langs:
 
 ## -description
 
+Requests that the host call **IUnknown::Release** on any reference tracker objects that have been disconnected by a reference source.
+
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-## -see-also
+It is not necessary for the **Release** calls to come in on the same thread.
 
+## -see-also

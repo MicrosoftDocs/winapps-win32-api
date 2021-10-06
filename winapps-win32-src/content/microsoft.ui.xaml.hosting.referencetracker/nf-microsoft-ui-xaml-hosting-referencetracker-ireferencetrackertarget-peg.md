@@ -42,9 +42,12 @@ dev_langs:
 
 ## -description
 
+Marks that the reference tracker target is in use by the XAML framework, and should not be collected.
+
 ## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
-

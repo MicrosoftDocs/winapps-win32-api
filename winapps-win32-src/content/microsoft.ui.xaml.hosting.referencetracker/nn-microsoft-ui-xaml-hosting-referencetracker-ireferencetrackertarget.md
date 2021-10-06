@@ -36,7 +36,12 @@ dev_langs:
 
 ## -description
 
+Defines an interface implemented by a garbage collector object referenced from XAML.
+
+## -inheritance
+
+The **IReferenceTrackerTarget** interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
+
 ## -remarks
 
 ## -see-also
-
