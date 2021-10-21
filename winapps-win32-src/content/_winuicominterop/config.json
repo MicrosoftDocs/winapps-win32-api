@@ -4,8 +4,7 @@
     "microsoft.ui.xaml.hosting.desktopwindowxamlsource.h",
     "microsoft.ui.xaml.hosting.referencetracker.h",
     "microsoft.ui.xaml.media.dxinterop.h",
-    "microsoft.ui.xaml.window.h",
-    "microsoft.ui.xaml.xamlroot.h"
+    "microsoft.ui.xaml.window.h"
   ],
   "displayName": "WinUI COM Interop"
 }
