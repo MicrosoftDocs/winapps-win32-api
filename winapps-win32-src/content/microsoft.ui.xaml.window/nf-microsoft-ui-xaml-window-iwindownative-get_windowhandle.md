@@ -1,10 +1,10 @@
 ---
 UID: NF:microsoft.ui.xaml.window.IWindowNative.get_WindowHandle
-tech.root: winuicominterop
 title: IWindowNative::get_WindowHandle
-ms.date: 09/10/2021
+description: Retrieves the window handle (**HWND**) of the window represented by the [IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative).
+ms.date: 11/29/2021
+tech.root: winuicominterop
 targetos: Windows
-description: Gets the requested handle for the window
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,56 +42,61 @@ dev_langs:
 
 ## -description
 
-Gets the requested handle for the window.
+Retrieves the window handle (**HWND**) of the window represented by the [IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative).
 
 ## -parameters
 
 ### -param hWnd
 
-Handle to the window.
+The window handle (**HWND**).
 
 ## -returns
 
-If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-Before trying the following example, review the following topics:
+Before following along with this example, review these topics:
 
-- To use the WinUI 3 for desktop project templates, configure your development computer and [set up your development environment](/windows/apps/windows-app-sdk/set-up-your-development-environment).
-- Confirm your dev environment is functioning as expected by creating and running an initial template app as described in [Create your first WinUI 3 app](/windows/apps/winui/winui3/create-your-first-winui3-app).
+* To use the Visual Studio project templates targeting WinUI 3 for desktop, first configure your development computer as described in [Install tools for developing apps for Windows 10 and Windows 11](/windows/apps/windows-app-sdk/set-up-your-development-environment).
+- Confirm that your dev environment is functioning as expected by creating and running an initial template app as described in [Create a WinUI 3 app](/windows/apps/winui/winui3/create-your-first-winui3-app).
 
 ### Customized window icon
 
-In the following example, we start with the initial **WinUI in Desktop C#/.NET 5** template code and show how to customize the window title bar and its content using a **WindowHandle**.
+In this example, we show how to retrieve the window handle (**HWND**) of our main window, and use that to customize the window's title bar and its content.
+
+#### Create a new project
+
+1. In Visual Studio, create a new C# or C++/WinRT project from the **Blank App, Packaged (WinUI 3 in Desktop)** project template.
 
 #### MainWindow.xaml
 
-1. In MainWindow.xaml, we add two buttons and specify Click handlers for each. In the Click handler for the first button (`basicButton_Click`) we set the title bar icon and text, while in the second (`customButton_Click`) we demonstrate more significant customization by replacing the title bar with the content of the `customTitleBarPanel` StackPanel.
+1. If you need an icon file to use with this walkthrough, you can download the [`computer.ico` file](https://github.com/microsoft/Windows-classic-samples/blob/main/Samples/Win7Samples/netds/wlan/WirelessHostedNetwork/HostedNetwork/res/computer.ico) from the **WirelessHostednetwork** sample app. Otherwise, feel free to use an icon file that you already have, and change the two references to it in the code.
+1. In the code listing below, you'll see that in `MainWindow.xaml` we've added two buttons, and specified **Click** handlers for each. In the **Click** handler for the first button (**basicButton_Click**), we set the title bar icon and text. In the second (**customButton_Click**), we demonstrate more significant customization by replacing the title bar with the content of the **StackPanel** named *customTitleBarPanel*.
 
 :::code language="xaml" source="snippets/window-titlebar/window-titlebar/MainWindow.xaml":::
 
 #### MainWindow.xaml.cs
 
-1. In the `basicButton_Click` handler, we first ensure that the custom title bar is not being displayed by collapsing the `customTitleBarPanel` StackPanel and setting the [ExtendsContentIntoTitleBar](/windows/winui/api/microsoft.ui.xaml.window.extendscontentintotitlebar) property to false.
-1. We then call **GetWindowHandle** for the hwnd of the current window.
-1. Next, we set the application icon using PInvoke to call the [LoadImage](/windows/win32/api/winuser/nf-winuser-loadimagea) and [SendMessage](/windows/win32/api/winuser/nf-winuser-sendmessage) functions.
-1. Finally, we call [SetWindowText](/windows/win32/api/winuser/nf-winuser-setwindowtexta) to update the title bar string.
+1. In the code listing below for the **basicButton_Click** handler&mdash;in order to keep the custom title bar hidden&mdash;we collapse the *customTitleBarPanel* **StackPanel**, and we set the [ExtendsContentIntoTitleBar](/windows/winui/api/microsoft.ui.xaml.window.extendscontentintotitlebar) property to `false`.
+2. We then call **IWindowNative::get_WindowHandle** (for C#, using the interop helper method **GetWindowHandle**) to retrieve the window handle (**HWND**) of the main window.
+3. Next, we set the application icon (for C#, using the [PInvoke.User32](https://www.nuget.org/packages/PInvoke.User32/) NuGet package) by calling the [LoadImage](/windows/win32/api/winuser/nf-winuser-loadimagea) and [SendMessage](/windows/win32/api/winuser/nf-winuser-sendmessage) functions.
+4. Finally, we call [SetWindowText](/windows/win32/api/winuser/nf-winuser-setwindowtexta) to update the title bar string.
 
 :::code language="csharp" source="snippets/window-titlebar/window-titlebar/MainWindow.xaml.cs" id="basicButton_Click" highlight="3-7,8-9,12-23":::
 
-1. In the `customButton_Click` handler, we set the visibility of the `customTitleBarPanel` StackPanel to Visible.
-1. We then set the [ExtendsContentIntoTitleBar](/windows/winui/api/microsoft.ui.xaml.window.xtendscontentintotitlebar) property to true and call [SetTitleBar](/windows/winui/api/microsoft.ui.xaml.window.settitlebar) to display the `customTitleBarPanel` StackPanel as our custom title bar.
+5. In the **customButton_Click** handler, we set the visibility of the *customTitleBarPanel* **StackPanel** to **Visible**.
+6. We then set the [ExtendsContentIntoTitleBar](/windows/winui/api/microsoft.ui.xaml.window.xtendscontentintotitlebar) property to `true`, and call [SetTitleBar](/windows/winui/api/microsoft.ui.xaml.window.settitlebar) to display the *customTitleBarPanel* **StackPanel** as our custom title bar.
 
 :::code language="csharp" source="snippets/window-titlebar/window-titlebar/MainWindow.xaml.cs" id="customButton_Click":::
 
 #### App.xaml
 
-In the App.xaml file we define some custom colors for the title bar as shown here.
+1. In the `App.xaml` file, immediately after the `<!-- Other app resources here -->` comment, we've added some custom-colored brushes for the title bar, as shown below.
 
 :::code language="csharp" source="snippets/window-titlebar/window-titlebar/App.xaml":::
 
-6. If you've followed these steps in your own app, build and run the app. You should see an application window similar to the following (with the custom app icon):
+1. If you've been following along with these steps in your own app, then you can build your project now, and run the app. You'll see an application window similar to the following (with the custom app icon):
 
     :::image type="content" source="images/template-app-windowhandle.png" alt-text="Template app with no customization.":::<br/>*Template app.*
 
@@ -106,3 +111,5 @@ In the App.xaml file we define some custom colors for the title bar as shown her
 ## -examples
 
 ## -see-also
+
+* [IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative)
