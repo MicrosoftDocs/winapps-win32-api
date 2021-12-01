@@ -71,12 +71,16 @@ In this example, we show how to retrieve the window handle (**HWND**) of our mai
 
 #### MainWindow.xaml
 
-1. If you need an icon file to use with this walkthrough, you can download the [`computer.ico` file](https://github.com/microsoft/Windows-classic-samples/blob/main/Samples/Win7Samples/netds/wlan/WirelessHostedNetwork/HostedNetwork/res/computer.ico) from the **WirelessHostednetwork** sample app. Otherwise, feel free to use an icon file that you already have, and change the two references to it in the code.
+> [!NOTE]
+> If you need an icon file to use with this walkthrough, you can download the [`computer.ico` file](https://github.com/microsoft/Windows-classic-samples/blob/main/Samples/Win7Samples/netds/wlan/WirelessHostedNetwork/HostedNetwork/res/computer.ico) from the **WirelessHostednetwork** sample app. Place that file in your `Assets` folder, and add the file to your project as content. You'll then be able to refer to the file using the url `Assets/computer.ico`.
+>
+> Otherwise, feel free to use an icon file that you already have, and change the two references to it in the code listings below.
+
 1. In the code listing below, you'll see that in `MainWindow.xaml` we've added two buttons, and specified **Click** handlers for each. In the **Click** handler for the first button (**basicButton_Click**), we set the title bar icon and text. In the second (**customButton_Click**), we demonstrate more significant customization by replacing the title bar with the content of the **StackPanel** named *customTitleBarPanel*.
 
 :::code language="xaml" source="snippets/window-titlebar/window-titlebar/MainWindow.xaml":::
 
-#### MainWindow.xaml.cs
+#### MainWindow.xaml.cs/cpp
 
 1. In the code listing below for the **basicButton_Click** handler&mdash;in order to keep the custom title bar hidden&mdash;we collapse the *customTitleBarPanel* **StackPanel**, and we set the [ExtendsContentIntoTitleBar](/windows/winui/api/microsoft.ui.xaml.window.extendscontentintotitlebar) property to `false`.
 2. We then call **IWindowNative::get_WindowHandle** (for C#, using the interop helper method **GetWindowHandle**) to retrieve the window handle (**HWND**) of the main window.
@@ -85,10 +89,61 @@ In this example, we show how to retrieve the window handle (**HWND**) of our mai
 
 :::code language="csharp" source="snippets/window-titlebar/window-titlebar/MainWindow.xaml.cs" id="basicButton_Click" highlight="3-7,8-9,12-23":::
 
+```cppwinrt
+// pch.h
+...
+#include <microsoft.ui.xaml.window.h>
+...
+
+// MainWindow.xaml.h
+...
+void basicButton_Click(Windows::Foundation::IInspectable const& sender, Microsoft::UI::Xaml::RoutedEventArgs const& args);
+...
+
+// MainWindow.xaml.cpp
+void MainWindow::basicButton_Click(IInspectable const&, RoutedEventArgs const&)
+{
+    // Ensure the that custom title bar content is not displayed.
+    customTitleBarPanel().Visibility(Visibility::Collapsed);
+
+    // Disable custom title bar content.
+    ExtendsContentIntoTitleBar(false);
+
+    // Get the window's HWND
+    auto windowNative{ this->try_as<::IWindowNative>() };
+    HWND hWnd{ 0 };
+    windowNative->get_WindowHandle(&hWnd);
+
+    HICON icon{ reinterpret_cast<HICON>(::LoadImage(nullptr, L"Assets/computer.ico", IMAGE_ICON, 0, 0, LR_DEFAULTSIZE | LR_LOADFROMFILE)) };
+    ::SendMessage(hWnd, WM_SETICON, 0, (LPARAM)icon);
+
+    this->Title(L"Basic customization of title bar");
+}
+```
+
 5. In the **customButton_Click** handler, we set the visibility of the *customTitleBarPanel* **StackPanel** to **Visible**.
 6. We then set the [ExtendsContentIntoTitleBar](/windows/winui/api/microsoft.ui.xaml.window.xtendscontentintotitlebar) property to `true`, and call [SetTitleBar](/windows/winui/api/microsoft.ui.xaml.window.settitlebar) to display the *customTitleBarPanel* **StackPanel** as our custom title bar.
 
 :::code language="csharp" source="snippets/window-titlebar/window-titlebar/MainWindow.xaml.cs" id="customButton_Click":::
+
+```cppwinrt
+// MainWindow.xaml.h
+...
+void customButton_Click(Windows::Foundation::IInspectable const& sender, Microsoft::UI::Xaml::RoutedEventArgs const& args);
+...
+
+// MainWindow.xaml.cpp
+void MainWindow::customButton_Click(IInspectable const&, RoutedEventArgs const&)
+{
+    customTitleBarPanel().Visibility(Visibility::Visible);
+
+    // Enable custom title bar content.
+    ExtendsContentIntoTitleBar(true);
+
+    // Set the content of the custom title bar.
+    SetTitleBar(customTitleBarPanel());
+}
+```
 
 #### App.xaml
 
