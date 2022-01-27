@@ -1,0 +1,7 @@
+{
+  "tech": "licensing",
+  "headers": [
+    "windowsappruntime-licensing.h"
+  ],
+  "displayName": "Licensing API"
+}
