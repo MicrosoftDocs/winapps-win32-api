@@ -71,7 +71,8 @@
         "microsoft.ui.xaml.window/*.md": "Karl-Bridge-Microsoft",
         "microsoft.ui.xaml.xamlroot/*.md": "Karl-Bridge-Microsoft",
         "mrm/*.md": "hickeys",
-        "msixdynamicdependency/*.md": "mikben"
+        "msixdynamicdependency/*.md": "mikben",
+        "windowsappruntime-licensing/*.md": "stevewhims"
       },
       "ms.author":
       {
@@ -92,7 +93,8 @@
         "microsoft.ui.xaml.window/*.md": "kbridge",
         "microsoft.ui.xaml.xamlroot/*.md": "kbridge",
         "mrm/*.md": "hickeys",
-        "msixdynamicdependency/*.md": "mikben"
+        "msixdynamicdependency/*.md": "mikben",
+        "windowsappruntime-licensing/*.md": "stwhi"
       }
     },
     "template": [],
