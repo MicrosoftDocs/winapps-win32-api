@@ -5,7 +5,7 @@ title: MddAddPackageDependencyOptions
 ms.date: 07/15/2021 
 targetos: Windows
 description: Defines options that can be applied when adding a run-time reference to a framework package by using the MddAddPackageDependency function.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: msixdynamicdependency.h

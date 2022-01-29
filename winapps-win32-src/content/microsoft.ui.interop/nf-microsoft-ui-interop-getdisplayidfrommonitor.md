@@ -5,7 +5,7 @@ title: GetDisplayIdFromMonitor
 ms.date: 09/29/2021
 targetos: Windows
 description: Gets the `DisplayId` that corresponds to the specified *hmonitor*, if the provided `hmonitor` is valid.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: MddAddPackageDependency
 ms.date: 07/15/2021 
 targetos: Windows
 description: Adds a run-time reference for the framework package dependency you created earlier by using the MddTryCreatePackageDependency method, with the specified options. After this method successfully returns, your app can activate types and use content from the framework package.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

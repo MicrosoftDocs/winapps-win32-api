@@ -5,7 +5,7 @@ title: MddTryCreatePackageDependency
 ms.date: 07/15/2021 
 targetos: Windows
 description: Creates an install-time reference for a framework package dependency for the current app, using the specified package family name, minimum version, and additional criteria.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

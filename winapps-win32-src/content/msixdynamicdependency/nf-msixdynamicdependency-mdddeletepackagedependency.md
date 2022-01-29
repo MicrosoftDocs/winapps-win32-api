@@ -5,7 +5,7 @@ title: MddDeletePackageDependency
 ms.date: 07/15/2021 
 targetos: Windows
 description: Deletes the install-time reference for the framework package dependency you created earlier by using the MddTryCreatePackageDependency method. This method informs the OS that it is safe to remove the framework package if no other apps have a dependency on it.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: MddRemovePackageDependency
 ms.date: 07/15/2021 
 targetos: Windows
 description: Removes a resolved package dependency from the current process' package graph (that is, a run-time reference for a framework package dependency that was added by using the MddAddPackageDependency function).
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

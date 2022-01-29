@@ -5,7 +5,7 @@ title: MddPackageDependencyProcessorArchitectures
 ms.date: 07/15/2021 
 targetos: Windows
 description: Defines the processor architectures for a framework package dependency that you create by using the MddTryCreatePackageDependency function.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: msixdynamicdependency.h

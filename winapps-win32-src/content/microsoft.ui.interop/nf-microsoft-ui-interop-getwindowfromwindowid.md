@@ -5,7 +5,7 @@ title: GetWindowFromWindowId
 ms.date: 09/29/2021
 targetos: Windows
 description: Gets the window handle that corresponds to the specified *windowId*, if the provided *windowId* is valid and the system has an `HWND` that represents the window.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

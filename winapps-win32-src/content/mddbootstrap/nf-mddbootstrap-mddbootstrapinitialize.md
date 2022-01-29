@@ -5,7 +5,7 @@ title: MddBootstrapInitialize
 ms.date: 07/15/2021 
 targetos: Windows
 description: Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by unpackaged desktop apps.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

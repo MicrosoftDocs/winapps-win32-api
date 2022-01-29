@@ -5,7 +5,7 @@ title: MddBootstrapShutdown
 ms.date: 07/15/2021 
 targetos: Windows
 description: Removes the changes made to the current process by MddBootstrapInitialize. After this function is called, your app can no longer call Windows App SDK APIs.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: MddPackageDependencyLifetimeKind
 ms.date: 07/15/2021 
 targetos: Windows
 description: Specifies values that indicate the type of artifact that is used to define the lifetime of a package dependency.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: msixdynamicdependency.h

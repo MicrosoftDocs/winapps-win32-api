@@ -5,7 +5,7 @@ title: MddGetIdForPackageDependencyContext
 ms.date: 07/15/2021 
 targetos: Windows
 description: Returns the package dependency for the specified context handle.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

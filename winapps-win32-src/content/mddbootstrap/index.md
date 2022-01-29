@@ -5,7 +5,7 @@ title: mddbootstrap.h header
 ms.date: 07/15/2021 
 targetos: Windows
 description: Provides information about the mddbootstrap.h header for Dynamic Dependencies.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 

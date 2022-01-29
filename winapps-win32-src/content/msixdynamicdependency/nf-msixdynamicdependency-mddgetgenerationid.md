@@ -5,7 +5,7 @@ title: MddGetGenerationId
 ms.date: 09/30/2021 
 targetos: Windows
 description: Returns the package graph's current generation ID.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

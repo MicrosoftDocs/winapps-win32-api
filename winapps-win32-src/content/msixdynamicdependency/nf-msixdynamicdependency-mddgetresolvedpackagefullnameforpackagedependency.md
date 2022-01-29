@@ -5,7 +5,7 @@ title: MddGetResolvedPackageFullNameForPackageDependency
 ms.date: 07/15/2021 
 targetos: Windows
 description: Returns the package full name that would be used if the package dependency were to be resolved. This function does not add the package to the invoking process' package graph.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

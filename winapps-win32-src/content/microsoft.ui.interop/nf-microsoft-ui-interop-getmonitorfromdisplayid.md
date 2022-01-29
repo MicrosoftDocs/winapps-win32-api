@@ -5,7 +5,7 @@ title: GetMonitorFromDisplayId
 ms.date: 09/29/2021
 targetos: Windows
 description: Gets the display monitor handle that corresponds to the specified *displayId*, if the provided *displayId* is valid and the system has an `HMONITOR` that represents the display monitor.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

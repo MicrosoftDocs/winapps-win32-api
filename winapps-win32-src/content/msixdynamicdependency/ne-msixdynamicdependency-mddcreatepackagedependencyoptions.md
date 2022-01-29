@@ -5,7 +5,7 @@ title: MddCreatePackageDependencyOptions
 ms.date: 07/15/2021 
 targetos: Windows
 description: Defines options that can be applied when creating a package dependency by using the MddTryCreatePackageDependency function.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: msixdynamicdependency.h

@@ -5,7 +5,7 @@ title: GetIconFromIconId
 ms.date: 09/29/2021
 targetos: Windows
 description: Gets the icon handle that corresponds to the specified *iconId*, if the provided *iconId* is valid and the system has an `HICON` that represents the icon.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
