@@ -44,26 +44,26 @@ landingContent:
     linkLists:
       - linkListType: reference
         links:
-          - text: dwrite.h
+          - text: Dwrite.h
             url: dwrite/index.md
-          - text: dwrite_2.h
-            url: /windows/win32/api/dwrite_2/
-          - text: dwrite_3.h
+          - text: Dwrite_3.h
             url: dwrite_3/index.md
-          - text: dwrite_core.h
+          - text: Dwrite_core.h
             url: dwrite_core/index.md
           - text: Mddbootstrap.h
             url: mddbootstrap/index.md
-          - text: microsoft.ui.interop.h
+          - text: Microsoft.ui.interop.h
             url: microsoft.ui.interop/index.md
-          - text: microsoft.ui.xaml.window.h
+          - text: Microsoft.ui.xaml.window.h
             url: microsoft.ui.xaml.window/index.md
-          - text: mrm.h
+          - text: Mrm.h
             url: mrm/index.md
-          - text: msixdynamicdependency.h
+          - text: Msixdynamicdependency.h
             url: msixdynamicdependency/index.md
-          - text: WindowsAppRuntime-Licensing.h
+          - text: Windowsappruntime-licensing.h
             url: windowsappruntime-licensing/index.md
+          - text: (winrt)Microsoft.ui.interop.h
+            url: winrt-microsoft.ui.interop/index.md
 
   # Card
   - title: Concepts

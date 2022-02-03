@@ -1,16 +1,16 @@
 ---
-UID: NA:microsoft.ui.interop
+UID: NA:winrt-microsoft.ui.interop
 tech.root: uiinterop
-title: microsoft.ui.interop
-ms.date: 07/28/2021 
+title: winrt/microsoft.ui.interop
+ms.date: 02/02/2022
 targetos: Windows
-description: Provides information about the microsoft.ui.interop.h header for the UI Interop API.
+description: Provides information about the winrt/microsoft.ui.interop.h header for the UI Interop API.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 
 req.dll: 
-req.header: microsoft.ui.interop.h
+req.header: winrt/microsoft.ui.interop.h
 req.idl: 
 req.include-header: 
 req.irql: 
@@ -31,18 +31,18 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - microsoft.ui.interop.h
+ - winrt/microsoft.ui.interop.h
 api_name:
- - microsoft.ui.interop
+ - winrt/microsoft.ui.interop
 f1_keywords:
- - microsoft.ui.interop
- - microsoft.ui.interop/microsoft.ui.interop
+ - winrt/microsoft.ui.interop
+ - winrt/microsoft.ui.interop/winrt/microsoft.ui.interop
 dev_langs:
  - c++
 ---
 
 ## -description
 
-Also see the [winrt/Microsoft.ui.interop.h](../winrt-microsoft.ui.interop/index.md) header.
+This header is named `Microsoft.UI.Interop.h`, and it's in the Windows App SDK's `\include\winrt` folder.
 
 This header is used by the [UI Interop API](../_uiinterop/index.md).
