@@ -45,4 +45,6 @@ dev_langs:
 
 This header is named `Microsoft.UI.Interop.h`, and it's in the Windows App SDK's `\include\winrt` folder.
 
+**C#**. For C# desktop application developers, the interop functions in this header are wrapped by the methods of the [Microsoft.UI.Win32Interop](/windows/apps/winui/winui3/cs-interop-apis/microsoft.ui/microsoft.ui.win32interop) class.
+
 This header is used by the [UI Interop API](../_uiinterop/index.md).
