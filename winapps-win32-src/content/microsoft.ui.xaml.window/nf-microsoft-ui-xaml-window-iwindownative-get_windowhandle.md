@@ -58,8 +58,8 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 Before following along with this example, review these topics:
 
-* To use the Visual Studio project templates targeting WinUI 3 for desktop, first configure your development computer as described in [Install tools for developing apps for Windows 10 and Windows 11](/windows/apps/windows-app-sdk/set-up-your-development-environment).
-- Confirm that your dev environment is functioning as expected by creating and running an initial template app as described in [Create a WinUI 3 app](/windows/apps/winui/winui3/create-your-first-winui3-app).
+* To use the Visual Studio project templates targeting WinUI 3 for desktop, first configure your development computer as described in [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment).
+- Confirm that your dev environment is functioning as expected by creating and running an initial template app as described in [Create your first WinUI 3 project](/windows/apps/winui/winui3/create-your-first-winui3-app).
 
 ### Customized window icon
 
