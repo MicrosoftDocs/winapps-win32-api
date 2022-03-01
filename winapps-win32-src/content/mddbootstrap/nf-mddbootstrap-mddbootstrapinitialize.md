@@ -68,7 +68,7 @@ The minimum version of the Windows App SDK framework package to use.
 
 Type: **HRESULT**
 
-If the function succeeds it returns ERROR_SUCCESS. Otherwise, the function returns an error code.
+If the function succeeds it returns **ERROR_SUCCESS**. Otherwise, the function returns an error code.
 
 ## -remarks
 
@@ -76,11 +76,13 @@ This function finds a Windows App SDK framework package that meets the specified
 
 This function must be one of the first calls in the app's startup to ensure the bootstrapper component can properly initialize the Windows App SDK and add the run-time reference to the framework package.
 
-For an example that demonstrates how to use this function, see [Build and deploy an unpackaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment).
+This function also initializes the [Dynamic Dependency Lifetime Manager (DDLM)](/windows/apps/windows-app-sdk/deployment-architecture#dynamic-dependency-lifetime-manager-ddlm). The DDLM provides infrastructure to prevent the operating system (OS) from servicing the Windows App SDK framework package while it's being used by an unpackaged app.
+
+Also see [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time).
 
 > [!NOTE]
-> COM must be initialized for the current thread before this function is called.
+> COM must be initialized for the current thread before you call this function.
 
 ## -see-also
 
-[Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time)
+* [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time)

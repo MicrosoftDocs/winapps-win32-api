@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Removes the changes made to the current process by [MddBootstrapInitialize](nf-mddbootstrap-mddbootstrapinitialize.md). After this function is called, your app can no longer call Windows App SDK APIs, including the [Dynamic Dependency API](../_dynamicdependency/index.md).
+Removes the changes made to the current process by [MddBootstrapInitialize](nf-mddbootstrap-mddbootstrapinitialize.md). After this function is called, your app can no longer call Windows App SDK APIs, including the [Dynamic dependency API](../_dynamicdependency/index.md).
 
 ## -returns
 
@@ -50,8 +50,9 @@ This function has no return value.
 
 ## -remarks
 
-For an example that demonstrates how to use this function, see [Build and deploy an unpackaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment).
+Also see [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time).
 
 ## -see-also
 
-[Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time)
+* [Dynamic dependency API](../_dynamicdependency/index.md)
+* [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time)
