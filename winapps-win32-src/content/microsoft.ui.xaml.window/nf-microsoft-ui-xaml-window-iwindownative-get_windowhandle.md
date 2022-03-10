@@ -1,8 +1,8 @@
 ---
 UID: NF:microsoft.ui.xaml.window.IWindowNative.get_WindowHandle
 title: IWindowNative::get_WindowHandle
-description: Retrieves the window handle (**HWND**) of the window represented by the [IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative).
-ms.date: 11/29/2021
+description: Retrieves the window handle (**[HWND](/windows/win32/winprog/windows-data-types)**) of the window represented by the object that implements [IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative).
+ms.date: 03/09/2022
 tech.root: winuicominterop
 targetos: Windows
 prerelease: false
@@ -42,7 +42,9 @@ dev_langs:
 
 ## -description
 
-Retrieves the window handle (**HWND**) of the window represented by the [IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative).
+Retrieves the window handle (**[HWND](/windows/win32/winprog/windows-data-types)**) of the window represented by the object that implements [IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative).
+
+For more info, and code examples, see [Retrieve a window handle (HWND)](/windows/apps/develop/ui-input/retrieve-hwnd).
 
 ## -parameters
 
@@ -56,10 +58,12 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -remarks
 
+## Examples
+
 Before following along with this example, review these topics:
 
-* To use the Visual Studio project templates targeting WinUI 3 for desktop, first configure your development computer as described in [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment).
-- Confirm that your dev environment is functioning as expected by creating and running an initial template app as described in [Create your first WinUI 3 project](/windows/apps/winui/winui3/create-your-first-winui3-app).
+* [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment).
+* [Create your first WinUI 3 project](/windows/apps/winui/winui3/create-your-first-winui3-app).
 
 ### Customized window icon
 
@@ -163,8 +167,7 @@ void MainWindow::customButton_Click(IInspectable const&, RoutedEventArgs const&)
 
     :::image type="content" source="images/template-app-windowhandle-full-custom.png" alt-text="Template app with custom title bar.":::<br/>*Template app with custom title bar.*
 
-## -examples
-
 ## -see-also
 
 * [IWindowNative](/windows/windows-app-sdk/api/win32/microsoft.ui.xaml.window/nn-microsoft-ui-xaml-window-iwindownative)
+* [Retrieve a window handle (HWND)](/windows/apps/develop/ui-input/retrieve-hwnd)

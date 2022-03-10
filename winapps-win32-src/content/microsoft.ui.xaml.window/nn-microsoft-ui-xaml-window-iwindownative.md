@@ -38,8 +38,11 @@ dev_langs:
 
 Enables interoperability between XAML and a native window. This interface is implemented by [Microsoft.UI.Xaml.Window](/windows/winui/api/microsoft.ui.xaml.window), which desktop apps can use to get the underlying HWND of the window.
 
+For more info, and code examples, see [Retrieve a window handle (HWND)](/windows/apps/develop/ui-input/retrieve-hwnd).
+
 ## -remarks
 
 ## -see-also
 
-[Windows UI Library 3](/windows/apps/winui/winui3)
+* [Windows UI Library 3](/windows/apps/winui/winui3)
+* [Retrieve a window handle (HWND)](/windows/apps/develop/ui-input/retrieve-hwnd)
