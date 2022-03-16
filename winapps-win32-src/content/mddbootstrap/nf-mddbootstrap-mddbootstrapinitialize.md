@@ -50,7 +50,8 @@ Initializes the calling process to use the version of the Windows App SDK framew
 
 Type: **UINT32**
 
-The major and minor version of the Windows App SDK framework package to load. The version is encoded as `0xMMMMNNNN`, where `M` = Major and `N` = Minor (for example, version 1.2 should be encoded as `0x00010002`).
+The major and minor version of the Windows App SDK _product_ to load (e.g. 1.0).
+The version is encoded as `0xMMMMNNNN`, where `M` = Major and `N` = Minor (for example, version 1.2 should be encoded as `0x00010002`).
 
 ### -param versionTag
 
@@ -62,7 +63,10 @@ The version tag of the Windows App SDK framework package to load (if any). For e
 
 Type: [PACKAGE_VERSION](/windows/win32/api/appmodel/ns-appmodel-package_version)
 
-The minimum version of the Windows App SDK framework package to use.
+The minimum version of the Windows App SDK _runtime_ package to use.
+Note that this version (e.g. 0.319.455) is different than the Windows App SDK _release_ version (e.g. 1.0.2) and _product_ version (e.g. 1.0).
+
+The Windows App SDK runtime version values can be obtained from the C++ header `WindowsAppSDK-VersionInfo.h`, see [Examples](#examples) for more details.
 
 ## -returns
 
@@ -72,9 +76,9 @@ If the function succeeds it returns **ERROR_SUCCESS**. Otherwise, the function r
 
 ## -remarks
 
-This function finds a Windows App SDK framework package that meets the specified criteria and makes the package available for use by the current process. If multiple packages meet the criteria, this function selects the best candidate. For more information, see [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time).
+This function finds a Windows App SDK framework package that meets the specified criteria and makes the package available for use by the current process. If multiple packages meet the criteria, this function selects the best candidate.
 
-This function must be one of the first calls in the app's startup to ensure the bootstrapper component can properly initialize the Windows App SDK and add the run-time reference to the framework package.
+This function must be called at startup before calling any other Windows App SDK APIs to ensure the bootstrapper component can properly initialize the Windows App SDK and add the runtime reference to the framework package.
 
 This function also initializes the [Dynamic Dependency Lifetime Manager (DDLM)](/windows/apps/windows-app-sdk/deployment-architecture#dynamic-dependency-lifetime-manager-ddlm). The DDLM provides infrastructure to prevent the operating system (OS) from servicing the Windows App SDK framework package while it's being used by an unpackaged app.
 
@@ -83,6 +87,36 @@ Also see [Reference the Windows App SDK framework package at run time](/windows/
 > [!NOTE]
 > COM must be initialized for the current thread before you call this function.
 
+> [!NOTE]
+> For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see [Prerequisites](windows/apps/windows-app-sdk/tutorial-unpackaged-deployment?tabs=cpp#prerequisites)).
+
+## -examples
+
+Using C:
+```c
+#include <WindowsAppSDK-VersionInfo.h>
+#include <MddBootstrap.h>
+// ...
+
+HRESULT hr = MddBootstrapInitialize(WINDOWSAPPSDK_RELEASE_MAJORMINOR, WINDOWSAPPSDK_RELEASE_VERSION_TAG_W, WINDOWSAPPSDK_RUNTIME_VERSION_UINT64);
+if (FAILED(hr))
+{
+    wprintf(L"Error 0x%X in Bootstrap initialization\n", hr);
+}
+```
+
+Using C++:
+```cpp
+#include <WindowsAppSDK-VersionInfo.h>
+#include <MddBootstrap.h>
+// ...
+
+if (FAILED(MddBootstrapInitialize(Microsoft::WindowsAppSDK::Release::MajorMinor, Microsoft::WindowsAppSDK::Release::VersionTag, Microsoft::WindowsAppSDK::Runtime::UInt64))) {
+    throw std::exception("Error in Bootstrap initialization");
+}
+```
+
 ## -see-also
 
 * [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time)
+* [Build and deploy an unpackaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
