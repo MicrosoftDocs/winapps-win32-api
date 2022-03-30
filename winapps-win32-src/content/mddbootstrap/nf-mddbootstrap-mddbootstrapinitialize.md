@@ -88,7 +88,7 @@ Also see [Reference the Windows App SDK framework package at run time](/windows/
 > COM must be initialized for the current thread before you call this function.
 
 > [!NOTE]
-> For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see [Prerequisites](windows/apps/windows-app-sdk/tutorial-unpackaged-deployment?tabs=cpp#prerequisites)).
+> For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see [Tutorial: Build and deploy an unpackaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)).
 
 ## -examples
 
@@ -118,5 +118,6 @@ if (FAILED(MddBootstrapInitialize(Microsoft::WindowsAppSDK::Release::MajorMinor,
 
 ## -see-also
 
+* [MddBootstrap.h header](/windows/windows-app-sdk/api/win32/mddbootstrap/)
 * [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time)
 * [Build and deploy an unpackaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
