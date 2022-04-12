@@ -66,7 +66,7 @@ Type: [PACKAGE_VERSION](/windows/win32/api/appmodel/ns-appmodel-package_version)
 The minimum version of the Windows App SDK _runtime_ package to use.
 Note that this version (e.g. 0.319.455) is different than the Windows App SDK _release_ version (e.g. 1.0.2) and _product_ version (e.g. 1.0).
 
-The Windows App SDK runtime version values can be obtained from the C++ header `WindowsAppSDK-VersionInfo.h`, see [Examples](#examples) for more details.
+The Windows App SDK runtime version values can be obtained from the C++ header `WindowsAppSDK-VersionInfo.h`, see [Example](#example) for more details.
 
 ## -returns
 
@@ -88,9 +88,9 @@ Also see [Reference the Windows App SDK framework package at run time](/windows/
 > COM must be initialized for the current thread before you call this function.
 
 > [!NOTE]
-> For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see [Prerequisites](windows/apps/windows-app-sdk/tutorial-unpackaged-deployment?tabs=cpp#prerequisites)).
+> For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see [Prerequisites](windows/apps/windows-app-sdk/tutorial-unpackaged-deployment#prerequisites)).
 
-## -examples
+## Example
 
 Using C:
 ```c
@@ -119,4 +119,4 @@ if (FAILED(MddBootstrapInitialize(Microsoft::WindowsAppSDK::Release::MajorMinor,
 ## -see-also
 
 * [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time)
-* [Build and deploy an unpackaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
+* [Tutorial—Build and deploy a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
