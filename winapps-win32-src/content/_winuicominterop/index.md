@@ -17,5 +17,6 @@ To develop with WinUI COM interop APIs, you need these headers:
 * [microsoft.ui.xaml.hosting.referencetracker.h](../microsoft.ui.xaml.hosting.referencetracker/index.md)
 * [microsoft.ui.xaml.media.dxinterop.h](../microsoft.ui.xaml.media.dxinterop/index.md)
 * [microsoft.ui.xaml.window.h](../microsoft.ui.xaml.window/index.md)
+* [xamlom.winui.h](../xamlom.winui/index.md)
 
 For programming guidance for this technology, see [WinUI 3](/windows/apps/winui/winui3).
