@@ -88,7 +88,7 @@ Also see [Reference the Windows App SDK framework package at run time](/windows/
 > COM must be initialized for the current thread before you call this function.
 
 > [!NOTE]
-> For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see [Prerequisites](windows/apps/windows-app-sdk/tutorial-unpackaged-deployment#prerequisites)).
+> For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see [Prerequisites](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment#prerequisites)).
 
 ## Example
 
