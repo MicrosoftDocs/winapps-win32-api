@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by unpackaged desktop apps.
+Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by non-MSIX-packaged desktop apps.
 
 ## -parameters
 
