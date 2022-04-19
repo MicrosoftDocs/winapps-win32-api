@@ -82,7 +82,7 @@ This function must be called at startup before calling any other Windows App SDK
 
 This function also initializes the [Dynamic Dependency Lifetime Manager (DDLM)](/windows/apps/windows-app-sdk/deployment-architecture#dynamic-dependency-lifetime-manager-ddlm). The DDLM provides infrastructure to prevent the operating system (OS) from servicing the Windows App SDK framework package while it's being used by an unpackaged app.
 
-Also see [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time).
+Also see [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time).
 
 > [!NOTE]
 > COM must be initialized for the current thread before you call this function.
@@ -118,5 +118,5 @@ if (FAILED(MddBootstrapInitialize(Microsoft::WindowsAppSDK::Release::MajorMinor,
 
 ## -see-also
 
-* [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time)
+* [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time)
 * [Tutorial—Build and deploy a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)

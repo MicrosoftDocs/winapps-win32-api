@@ -43,4 +43,4 @@ dev_langs:
 
 ## -description
 
-This header is used by the [Bootstrapper API](../_bootstrap/index.md) for the Windows App SDK framework package. For more information about this API, see [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time).
+This header is used by the [Bootstrapper API](../_bootstrap/index.md) for the Windows App SDK framework package. For more information about this API, see [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time).
