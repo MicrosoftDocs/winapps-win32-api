@@ -35,23 +35,23 @@ The following constants (for use with the Bootstrapper API) are declared in `Win
 | WINDOWSAPPSDK_RELEASE_VERSION_TAG_W | \[release-dependent\] | The Windows App SDK release's version tag (const wchar_t*); for example, L"preview2", or empty string for stable. |
 | WINDOWSAPPSDK_RELEASE_VERSION_SHORTTAG | \[release-dependent\] | The Windows App SDK release's short-form version tag (const char*); for example, "p2", or empty string for stable. |
 | WINDOWSAPPSDK_RELEASE_VERSION_SHORTTAG_W | \[release-dependent\] | The Windows App SDK release's short-form version tag (const wchar_t*); for example, L"p2", or empty string for stable. |
-| WINDOWSAPPSDK_RUNTIME_IDENTITY_PUBLISHER | "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" | The Windows App SDK runtime's package identity's Publisher (const char*). |
-| WINDOWSAPPSDK_RUNTIME_IDENTITY_PUBLISHER_W | L"CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" | The Windows App SDK runtime's package identity's Publisher (const wchar_t*). |
-| WINDOWSAPPSDK_RUNTIME_IDENTITY_PUBLISHERID | "8wekyb3d8bbwe" | The Windows App SDK runtime's package identity's PublisherId (const char*). |
-| WINDOWSAPPSDK_RUNTIME_IDENTITY_PUBLISHERID_W | L"8wekyb3d8bbwe" | The Windows App SDK runtime's package identity's PublisherId (const wchar_t*). |
-| WINDOWSAPPSDK_RUNTIME_VERSION_MAJOR | \[release-dependent\] | The major version of the Windows App SDK runtime; for example, 1000. |
-| WINDOWSAPPSDK_RUNTIME_VERSION_MINOR | \[release-dependent\] | The minor version of the Windows App SDK runtime; for example, 446. |
-| WINDOWSAPPSDK_RUNTIME_VERSION_BUILD | \[release-dependent\] | The build version of the Windows App SDK runtime; for example, 804. |
-| WINDOWSAPPSDK_RUNTIME_VERSION_REVISION | \[release-dependent\] | The revision version of the Windows App SDK runtime; for example, 0. |
-| WINDOWSAPPSDK_RUNTIME_VERSION_UINT64 | \[release-dependent\] | The version of the Windows App SDK runtime, as a uint64l for example, 0x03E801BE03240000. |
-| WINDOWSAPPSDK_RUNTIME_VERSION_DOTQUADSTRING | \[release-dependent\] | The version of the Windows App SDK runtime, as a string (const char*); for example, "1000.446.804.0". |
-| WINDOWSAPPSDK_RUNTIME_VERSION_DOTQUADSTRING_W | \[release-dependent\] | The version of the Windows App SDK runtime, as a string (const wchar_t*); for example, L"1000.446.804.0". |
-| WINDOWSAPPSDK_RUNTIME_PACKAGE_FRAMEWORK_PACKAGEFAMILYNAME | "Microsoft.WindowsAppRuntime.1.1-preview1_8wekyb3d8bbwe" | The Windows App SDK runtime's Framework package's family name (const char*). |
-| WINDOWSAPPSDK_RUNTIME_PACKAGE_FRAMEWORK_PACKAGEFAMILYNAME_W | "Microsoft.WindowsAppRuntime.1.1-preview1_8wekyb3d8bbwe" | The Windows App SDK runtime's Framework package's family name (const wchar_t*). |
-| WINDOWSAPPSDK_RUNTIME_PACKAGE_MAIN_PACKAGEFAMILYNAME | "MicrosoftCorporationII.WinAppRuntime.Main.1.1-p1_8wekyb3d8bbwe" | The Windows App SDK runtime's Main package's family name (const char*). |
-| WINDOWSAPPSDK_RUNTIME_PACKAGE_MAIN_PACKAGEFAMILYNAME_W | L"MicrosoftCorporationII.WinAppRuntime.Main.1.1-p1_8wekyb3d8bbwe" | The Windows App SDK runtime's Main package's family name (const wchar_t*). |
-| WINDOWSAPPSDK_RUNTIME_PACKAGE_SINGLETON_PACKAGEFAMILYNAME | "Microsoft.WindowsAppRuntime.Singleton-preview1_8wekyb3d8bbwe" | The Windows App SDK runtime's Singleton package's family name (const char*). |
-| WINDOWSAPPSDK_RUNTIME_PACKAGE_SINGLETON_PACKAGEFAMILYNAME_W | L"Microsoft.WindowsAppRuntime.Singleton-preview1_8wekyb3d8bbwe" | The Windows App SDK runtime's Singleton package's family name (const wchar_t*). |
+| WINDOWSAPPSDK_RUNTIME_<br/>IDENTITY_PUBLISHER | "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" | The Windows App SDK runtime's package identity's Publisher (const char*). |
+| WINDOWSAPPSDK_RUNTIME_<br/>IDENTITY_PUBLISHER_W | L"CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" | The Windows App SDK runtime's package identity's Publisher (const wchar_t*). |
+| WINDOWSAPPSDK_RUNTIME_<br/>IDENTITY_PUBLISHERID | "8wekyb3d8bbwe" | The Windows App SDK runtime's package identity's PublisherId (const char*). |
+| WINDOWSAPPSDK_RUNTIME_<br/>IDENTITY_PUBLISHERID_W | L"8wekyb3d8bbwe" | The Windows App SDK runtime's package identity's PublisherId (const wchar_t*). |
+| WINDOWSAPPSDK_RUNTIME_<br/>VERSION_MAJOR | \[release-dependent\] | The major version of the Windows App SDK runtime; for example, 1000. |
+| WINDOWSAPPSDK_RUNTIME_<br/>VERSION_MINOR | \[release-dependent\] | The minor version of the Windows App SDK runtime; for example, 446. |
+| WINDOWSAPPSDK_RUNTIME_<br/>VERSION_BUILD | \[release-dependent\] | The build version of the Windows App SDK runtime; for example, 804. |
+| WINDOWSAPPSDK_RUNTIME_<br/>VERSION_REVISION | \[release-dependent\] | The revision version of the Windows App SDK runtime; for example, 0. |
+| WINDOWSAPPSDK_RUNTIME_<br/>VERSION_UINT64 | \[release-dependent\] | The version of the Windows App SDK runtime, as a uint64l for example, 0x03E801BE03240000. |
+| WINDOWSAPPSDK_RUNTIME_<br/>VERSION_DOTQUADSTRING | \[release-dependent\] | The version of the Windows App SDK runtime, as a string (const char*); for example, "1000.446.804.0". |
+| WINDOWSAPPSDK_RUNTIME_<br/>VERSION_DOTQUADSTRING_W | \[release-dependent\] | The version of the Windows App SDK runtime, as a string (const wchar_t*); for example, L"1000.446.804.0". |
+| WINDOWSAPPSDK_RUNTIME_<br/>PACKAGE_FRAMEWORK_PACKAGEFAMILYNAME | "Microsoft.WindowsAppRuntime.1.1-preview1_8wekyb3d8bbwe" | The Windows App SDK runtime's Framework package's family name (const char*). |
+| WINDOWSAPPSDK_RUNTIME_<br/>PACKAGE_FRAMEWORK_PACKAGEFAMILYNAME_W | "Microsoft.WindowsAppRuntime.1.1-preview1_8wekyb3d8bbwe" | The Windows App SDK runtime's Framework package's family name (const wchar_t*). |
+| WINDOWSAPPSDK_RUNTIME_<br/>PACKAGE_MAIN_PACKAGEFAMILYNAME | "MicrosoftCorporationII.WinAppRuntime.Main.1.1-p1_8wekyb3d8bbwe" | The Windows App SDK runtime's Main package's family name (const char*). |
+| WINDOWSAPPSDK_RUNTIME_<br/>PACKAGE_MAIN_PACKAGEFAMILYNAME_W | L"MicrosoftCorporationII.WinAppRuntime.Main.1.1-p1_8wekyb3d8bbwe" | The Windows App SDK runtime's Main package's family name (const wchar_t*). |
+| WINDOWSAPPSDK_RUNTIME_<br/>PACKAGE_SINGLETON_PACKAGEFAMILYNAME | "Microsoft.WindowsAppRuntime.Singleton-preview1_8wekyb3d8bbwe" | The Windows App SDK runtime's Singleton package's family name (const char*). |
+| WINDOWSAPPSDK_RUNTIME_<br/>PACKAGE_SINGLETON_PACKAGEFAMILYNAME_W | L"Microsoft.WindowsAppRuntime.Singleton-preview1_8wekyb3d8bbwe" | The Windows App SDK runtime's Singleton package's family name (const wchar_t*). |
 
 ## See also
 
