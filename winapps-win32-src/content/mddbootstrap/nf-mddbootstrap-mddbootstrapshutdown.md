@@ -50,10 +50,11 @@ This function has no return value.
 
 ## -remarks
 
-Also see [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time).
+Also see [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time).
 
 ## -see-also
 
 * [MddBootstrap.h header](/windows/windows-app-sdk/api/win32/mddbootstrap/)
 * [Dynamic dependency API](../_dynamicdependency/index.md)
-* [Reference the Windows App SDK framework package at run time](/windows/apps/windows-app-sdk/reference-framework-package-run-time)
+* [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time)
+* [Build and deploy a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
