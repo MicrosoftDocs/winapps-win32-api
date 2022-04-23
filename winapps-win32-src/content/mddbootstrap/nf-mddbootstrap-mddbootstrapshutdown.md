@@ -2,7 +2,7 @@
 UID: NF:mddbootstrap.MddBootstrapShutdown
 tech.root: bootstrap
 title: MddBootstrapShutdown
-ms.date: 07/15/2021 
+ms.date: 04/22/2022
 targetos: Windows
 description: Removes the changes made to the current process by MddBootstrapInitialize. After this function is called, your app can no longer call Windows App SDK APIs.
 prerelease: false

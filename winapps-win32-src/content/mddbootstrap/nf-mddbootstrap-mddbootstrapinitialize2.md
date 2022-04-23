@@ -3,7 +3,7 @@ UID: NF:mddbootstrap.MddBootstrapInitialize2
 tech.root: bootstrap
 title: MddBootstrapInitialize2
 description: Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria, with options. This function is intended to be used by desktop apps that are not MSIX-packaged.
-ms.date: 04/14/2022
+ms.date: 04/22/2022
 targetos: Windows
 prerelease: false
 req.assembly: 
@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria, with options. This function is intended to be used by desktop apps that are not MSIX-packaged.
 
-**MddBootstrapInitialize2** offers usability and troubleshooting over [**MddBootstrapInitialize**](nf-mddbootstrap-mddbootstrapinitialize.md). Errors are logged to the EventLog's *Application* channel
+**MddBootstrapInitialize2** offers usability and troubleshooting improvements over [**MddBootstrapInitialize**](nf-mddbootstrap-mddbootstrapinitialize.md).
 
 Also see [Constants](/windows/windows-app-sdk/api/win32/_bootstrap/#constants).
 
@@ -87,6 +87,8 @@ Type: **HRESULT**
 If the function succeeds it returns **ERROR_SUCCESS**. Otherwise, the function returns an error code.
 
 ## -remarks
+
+Any errors are logged to the EventLog's *Application* channel.
 
 You can call this function multiple times provided that the parameters are compatible. The first call does the work to resolve a *Framework* package; subsequent calls are a no-op provided that the parameters are compatible with the *Framework* package resolved by the first call. If subsequent calls' parameters are not compatible, then the API fails and returns an error.
 
