@@ -88,7 +88,7 @@ Also see [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/a
 > COM must be initialized for the current thread before you call this function.
 
 > [!NOTE]
-> For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see [Prerequisites](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment#prerequisites)).
+> For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see the Prerequisites section in [Tutorial&mdash;Use the bootstrapper API in a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment#prerequisites)).
 
 ## Example
 
@@ -119,4 +119,4 @@ if (FAILED(MddBootstrapInitialize(Microsoft::WindowsAppSDK::Release::MajorMinor,
 ## -see-also
 
 * [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time)
-* [Tutorial—Build and deploy a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
+* [Tutorial&mdash;Use the bootstrapper API in a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
