@@ -41,7 +41,7 @@ Defines constants that specify options for bootstrapper initialization with [**M
 
 ### -field MddBootstrapInitializeOptions_None
 
-Specfies default behavior.
+Specfies no options enabled.
 
 ### -field MddBootstrapInitializeOptions_OnError_DebugBreak
 
@@ -61,7 +61,7 @@ Specifies that if a compatible Windows App Runtime *Framework* package isn't fou
 
 ### -field MddBootstrapInitializeOptions_OnPackageIdentity_NOOP
 
-Specifies to do nothing (don't error) if the process has package identity (MSIX-packaged and sparse-packaged apps have package identity). The default behavior is for the call to error. This option allows you to build the same source code into MSIX-packaged and non-MSIX-packaged apps, and the calls to Bootstrapper APIs in the MSIX-packaged binary will simply be a no-op.
+Specifies to do nothing (don't error) if the process has package identity (MSIX-packaged and sparse-packaged apps have package identity). The default behavior is for the call to error. This option allows you to use the same compiled binary as both an MSIX-packaged and non-MSIX packaged app. The calls to Bootstrapper APIs in the MSIX-packaged binary will simply be a no-op.
 
 ## -remarks
 
