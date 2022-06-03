@@ -1,8 +1,8 @@
 ---
-UID: NF:mddbootstrap.MddBootstrapInitialize
+UID: NF:mddbootstrap.MddBootstrapInitialize2
 tech.root: bootstrap
-title: MddBootstrapInitialize
-description: Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by desktop apps that are not MSIX-packaged.
+title: MddBootstrapInitialize2
+description: Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria, with options. This function is intended to be used by desktop apps that are not MSIX-packaged.
 ms.date: 04/22/2022
 targetos: Windows
 prerelease: false
@@ -19,7 +19,7 @@ req.lib: Microsoft.WindowsAppRuntime.Bootstrap.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.0 Preview 1 or later)
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.0 Preview 2 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -32,19 +32,21 @@ api_type:
 api_location:
  - mddbootstrap.h
 api_name:
- - MddBootstrapInitialize
+ - MddBootstrapInitialize2
 f1_keywords:
- - MddBootstrapInitialize
- - mddbootstrap/MddBootstrapInitialize
+ - MddBootstrapInitialize2
+ - mddbootstrap/MddBootstrapInitialize2
 dev_langs:
  - c++
+helpviewer_keywords:
+ - MddBootstrapInitialize2
 ---
 
 ## -description
 
-Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by desktop apps that are not MSIX-packaged.
+Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria, with options. This function is intended to be used by desktop apps that are not MSIX-packaged.
 
-[**MddBootstrapInitialize2**](nf-mddbootstrap-mddbootstrapinitialize2.md) offers usability and troubleshooting improvements over **MddBootstrapInitialize**.
+**MddBootstrapInitialize2** offers usability and troubleshooting improvements over [**MddBootstrapInitialize**](nf-mddbootstrap-mddbootstrapinitialize.md).
 
 Also see [Constants](/windows/windows-app-sdk/api/win32/_bootstrap/#constants).
 
@@ -72,6 +74,12 @@ Note that this version (e.g. 0.319.455) is different than the Windows App SDK _r
 
 The Windows App SDK runtime version values can be obtained from the C++ header `WindowsAppSDK-VersionInfo.h`, see [Example](#example) for more details.
 
+### -param options
+
+Type: **[MddBootstrapInitializeOptions](ne-mddbootstrap-mddbootstrapinitializeoptions.md)**
+
+Options for bootstrapper initialization.
+
 ## -returns
 
 Type: **HRESULT**
@@ -96,36 +104,15 @@ Also see [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/a
 > COM must be initialized for the current thread before you call this function.
 
 > [!NOTE]
-> For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see the Prerequisites section in [Tutorial&mdash;Use the bootstrapper API in a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment#prerequisites)).
+> If in *options* you don't specify **MddBootstrapInitializeOptions::MddBootstrapInitializeOptions_OnPackageIdentity_NOOP**, then for this API to succeed in an app that's not MSIX-packaged, it's necessary for the Windows App SDK packages to be installed on the device (see [Build and deploy a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)).
+
 ## Example
 
-Using C:
-```c
-#include <WindowsAppSDK-VersionInfo.h>
-#include <MddBootstrap.h>
-// ...
-
-HRESULT hr = MddBootstrapInitialize(WINDOWSAPPSDK_RELEASE_MAJORMINOR, WINDOWSAPPSDK_RELEASE_VERSION_TAG_W, WINDOWSAPPSDK_RUNTIME_VERSION_UINT64);
-if (FAILED(hr))
-{
-    wprintf(L"Error 0x%X in Bootstrap initialization\n", hr);
-}
-```
-
-Using C++:
-```cpp
-#include <WindowsAppSDK-VersionInfo.h>
-#include <MddBootstrap.h>
-// ...
-
-if (FAILED(MddBootstrapInitialize(Microsoft::WindowsAppSDK::Release::MajorMinor, Microsoft::WindowsAppSDK::Release::VersionTag, Microsoft::WindowsAppSDK::Runtime::UInt64))) {
-    throw std::exception("Error in Bootstrap initialization");
-}
-```
+See the example in [MddBootstrapInitialize](nf-mddbootstrap-mddbootstrapinitialize.md#example).
 
 ## -see-also
 
-* [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time)
-* [Tutorial&mdash;Use the bootstrapper API in a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
 * [MddBootstrap.h header](/windows/windows-app-sdk/api/win32/mddbootstrap/)
 * [Constants](/windows/windows-app-sdk/api/win32/_bootstrap/#constants)
+* [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time)
+* [Build and deploy a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)

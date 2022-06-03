@@ -2,7 +2,7 @@
 UID: NF:mddbootstrap.MddBootstrapShutdown
 tech.root: bootstrap
 title: MddBootstrapShutdown
-ms.date: 07/15/2021 
+ms.date: 04/22/2022
 targetos: Windows
 description: Removes the changes made to the current process by MddBootstrapInitialize. After this function is called, your app can no longer call Windows App SDK APIs.
 prerelease: false
@@ -54,5 +54,7 @@ Also see [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/a
 
 ## -see-also
 
+* [MddBootstrap.h header](/windows/windows-app-sdk/api/win32/mddbootstrap/)
 * [Dynamic dependency API](../_dynamicdependency/index.md)
 * [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time)
+* [Build and deploy a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
