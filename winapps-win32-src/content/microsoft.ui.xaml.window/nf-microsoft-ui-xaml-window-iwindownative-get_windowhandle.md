@@ -126,7 +126,7 @@ void MainWindow::basicButton_Click(IInspectable const&, RoutedEventArgs const&)
 ```
 
 5. In the **customButton_Click** handler, we set the visibility of the *customTitleBarPanel* **StackPanel** to **Visible**.
-6. We then set the [ExtendsContentIntoTitleBar](/windows/winui/api/microsoft.ui.xaml.window.xtendscontentintotitlebar) property to `true`, and call [SetTitleBar](/windows/winui/api/microsoft.ui.xaml.window.settitlebar) to display the *customTitleBarPanel* **StackPanel** as our custom title bar.
+6. We then set the [ExtendsContentIntoTitleBar](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.window.extendscontentintotitlebar) property to `true`, and call [SetTitleBar](/windows/winui/api/microsoft.ui.xaml.window.settitlebar) to display the *customTitleBarPanel* **StackPanel** as our custom title bar.
 
 :::code language="csharp" source="snippets/window-titlebar/window-titlebar/MainWindow.xaml.cs" id="customButton_Click":::
 

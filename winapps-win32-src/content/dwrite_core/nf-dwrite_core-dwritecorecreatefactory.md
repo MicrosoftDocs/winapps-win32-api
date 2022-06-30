@@ -74,7 +74,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## Examples
 
-See the [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
+See the [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview) topic, and the [DWriteCoreGallery](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/TextRendering/cpp-win32/DWriteCoreGallery) sample app.
 
 ## -remarks
 
@@ -84,4 +84,4 @@ This is functionally the same as the [DWriteCreateFactory](/windows/win32/api/dw
 
 [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview)
 
-[DWriteCoreGallery sample](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery)
+[DWriteCoreGallery sample](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/TextRendering/cpp-win32/DWriteCoreGallery)

@@ -51,4 +51,4 @@ The **IDWriteBitmapRenderTarget2** interface inherits from [IDWriteBitmapRenderT
 
 [DWriteCore](/windows/win32/directwrite/dwritecore-overview)
 
-[DWriteCoreGallery sample](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery)
+[DWriteCoreGallery sample](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/TextRendering/cpp-win32/DWriteCoreGallery)
