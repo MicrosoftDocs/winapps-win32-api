@@ -64,7 +64,7 @@ A pointer to the location of the bit values for the bitmap.
 
 ## Examples
 
-See the [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
+See the [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview) topic, and the [DWriteCoreGallery](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/TextRendering/cpp-win32/DWriteCoreGallery) sample app.
 
 ## -remarks
 
@@ -72,4 +72,4 @@ See the [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview) to
 
 [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview)
 
-[DWriteCoreGallery sample](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery)
+[DWriteCoreGallery sample](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/TextRendering/cpp-win32/DWriteCoreGallery)
