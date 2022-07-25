@@ -61,7 +61,7 @@ The handle of the icon for which to get the `IconId`.
 
 ## -returns
 
-Type: **[IconId](/windows/winui/api/microsoft.ui.iconid)**
+Type: **[IconId](/windows/windows-app-sdk/api/winrt/microsoft.ui.iconid)**
 
 The icon identifier that corresponds to the specified *hicon*, if the provided *hicon* is valid. Otherwise, `null`.
 

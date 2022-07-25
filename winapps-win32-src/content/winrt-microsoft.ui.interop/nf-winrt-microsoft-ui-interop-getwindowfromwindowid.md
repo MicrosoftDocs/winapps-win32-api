@@ -55,7 +55,7 @@ Gets the window handle that corresponds to the specified *windowId*, if the prov
 
 ### -param windowId
 
-Type: **const [WindowId](/windows/winui/api/microsoft.ui.windowid) \&**
+Type: **const [WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowid) \&**
 
 The identifier for the window.
 

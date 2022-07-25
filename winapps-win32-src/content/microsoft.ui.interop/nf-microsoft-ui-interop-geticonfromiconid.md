@@ -53,7 +53,7 @@ Gets the icon handle that corresponds to the specified *iconId*, if the provided
 
 ### -param iconId
 
-Type: **[IconId](/windows/winui/api/microsoft.ui.iconid)**
+Type: **[IconId](/windows/windows-app-sdk/api/winrt/microsoft.ui.iconid)**
 
 The identifier for the icon.
 

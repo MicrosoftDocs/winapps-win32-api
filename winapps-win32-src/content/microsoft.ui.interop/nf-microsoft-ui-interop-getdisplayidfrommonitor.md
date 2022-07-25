@@ -59,7 +59,7 @@ The handle of the display monitor for which to get the `DisplayId`.
 
 ### -param displayId
 
-Type: **[DisplayId](/windows/winui/api/microsoft.ui.displayid)**
+Type: **[DisplayId](/windows/windows-app-sdk/api/winrt/microsoft.ui.displayid)**
 
 The display monitor identifier that corresponds to the specified *hmonitor*, if the provided *hmonitor* is valid. Otherwise, `null`.
 

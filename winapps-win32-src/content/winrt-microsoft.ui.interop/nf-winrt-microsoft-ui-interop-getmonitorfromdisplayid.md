@@ -55,7 +55,7 @@ Gets the display monitor handle that corresponds to the specified *displayId*, i
 
 ### -param displayId
 
-Type: **const [DisplayId](/windows/winui/api/microsoft.ui.displayid) \&**
+Type: **const [DisplayId](/windows/windows-app-sdk/api/winrt/microsoft.ui.displayid) \&**
 
 The identifier for the display.
 
