@@ -1,0 +1,7 @@
+{
+  "tech": "bootstrap",
+  "headers": [
+    "mddbootstrap.h"
+  ],
+  "displayName": "Bootstrapper API"
+}

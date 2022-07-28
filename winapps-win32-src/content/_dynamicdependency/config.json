@@ -1,0 +1,7 @@
+{
+  "tech": "dynamicdependency",
+  "headers": [
+    "msixdynamicdependency.h"
+  ],
+  "displayName": "Dynamic Dependency API"
+}

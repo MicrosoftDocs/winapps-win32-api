@@ -1,0 +1,8 @@
+{
+  "tech": "uiinterop",
+  "headers": [
+    "microsoft.ui.interop.h",
+    "winrt-microsoft.ui.interop.h"
+  ],
+  "displayName": "UI Interop"
+}

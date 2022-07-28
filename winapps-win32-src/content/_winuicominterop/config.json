@@ -1,0 +1,11 @@
+{
+  "tech": "winuicominterop",
+  "headers": [
+    "microsoft.ui.xaml.hosting.desktopwindowxamlsource.h",
+    "microsoft.ui.xaml.hosting.referencetracker.h",
+    "microsoft.ui.xaml.media.dxinterop.h",
+    "microsoft.ui.xaml.window.h",
+    "xamlom.winui.h"
+  ],
+  "displayName": "WinUI COM Interop"
+}
