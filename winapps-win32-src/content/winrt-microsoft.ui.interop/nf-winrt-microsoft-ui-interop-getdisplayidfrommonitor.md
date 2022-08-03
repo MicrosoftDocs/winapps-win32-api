@@ -47,7 +47,7 @@ helpviewer_keywords:
 Gets the `DisplayId` that corresponds to the specified *hmonitor*, if the provided **HMONITOR** is valid.
 
 > [!NOTE]
-> This API is declare in the `Microsoft.UI.Interop.h` header file that's in the Windows App SDK's `\include\winrt` folder.
+> This API is declared in the `Microsoft.UI.Interop.h` header file found in the `\include\winrt` folder of the Windows App SDK.
 
 **C#**. For C# desktop application developers, the interop functions in this header are wrapped by the methods of the [Microsoft.UI.Win32Interop](/windows/apps/winui/winui3/cs-interop-apis/microsoft.ui/microsoft.ui.win32interop) class.
 
