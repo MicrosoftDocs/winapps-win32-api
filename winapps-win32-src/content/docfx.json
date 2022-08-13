@@ -89,7 +89,7 @@
         "dwritecore/*.md": "stwhi",
         "mddbootstrap/*.md": "mikben",
         "microsoft.ui.interop/*.md": "jimwalk",
-        "microsoft.ui.xaml.hosting.desktopwindowxamplsource/*.md": "kbridge",
+        "microsoft.ui.xaml.hosting.desktopwindowxamlsource/*.md": "kbridge",
         "microsoft.ui.xaml.hosting.referencetracker/*.md": "kbridge",
         "microsoft.ui.xaml.media.dxinterop/*.md": "kbridge",
         "microsoft.ui.xaml.window/*.md": "kbridge",
