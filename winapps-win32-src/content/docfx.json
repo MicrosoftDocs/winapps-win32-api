@@ -44,7 +44,9 @@
     "globalMetadata": {
       "breadcrumb_path": "/windows/windows-app-sdk/api/win32/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/winapps-win32-api",
+      "feedback_product_url": "https://github.com/microsoft/ProjectReunion/issues",
       "uhfHeaderId": "MSDocsHeader-WinDevCenter",
       "titleSuffix": "Windows App SDK",
       "ms.prod": "reunion",
