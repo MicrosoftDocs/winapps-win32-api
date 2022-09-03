@@ -2,9 +2,9 @@
 UID: NF:microsoft.ui.interop.GetMonitorFromDisplayId
 tech.root: uiinterop
 title: GetMonitorFromDisplayId
-ms.date: 09/29/2021
+ms.date: 09/02/2022
 targetos: Windows
-description: Gets the display monitor handle that corresponds to the specified *displayId*, if the provided *displayId* is valid and the system has an `HMONITOR` that represents the display monitor.
+description: Gets the [HMONITOR](/windows/win32/winprog/windows-data-types) that corresponds to the specified [DisplayId](/windows/windows-app-sdk/api/winrt/microsoft.ui.displayid), if the *displayId* argument is valid and the system has an **HMONITOR** that represents the display monitor.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Gets the display monitor handle that corresponds to the specified *displayId*, if the provided *displayId* is valid and the system has an `HMONITOR` that represents the display monitor.
+Gets the [HMONITOR](/windows/win32/winprog/windows-data-types) that corresponds to the specified [DisplayId](/windows/windows-app-sdk/api/winrt/microsoft.ui.displayid), if the *displayId* argument is valid and the system has an **HMONITOR** that represents the display monitor.
 
 > [!NOTE]
 > The `microsoft.ui.interop.h` header has a dependency on `microsoft.ui.h`, which is not shipped as part of the [Windows App SDK](/windows/apps/windows-app-sdk/). You can run [the MIDL compiler](/windows/win32/midl/using-the-midl-compiler-2) (`midl.exe`) on `Microsoft.UI.idl` in order to generate `microsoft.ui.h`. Or just use the functions in the [winrt/Microsoft.ui.interop.h](../winrt-microsoft.ui.interop/index.md) header instead.
@@ -61,7 +61,7 @@ The identifier for the display.
 
 Type: **[HMONITOR](/windows/win32/winprog/windows-data-types)**
 
-The display monitor handle that corresponds to the specified *displayId*, if the provided *displayId* is valid and the system has an `HMONITOR` that represents the display monitor. Otherwise, `null`.
+The display monitor handle that corresponds to *displayId*, if *displayId* is valid and the system has an **HMONITOR** that represents the display monitor. Otherwise, `null`.
 
 ## -returns
 

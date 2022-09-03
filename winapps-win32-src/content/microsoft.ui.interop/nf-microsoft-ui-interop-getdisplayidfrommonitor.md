@@ -2,9 +2,9 @@
 UID: NF:microsoft.ui.interop.GetDisplayIdFromMonitor
 tech.root: uiinterop
 title: GetDisplayIdFromMonitor
-ms.date: 09/29/2021
+ms.date: 09/02/2022
 targetos: Windows
-description: Gets the `DisplayId` that corresponds to the specified *hmonitor*, if the provided `hmonitor` is valid.
+description: Gets the [DisplayId](/windows/windows-app-sdk/api/winrt/microsoft.ui.displayid) that corresponds to the specified [HMONITOR](/windows/win32/winprog/windows-data-types), if the *hmonitor* argument is valid.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Gets the `DisplayId` that corresponds to the specified *hmonitor*, if the provided `hmonitor` is valid.
+Gets the [DisplayId](/windows/windows-app-sdk/api/winrt/microsoft.ui.displayid) that corresponds to the specified [HMONITOR](/windows/win32/winprog/windows-data-types), if the *hmonitor* argument is valid.
 
 > [!NOTE]
 > The `microsoft.ui.interop.h` header has a dependency on `microsoft.ui.h`, which is not shipped as part of the [Windows App SDK](/windows/apps/windows-app-sdk/). You can run [the MIDL compiler](/windows/win32/midl/using-the-midl-compiler-2) (`midl.exe`) on `Microsoft.UI.idl` in order to generate `microsoft.ui.h`. Or just use the functions in the [winrt/Microsoft.ui.interop.h](../winrt-microsoft.ui.interop/index.md) header instead.
@@ -55,13 +55,13 @@ Gets the `DisplayId` that corresponds to the specified *hmonitor*, if the provid
 
 Type: **[HMONITOR](/windows/win32/winprog/windows-data-types)**
 
-The handle of the display monitor for which to get the `DisplayId`.
+The handle of the display monitor for which to get the [DisplayId](/windows/windows-app-sdk/api/winrt/microsoft.ui.displayid).
 
 ### -param displayId
 
 Type: **[DisplayId](/windows/windows-app-sdk/api/winrt/microsoft.ui.displayid)**
 
-The display monitor identifier that corresponds to the specified *hmonitor*, if the provided *hmonitor* is valid. Otherwise, `null`.
+The display monitor identifier that corresponds to *hmonitor*, if *hmonitor* is valid. Otherwise, `null`.
 
 ## -returns
 

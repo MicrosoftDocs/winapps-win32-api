@@ -2,9 +2,9 @@
 UID: NF:microsoft.ui.interop.GetIconIdFromIcon
 tech.root: uiinterop
 title: GetIconIdFromIcon
-ms.date: 09/29/2021
+ms.date: 09/02/2022
 targetos: Windows
-description: Gets the `IconId` that corresponds to the specified *hicon*, if the provided `hicon` is valid.
+description: Gets the [IconId](/windows/windows-app-sdk/api/winrt/microsoft.ui.iconid) that corresponds to the specified [HICON](/windows/win32/winprog/windows-data-types), if the *hicon* argument is valid.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Gets the `IconId` that corresponds to the specified *hicon*, if the provided `hicon` is valid.
+Gets the [IconId](/windows/windows-app-sdk/api/winrt/microsoft.ui.iconid) that corresponds to the specified [HICON](/windows/win32/winprog/windows-data-types), if the *hicon* argument is valid.
 
 > [!NOTE]
 > The `microsoft.ui.interop.h` header has a dependency on `microsoft.ui.h`, which is not shipped as part of the [Windows App SDK](/windows/apps/windows-app-sdk/). You can run [the MIDL compiler](/windows/win32/midl/using-the-midl-compiler-2) (`midl.exe`) on `Microsoft.UI.idl` in order to generate `microsoft.ui.h`. Or just use the functions in the [winrt/Microsoft.ui.interop.h](../winrt-microsoft.ui.interop/index.md) header instead.
@@ -55,13 +55,13 @@ Gets the `IconId` that corresponds to the specified *hicon*, if the provided `hi
 
 Type: **[HICON](/windows/win32/winprog/windows-data-types)**
 
-The handle of the icon for which to get the `IconId`.
+The handle of the icon for which to get the [IconId](/windows/windows-app-sdk/api/winrt/microsoft.ui.iconid).
 
 ### -param iconId
 
 Type: **[IconId](/windows/windows-app-sdk/api/winrt/microsoft.ui.iconid)**
 
-The icon identifier that corresponds to the specified *hicon*, if the provided *hicon* is valid. Otherwise, `null`.
+The icon identifier that corresponds to *hicon*, if *hicon* is valid. Otherwise, `null`.
 
 ## -returns
 

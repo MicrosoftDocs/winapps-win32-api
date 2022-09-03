@@ -2,9 +2,9 @@
 UID: NF:microsoft.ui.interop.GetWindowFromWindowId
 tech.root: uiinterop
 title: GetWindowFromWindowId
-ms.date: 09/29/2021
+ms.date: 09/02/2022
 targetos: Windows
-description: Gets the window handle that corresponds to the specified *windowId*, if the provided *windowId* is valid and the system has an `HWND` that represents the window.
+description: Gets the window handle ([HWND](/windows/win32/winprog/windows-data-types)) that corresponds to the specified [WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowid), if the *windowId* argument is valid and the system has an **HWND** that represents the window.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Gets the window handle that corresponds to the specified *windowId*, if the provided *windowId* is valid and the system has an `HWND` that represents the window.
+Gets the window handle ([HWND](/windows/win32/winprog/windows-data-types)) that corresponds to the specified [WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowid), if the *windowId* argument is valid and the system has an **HWND** that represents the window.
 
 > [!NOTE]
 > The `microsoft.ui.interop.h` header has a dependency on `microsoft.ui.h`, which is not shipped as part of the [Windows App SDK](/windows/apps/windows-app-sdk/). You can run [the MIDL compiler](/windows/win32/midl/using-the-midl-compiler-2) (`midl.exe`) on `Microsoft.UI.idl` in order to generate `microsoft.ui.h`. Or just use the functions in the [winrt/Microsoft.ui.interop.h](../winrt-microsoft.ui.interop/index.md) header instead.
@@ -61,7 +61,7 @@ The identifier for the window.
 
 Type: **[HWND](/windows/win32/winprog/windows-data-types)**
 
-The window handle that corresponds to the specified *windowId*, if the provided *windowId* is valid and the system has an `HWND` that represents the window. Otherwise, `null`.
+The window handle that corresponds to *windowId*, if *windowId* is valid and the system has an **HWND** that represents the window. Otherwise, `null`.
 
 ## -returns
 
