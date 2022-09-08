@@ -62,10 +62,6 @@ landingContent:
             url: mrm/index.md
           - text: Msixdynamicdependency.h
             url: msixdynamicdependency/index.md
-          - text: Windowsappruntime-licensing.h
-            url: windowsappruntime-licensing/index.md
-          - text: (winrt)Microsoft.ui.interop.h
-            url: winrt-microsoft.ui.interop/index.md
 
   # Card
   - title: Concepts
