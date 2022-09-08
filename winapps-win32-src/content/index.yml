@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 
-title: Win32 APIs in the Windows App SDK
+title: Programming reference for the Win32 APIs in the Windows App SDK
 summary: This reference documentation is presented in several different views. You can browse a list of technologies or the full list of headers for the Windows App SDK.
 
 metadata: 
@@ -42,7 +42,7 @@ landingContent:
 
             
   # Card
-  - title: Headers
+  - title: DWrite
     linkLists:
       - linkListType: reference
         links:
@@ -52,6 +52,12 @@ landingContent:
             url: dwrite_3/index.md
           - text: Dwrite_core.h
             url: dwrite_core/index.md
+            
+  # Card
+  - title: Headers
+    linkLists:
+      - linkListType: reference
+        links:
           - text: Mddbootstrap.h
             url: mddbootstrap/index.md
           - text: Microsoft.ui.interop.h
@@ -62,6 +68,12 @@ landingContent:
             url: mrm/index.md
           - text: Msixdynamicdependency.h
             url: msixdynamicdependency/index.md
+          - text: security.accesscontrol.h
+            url: security.accesscontrol/index.md
+          - text: Windowsappruntime-licensing.h
+            url: windowsappruntime-licensing/index.md
+          - text: (winrt)Microsoft.ui.interop.h
+            url: winrt-microsoft.ui.interop/index.md
 
   # Card
   - title: Concepts
