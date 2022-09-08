@@ -7,7 +7,7 @@ metadata:
   description: This section provides the Win32 API reference documentation for the Windows App SDK organized by technology areas and header. 
   author: stevewhims
   ms.author: stwhi
-  ms.date: 01/27/2022
+  ms.date: 09/08/2022
   ms.topic: landing-page
   ms.prod: reunion
   ms.technology: reunion-reference
@@ -33,8 +33,6 @@ landingContent:
             url: _licensing/index.md
           - text: MRT Core
             url: _mrtcore/index.md
-          - text: Security
-            url: _security/index.md
           - text: UI Interop
             url: _uiinterop/index.md
           - text: WinUI COM Interop
@@ -62,6 +60,8 @@ landingContent:
             url: mrm/index.md
           - text: Msixdynamicdependency.h
             url: msixdynamicdependency/index.md
+          - text: security.accesscontrol.h
+            url: security.accesscontrol/index.md
           - text: Windowsappruntime-licensing.h
             url: windowsappruntime-licensing/index.md
           - text: (winrt)Microsoft.ui.interop.h
