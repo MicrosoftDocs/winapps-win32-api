@@ -40,41 +40,6 @@ landingContent:
           - text: WinUI COM Interop
             url: _winuicominterop/index.md
 
-            
-  # Card
-  - title: DWrite
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Dwrite.h
-            url: dwrite/index.md
-          - text: Dwrite_3.h
-            url: dwrite_3/index.md
-          - text: Dwrite_core.h
-            url: dwrite_core/index.md
-            
-  # Card
-  - title: Headers
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Mddbootstrap.h
-            url: mddbootstrap/index.md
-          - text: Microsoft.ui.interop.h
-            url: microsoft.ui.interop/index.md
-          - text: Microsoft.ui.xaml.window.h
-            url: microsoft.ui.xaml.window/index.md
-          - text: Mrm.h
-            url: mrm/index.md
-          - text: Msixdynamicdependency.h
-            url: msixdynamicdependency/index.md
-          - text: security.accesscontrol.h
-            url: security.accesscontrol/index.md
-          - text: Windowsappruntime-licensing.h
-            url: windowsappruntime-licensing/index.md
-          - text: (winrt)Microsoft.ui.interop.h
-            url: winrt-microsoft.ui.interop/index.md
-
   # Card
   - title: Concepts
     linkLists:
@@ -90,3 +55,81 @@ landingContent:
             url: /windows/apps/windows-app-sdk/windowing/windowing-overview
           - text: Windows UI Library (WinUI)
             url: /windows/apps/winui/
+
+  # Card
+  - title: Text
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Dwrite.h
+            url: dwrite/index.md
+          - text: Dwrite_3.h
+            url: dwrite_3/index.md
+          - text: Dwrite_core.h
+            url: dwrite_core/index.md
+            
+  # Card
+  - title: Bootstrapper
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Mddbootstrap.h
+            url: mddbootstrap/index.md
+            
+  # Card
+  - title: Dynamic Dependency
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Msixdynamicdependency.h
+            url: msixdynamicdependency/index.md
+            
+  # Card
+  - title: Licensing
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Windowsappruntime-licensing.h
+            url: windowsappruntime-licensing/index.md
+            
+  # Card
+  - title: MRT Core
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Mrm.h
+            url: mrm/index.md
+            
+  # Card
+  - title: Security
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: security.accesscontrol.h
+            url: security.accesscontrol/index.md
+            
+  # Card
+  - title: UI Interop
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Microsoft.ui.interop.h
+            url: microsoft.ui.interop/index.md
+          - text: (winrt)Microsoft.ui.interop.h
+            url: winrt-microsoft.ui.interop/index.md
+            
+  # Card
+  - title: WinUI COM Interop
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: microsoft.ui.xaml.hosting.desktopwindowxamlsource.h
+            url: microsoft.ui.xaml.hosting.desktopwindowxamlsource/index.md
+          - text: microsoft.ui.xaml.hosting.referencetracker.h
+            url: microsoft.ui.xaml.hosting.referencetracker/index.md
+          - text: microsoft.ui.xaml.media.dxinterop.h
+            url: microsoft.ui.xaml.media.dxinterop/index.md
+          - text: Microsoft.ui.xaml.window.h
+            url: microsoft.ui.xaml.window/index.md
+          - text: xamlom.winui.h
+            url: xamlom.winui/index.md
