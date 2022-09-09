@@ -2,7 +2,6 @@
 UID: TP:security.accesscontrol
 title: Security
 description: Provides information about the header files for Security APIs.
-prerelease: true
 ms.date: 09/08/2022
 ms.keywords: 
 ms.topic: conceptual

@@ -4,7 +4,7 @@ tech.root: security
 title: security.accesscontrol.h header
 ms.date: 09/08/2022
 targetos: Windows
-description: This header is used by MRT Core.
+description: This header is used by Access Control.
 prerelease: true
 req.assembly: 
 req.construct-type: apiset
