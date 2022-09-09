@@ -1,7 +1,7 @@
 ---
 UID: NA:security.accesscontrol
-tech.root: 
-title: security.accesscontrol
+tech.root: security
+title: security.accesscontrol.h header
 ms.date: 09/08/2022
 targetos: Windows
 description: This header is used by MRT Core.
