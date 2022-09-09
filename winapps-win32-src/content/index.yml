@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: Programming reference for the Win32 APIs in the Windows App SDK
-summary: This reference documentation is presented in several different views. You can browse a list of technologies or the full list of headers for the Windows App SDK.
+summary: The Windows App SDK Win32 API reference documentation is presented in several different views. You can browse a list of popular technologies on this page, or you can browse the full list of technologies in the table of contents. To browse all of the headers, see the list at the bottom of the table of contents.
 
 metadata: 
   description: This section provides the Win32 API reference documentation for the Windows App SDK organized by technology areas and header. 
@@ -18,27 +18,6 @@ metadata:
 # we want 24ish links max
 
 landingContent: 
-  # Card
-  - title: Technologies
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Bootstrapper API
-            url: _bootstrap/index.md
-          - text: DWriteCore
-            url: _dwritecore/index.md
-          - text: Dynamic Dependency API
-            url: _dynamicdependency/index.md
-          - text: Licensing API
-            url: _licensing/index.md
-          - text: MRT Core
-            url: _mrtcore/index.md
-          - text: Security
-            url: _security/index.md
-          - text: UI Interop
-            url: _uiinterop/index.md
-          - text: WinUI COM Interop
-            url: _winuicominterop/index.md
 
   # Card
   - title: Concepts
@@ -47,14 +26,8 @@ landingContent:
         links:
           - text: Windows App SDK
             url: /windows/apps/windows-app-sdk/
-          - text: Render text with DWriteCore
-            url: /windows/apps/windows-app-sdk/dwritecore
-          - text: Manage resources with MRT Core
-            url: /windows/apps/windows-app-sdk/mrtcore/mrtcore-overview
           - text: Manage app windows
             url: /windows/apps/windows-app-sdk/windowing/windowing-overview
-          - text: Windows UI Library (WinUI)
-            url: /windows/apps/winui/
 
   # Card
   - title: Text
@@ -99,6 +72,10 @@ landingContent:
   # Card
   - title: MRT Core
     linkLists:
+      - linkListType: overview
+        links:
+          - text: Manage resources with MRT Core
+            url: /windows/apps/windows-app-sdk/mrtcore/mrtcore-overview
       - linkListType: reference
         links:
           - text: Mrm.h
@@ -125,6 +102,10 @@ landingContent:
   # Card
   - title: WinUI COM Interop
     linkLists:
+      - linkListType: overview
+        links:
+          - text: Windows UI Library (WinUI)
+            url: /windows/apps/winui/
       - linkListType: reference
         links:
           - text: microsoft.ui.xaml.hosting.desktopwindowxamlsource.h
