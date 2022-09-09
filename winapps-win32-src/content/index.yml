@@ -59,6 +59,10 @@ landingContent:
   # Card
   - title: Text
     linkLists:
+      - linkListType: overview
+        links:
+          - text: Render text with DWriteCore
+            url: /windows/apps/windows-app-sdk/dwritecore
       - linkListType: reference
         links:
           - text: Dwrite.h
