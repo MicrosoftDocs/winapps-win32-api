@@ -1,0 +1,7 @@
+{
+  "tech": "security",
+  "headers": [
+    "security.accesscontrol.h"
+  ],
+  "displayName": "Security"
+}

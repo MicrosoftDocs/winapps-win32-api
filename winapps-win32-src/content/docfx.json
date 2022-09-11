@@ -74,6 +74,7 @@
         "microsoft.ui.xaml.window/*.md": "Karl-Bridge-Microsoft",
         "mrm/*.md": "hickeys",
         "msixdynamicdependency/*.md": "stevewhims",
+        "security.accesscontrol/*.md": "stevewhims",
         "windowsappruntime-licensing/*.md": "stevewhims",
         "winrt-microsoft.ui.interop/*.md": "jwmsft"
       },
@@ -97,6 +98,7 @@
         "microsoft.ui.xaml.window/*.md": "kbridge",
         "mrm/*.md": "hickeys",
         "msixdynamicdependency/*.md": "stwhi",
+        "security.accesscontrol/*.md": "stwhi",
         "windowsappruntime-licensing/*.md": "stwhi",
         "winrt-microsoft.ui.interop/*.md": "jimwalk"
       }
