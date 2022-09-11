@@ -1,6 +1,6 @@
 ---
 UID: NA:security.accesscontrol
-tech.root: security.accesscontrol
+tech.root: security
 title: security.accesscontrol.h header
 ms.date: 09/08/2022
 targetos: Windows
@@ -46,4 +46,4 @@ dev_langs:
 
 ## -description
 
-This header is used by [security.accesscontrol](../_security.accesscontrol).
+This header is used by [security.accesscontrol](../_security).

@@ -1,5 +1,5 @@
 ---
-UID: TP:security.accesscontrol
+UID: TP:security
 title: Security
 description: Provides information about the header files for Security APIs.
 ms.date: 09/08/2022
