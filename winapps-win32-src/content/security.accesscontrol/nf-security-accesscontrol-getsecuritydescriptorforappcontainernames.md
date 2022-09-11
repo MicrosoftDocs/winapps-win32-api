@@ -1,6 +1,6 @@
 ---
 UID: NF:security.accesscontrol.GetSecurityDescriptorForAppContainerNames
-tech.root: 
+tech.root: security
 title: GetSecurityDescriptorForAppContainerNames
 ms.date: 09/08/2022
 targetos: Windows

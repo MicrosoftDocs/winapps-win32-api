@@ -1,6 +1,6 @@
 ---
 UID: NA:security.accesscontrol
-tech.root: 
+tech.root: security
 title: security.accesscontrol
 ms.date: 09/08/2022
 targetos: Windows

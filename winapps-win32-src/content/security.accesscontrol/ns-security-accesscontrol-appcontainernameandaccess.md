@@ -1,6 +1,6 @@
 ---
 UID: NS:security.accesscontrol.AppContainerNameAndAccess
-tech.root: 
+tech.root: security
 title: AppContainerNameAndAccess
 ms.date: 09/08/2022
 targetos: Windows
