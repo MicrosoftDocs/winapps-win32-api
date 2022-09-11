@@ -11,6 +11,10 @@ ms.topic: conceptual
 
 ## -description
 
+Provides information about the Windows App SDK header files for security APIs.
+
+### security.accesscontrol.h
+
 To create a security descriptor from a list of Package Family Names (PFNs) and access masks, you need these headers:
 
 * [security.accesscontrol.h](../security.accesscontrol/index.md)
