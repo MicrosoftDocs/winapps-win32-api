@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_2.DWRITE_COLOR_GLYPH_RUN
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_COLOR_GLYPH_RUN
 ms.date: 
 targetos: Windows

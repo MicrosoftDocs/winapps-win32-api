@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextRenderer1.DrawGlyphRun
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextRenderer1::DrawGlyphRun
 ms.date: 
 targetos: Windows

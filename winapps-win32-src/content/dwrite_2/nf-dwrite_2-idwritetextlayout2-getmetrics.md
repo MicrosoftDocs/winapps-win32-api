@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetMetrics
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout2::GetMetrics
 ms.date: 
 targetos: Windows

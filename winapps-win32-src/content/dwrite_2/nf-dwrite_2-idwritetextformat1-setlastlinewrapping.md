@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.SetLastLineWrapping
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextFormat1::SetLastLineWrapping
 ms.date: 
 targetos: Windows

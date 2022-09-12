@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFace2.GetRecommendedRenderingMode
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace2::GetRecommendedRenderingMode
 ms.date: 
 targetos: Windows

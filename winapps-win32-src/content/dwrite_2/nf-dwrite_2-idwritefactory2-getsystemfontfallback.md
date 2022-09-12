@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFactory2.GetSystemFontFallback
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory2::GetSystemFontFallback
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextRenderer1.DrawInlineObject
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextRenderer1::DrawInlineObject
 ms.date: 
 targetos: Windows

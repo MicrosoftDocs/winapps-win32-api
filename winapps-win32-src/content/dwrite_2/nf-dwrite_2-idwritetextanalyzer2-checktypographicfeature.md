@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextAnalyzer2.CheckTypographicFeature
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextAnalyzer2::CheckTypographicFeature
 ms.date: 
 targetos: Windows

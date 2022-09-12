@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteRenderingParams2.GetGridFitMode
-tech.root: 
+tech.root: dwritecore
 title: IDWriteRenderingParams2::GetGridFitMode
 ms.date: 
 targetos: Windows

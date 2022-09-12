@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetOpticalAlignment
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout2::GetOpticalAlignment
 ms.date: 
 targetos: Windows

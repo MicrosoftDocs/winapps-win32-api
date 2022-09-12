@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFace2.GetColorPaletteCount
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace2::GetColorPaletteCount
 ms.date: 
 targetos: Windows

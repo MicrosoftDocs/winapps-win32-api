@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFace2.GetPaletteEntries
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace2::GetPaletteEntries
 ms.date: 
 targetos: Windows

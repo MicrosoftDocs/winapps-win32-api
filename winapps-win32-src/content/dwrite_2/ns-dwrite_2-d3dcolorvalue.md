@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_2._D3DCOLORVALUE
-tech.root: 
+tech.root: dwritecore
 title: D3DCOLORVALUE
 ms.date: 
 targetos: Windows

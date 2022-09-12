@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_2.IDWriteTextRenderer1
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextRenderer1
 ms.date: 
 targetos: Windows

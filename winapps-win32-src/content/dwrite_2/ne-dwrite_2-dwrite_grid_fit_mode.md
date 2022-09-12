@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_2.DWRITE_GRID_FIT_MODE
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_GRID_FIT_MODE
 ms.date: 
 targetos: Windows

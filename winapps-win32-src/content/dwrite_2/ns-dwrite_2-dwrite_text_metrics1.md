@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_2.DWRITE_TEXT_METRICS1
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_TEXT_METRICS1
 ms.date: 
 targetos: Windows

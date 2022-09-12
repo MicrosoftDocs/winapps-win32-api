@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextRenderer1.DrawStrikethrough
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextRenderer1::DrawStrikethrough
 ms.date: 
 targetos: Windows

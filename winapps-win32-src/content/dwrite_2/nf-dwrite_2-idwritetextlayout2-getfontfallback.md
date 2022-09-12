@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetFontFallback
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout2::GetFontFallback
 ms.date: 
 targetos: Windows

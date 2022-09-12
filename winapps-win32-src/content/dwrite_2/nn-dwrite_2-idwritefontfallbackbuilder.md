@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_2.IDWriteFontFallbackBuilder
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFallbackBuilder
 ms.date: 
 targetos: Windows

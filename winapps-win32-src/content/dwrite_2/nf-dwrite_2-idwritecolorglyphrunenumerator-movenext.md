@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteColorGlyphRunEnumerator.MoveNext
-tech.root: 
+tech.root: dwritecore
 title: IDWriteColorGlyphRunEnumerator::MoveNext
 ms.date: 
 targetos: Windows

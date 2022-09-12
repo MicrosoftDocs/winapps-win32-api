@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_2.DWRITE_OPTICAL_ALIGNMENT
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_OPTICAL_ALIGNMENT
 ms.date: 
 targetos: Windows

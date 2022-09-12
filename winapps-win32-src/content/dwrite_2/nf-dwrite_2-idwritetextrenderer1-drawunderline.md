@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextRenderer1.DrawUnderline
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextRenderer1::DrawUnderline
 ms.date: 
 targetos: Windows

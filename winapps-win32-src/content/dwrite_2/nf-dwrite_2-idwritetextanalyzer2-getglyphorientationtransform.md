@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextAnalyzer2.GetGlyphOrientationTransform
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextAnalyzer2::GetGlyphOrientationTransform
 ms.date: 
 targetos: Windows

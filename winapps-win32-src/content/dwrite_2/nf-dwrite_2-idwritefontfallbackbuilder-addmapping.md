@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFallbackBuilder.AddMapping
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFallbackBuilder::AddMapping
 ms.date: 
 targetos: Windows

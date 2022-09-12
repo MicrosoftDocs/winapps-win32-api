@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFactory2.CreateGlyphRunAnalysis
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory2::CreateGlyphRunAnalysis
 ms.date: 
 targetos: Windows

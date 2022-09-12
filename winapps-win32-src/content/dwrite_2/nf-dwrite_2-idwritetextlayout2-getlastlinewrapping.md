@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetLastLineWrapping
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout2::GetLastLineWrapping
 ms.date: 
 targetos: Windows

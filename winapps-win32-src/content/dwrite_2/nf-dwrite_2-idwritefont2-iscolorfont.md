@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFont2.IsColorFont
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFont2::IsColorFont
 ms.date: 
 targetos: Windows

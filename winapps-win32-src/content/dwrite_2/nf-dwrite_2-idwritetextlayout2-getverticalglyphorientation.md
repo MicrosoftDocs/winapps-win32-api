@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetVerticalGlyphOrientation
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout2::GetVerticalGlyphOrientation
 ms.date: 
 targetos: Windows

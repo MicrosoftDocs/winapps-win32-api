@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_2.IDWriteTextAnalyzer2
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextAnalyzer2
 ms.date: 
 targetos: Windows
