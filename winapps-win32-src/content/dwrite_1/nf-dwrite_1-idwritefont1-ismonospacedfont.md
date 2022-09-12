@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFont1.IsMonospacedFont
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFont1::IsMonospacedFont
 ms.date: 
 targetos: Windows

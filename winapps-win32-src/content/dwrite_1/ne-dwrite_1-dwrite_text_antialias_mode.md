@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_TEXT_ANTIALIAS_MODE
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_TEXT_ANTIALIAS_MODE
 ms.date: 
 targetos: Windows

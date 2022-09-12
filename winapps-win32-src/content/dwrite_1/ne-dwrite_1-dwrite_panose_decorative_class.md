@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_DECORATIVE_CLASS
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PANOSE_DECORATIVE_CLASS
 ms.date: 
 targetos: Windows

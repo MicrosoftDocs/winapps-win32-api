@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_1.IDWriteRenderingParams1
-tech.root: 
+tech.root: dwritecore
 title: IDWriteRenderingParams1
 ms.date: 
 targetos: Windows

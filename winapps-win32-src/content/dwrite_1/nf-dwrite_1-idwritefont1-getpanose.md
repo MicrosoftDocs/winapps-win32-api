@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFont1.GetPanose
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFont1::GetPanose
 ms.date: 
 targetos: Windows

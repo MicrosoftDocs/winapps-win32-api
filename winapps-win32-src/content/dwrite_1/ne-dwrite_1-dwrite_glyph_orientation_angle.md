@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_GLYPH_ORIENTATION_ANGLE
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_GLYPH_ORIENTATION_ANGLE
 ms.date: 
 targetos: Windows

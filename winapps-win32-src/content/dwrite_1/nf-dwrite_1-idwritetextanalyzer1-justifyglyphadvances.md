@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.JustifyGlyphAdvances
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextAnalyzer1::JustifyGlyphAdvances
 ms.date: 
 targetos: Windows

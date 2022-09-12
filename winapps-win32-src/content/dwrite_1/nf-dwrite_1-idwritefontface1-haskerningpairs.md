@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.HasKerningPairs
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace1::HasKerningPairs
 ms.date: 
 targetos: Windows

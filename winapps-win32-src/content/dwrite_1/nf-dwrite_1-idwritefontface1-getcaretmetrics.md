@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetCaretMetrics
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace1::GetCaretMetrics
 ms.date: 
 targetos: Windows

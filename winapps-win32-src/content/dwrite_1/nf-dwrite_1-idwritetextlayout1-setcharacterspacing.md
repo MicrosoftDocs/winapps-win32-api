@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextLayout1.SetCharacterSpacing
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout1::SetCharacterSpacing
 ms.date: 
 targetos: Windows

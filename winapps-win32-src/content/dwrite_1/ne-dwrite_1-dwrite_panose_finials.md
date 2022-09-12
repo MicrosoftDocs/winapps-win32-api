@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_FINIALS
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PANOSE_FINIALS
 ms.date: 
 targetos: Windows

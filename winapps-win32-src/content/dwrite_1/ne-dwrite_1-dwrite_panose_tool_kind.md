@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_TOOL_KIND
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PANOSE_TOOL_KIND
 ms.date: 
 targetos: Windows

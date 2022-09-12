@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_1.DWRITE_CARET_METRICS
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_CARET_METRICS
 ms.date: 
 targetos: Windows

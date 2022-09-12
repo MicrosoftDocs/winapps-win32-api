@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_SCRIPT_TOPOLOGY
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PANOSE_SCRIPT_TOPOLOGY
 ms.date: 
 targetos: Windows

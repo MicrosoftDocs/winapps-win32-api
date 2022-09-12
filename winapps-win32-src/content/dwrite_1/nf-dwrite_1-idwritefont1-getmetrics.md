@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFont1.GetMetrics
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFont1::GetMetrics
 ms.date: 
 targetos: Windows

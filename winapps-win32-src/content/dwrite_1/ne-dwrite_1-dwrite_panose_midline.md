@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_MIDLINE
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PANOSE_MIDLINE
 ms.date: 
 targetos: Windows

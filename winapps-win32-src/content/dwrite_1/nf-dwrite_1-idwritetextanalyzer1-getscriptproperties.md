@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetScriptProperties
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextAnalyzer1::GetScriptProperties
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_WEIGHT
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PANOSE_WEIGHT
 ms.date: 
 targetos: Windows

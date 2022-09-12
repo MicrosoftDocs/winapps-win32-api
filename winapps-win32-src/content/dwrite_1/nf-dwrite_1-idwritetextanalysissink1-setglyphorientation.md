@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalysisSink1.SetGlyphOrientation
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextAnalysisSink1::SetGlyphOrientation
 ms.date: 
 targetos: Windows

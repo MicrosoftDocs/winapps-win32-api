@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_SERIF_STYLE
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PANOSE_SERIF_STYLE
 ms.date: 
 targetos: Windows

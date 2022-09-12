@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetKerningPairAdjustments
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace1::GetKerningPairAdjustments
 ms.date: 
 targetos: Windows

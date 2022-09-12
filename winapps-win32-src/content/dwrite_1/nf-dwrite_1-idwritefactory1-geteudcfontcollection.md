@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFactory1.GetEudcFontCollection
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory1::GetEudcFontCollection
 ms.date: 
 targetos: Windows

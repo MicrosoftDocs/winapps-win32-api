@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_1.DWRITE_SCRIPT_PROPERTIES
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_SCRIPT_PROPERTIES
 ms.date: 
 targetos: Windows

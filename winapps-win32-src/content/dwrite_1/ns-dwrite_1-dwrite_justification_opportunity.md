@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_1.DWRITE_JUSTIFICATION_OPPORTUNITY
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_JUSTIFICATION_OPPORTUNITY
 ms.date: 
 targetos: Windows

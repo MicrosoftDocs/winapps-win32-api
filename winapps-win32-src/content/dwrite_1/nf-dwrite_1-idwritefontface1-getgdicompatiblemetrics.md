@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetGdiCompatibleMetrics
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace1::GetGdiCompatibleMetrics
 ms.date: 
 targetos: Windows

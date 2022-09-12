@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_PROPORTION
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PANOSE_PROPORTION
 ms.date: 
 targetos: Windows

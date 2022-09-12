@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetVerticalGlyphVariants
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace1::GetVerticalGlyphVariants
 ms.date: 
 targetos: Windows

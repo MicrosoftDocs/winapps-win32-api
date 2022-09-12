@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFont1.GetUnicodeRanges
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFont1::GetUnicodeRanges
 ms.date: 
 targetos: Windows

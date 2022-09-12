@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_1.DWRITE_PANOSE
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PANOSE
 ms.date: 
 targetos: Windows

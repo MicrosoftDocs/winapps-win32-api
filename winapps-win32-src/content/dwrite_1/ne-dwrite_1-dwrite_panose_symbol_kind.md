@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_SYMBOL_KIND
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PANOSE_SYMBOL_KIND
 ms.date: 
 targetos: Windows

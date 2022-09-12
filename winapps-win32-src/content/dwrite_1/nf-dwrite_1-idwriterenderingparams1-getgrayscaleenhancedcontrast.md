@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteRenderingParams1.GetGrayscaleEnhancedContrast
-tech.root: 
+tech.root: dwritecore
 title: IDWriteRenderingParams1::GetGrayscaleEnhancedContrast
 ms.date: 
 targetos: Windows

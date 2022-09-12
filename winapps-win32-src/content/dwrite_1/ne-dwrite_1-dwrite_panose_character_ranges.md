@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_CHARACTER_RANGES
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PANOSE_CHARACTER_RANGES
 ms.date: 
 targetos: Windows

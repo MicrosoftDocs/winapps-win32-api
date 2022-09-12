@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetDesignGlyphAdvances
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace1::GetDesignGlyphAdvances
 ms.date: 
 targetos: Windows

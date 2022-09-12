@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_OUTLINE_THRESHOLD
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_OUTLINE_THRESHOLD
 ms.date: 
 targetos: Windows

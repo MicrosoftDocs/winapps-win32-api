@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_BASELINE
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_BASELINE
 ms.date: 
 targetos: Windows

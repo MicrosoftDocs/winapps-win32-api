@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_1.DWRITE_FONT_METRICS1
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_FONT_METRICS1
 ms.date: 
 targetos: Windows

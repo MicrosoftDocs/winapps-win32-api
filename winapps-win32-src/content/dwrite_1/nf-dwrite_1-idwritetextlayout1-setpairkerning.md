@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextLayout1.SetPairKerning
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout1::SetPairKerning
 ms.date: 
 targetos: Windows

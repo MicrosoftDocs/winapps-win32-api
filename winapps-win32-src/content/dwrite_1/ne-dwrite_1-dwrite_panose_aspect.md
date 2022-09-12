@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_ASPECT
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PANOSE_ASPECT
 ms.date: 
 targetos: Windows

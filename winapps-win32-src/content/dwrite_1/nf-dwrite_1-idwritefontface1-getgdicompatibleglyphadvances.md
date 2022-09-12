@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetGdiCompatibleGlyphAdvances
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace1::GetGdiCompatibleGlyphAdvances
 ms.date: 
 targetos: Windows

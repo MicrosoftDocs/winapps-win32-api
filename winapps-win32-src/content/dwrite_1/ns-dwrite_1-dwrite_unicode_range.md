@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_1.DWRITE_UNICODE_RANGE
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_UNICODE_RANGE
 ms.date: 
 targetos: Windows

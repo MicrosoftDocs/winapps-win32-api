@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteBitmapRenderTarget1.SetTextAntialiasMode
-tech.root: 
+tech.root: dwritecore
 title: IDWriteBitmapRenderTarget1::SetTextAntialiasMode
 ms.date: 
 targetos: Windows

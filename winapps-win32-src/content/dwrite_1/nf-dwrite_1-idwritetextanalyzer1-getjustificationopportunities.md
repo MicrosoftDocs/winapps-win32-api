@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetJustificationOpportunities
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextAnalyzer1::GetJustificationOpportunities
 ms.date: 
 targetos: Windows

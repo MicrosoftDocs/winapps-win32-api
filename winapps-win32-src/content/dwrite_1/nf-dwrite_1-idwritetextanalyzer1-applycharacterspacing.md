@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.ApplyCharacterSpacing
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextAnalyzer1::ApplyCharacterSpacing
 ms.date: 
 targetos: Windows

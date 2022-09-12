@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetBaseline
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextAnalyzer1::GetBaseline
 ms.date: 
 targetos: Windows
