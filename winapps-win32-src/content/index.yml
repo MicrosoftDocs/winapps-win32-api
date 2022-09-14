@@ -20,16 +20,6 @@ metadata:
 landingContent: 
 
   # Card
-  - title: Concepts
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Windows App SDK
-            url: /windows/apps/windows-app-sdk/
-          - text: Manage app windows
-            url: /windows/apps/windows-app-sdk/windowing/windowing-overview
-
-  # Card
   - title: Text
     linkLists:
       - linkListType: overview
@@ -40,6 +30,10 @@ landingContent:
         links:
           - text: Dwrite.h
             url: dwrite/index.md
+          - text: Dwrite_1.h
+            url: dwrite_1/index.md
+          - text: Dwrite_2.h
+            url: dwrite_2/index.md
           - text: Dwrite_3.h
             url: dwrite_3/index.md
           - text: Dwrite_core.h

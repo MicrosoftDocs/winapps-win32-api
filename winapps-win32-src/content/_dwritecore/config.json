@@ -1,9 +1,11 @@
 {
   "tech": "dwritecore",
   "headers": [
+    "dwrite_core.h",
     "dwrite.h",
-    "dwrite_3.h",
-    "dwrite_core.h"
+    "dwrite_1.h",
+    "dwrite_2.h",
+    "dwrite_3.h"
   ],
   "displayName": "DWriteCore"
 }
