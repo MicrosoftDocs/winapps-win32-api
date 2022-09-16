@@ -92,6 +92,8 @@ landingContent:
             url: microsoft.ui.interop/index.md
           - text: (winrt)Microsoft.ui.interop.h
             url: winrt-microsoft.ui.interop/index.md
+          - text: microsoft.ui.composition.interop.h
+            url: microsoft.ui.composition.interop/index.md
             
   # Card
   - title: WinUI COM Interop
