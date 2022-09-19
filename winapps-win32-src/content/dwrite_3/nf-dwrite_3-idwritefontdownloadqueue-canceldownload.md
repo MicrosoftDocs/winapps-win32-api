@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.CancelDownload
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontDownloadQueue::CancelDownload
 ms.date: 
 targetos: Windows

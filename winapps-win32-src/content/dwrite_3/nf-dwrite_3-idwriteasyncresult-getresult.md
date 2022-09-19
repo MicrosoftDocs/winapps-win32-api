@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteAsyncResult.GetResult
-tech.root: 
+tech.root: dwritecore
 title: IDWriteAsyncResult::GetResult
 ms.date: 
 targetos: Windows

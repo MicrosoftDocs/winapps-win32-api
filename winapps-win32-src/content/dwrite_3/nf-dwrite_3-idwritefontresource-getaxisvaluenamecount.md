@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetAxisValueNameCount
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontResource::GetAxisValueNameCount
 ms.date: 
 targetos: Windows

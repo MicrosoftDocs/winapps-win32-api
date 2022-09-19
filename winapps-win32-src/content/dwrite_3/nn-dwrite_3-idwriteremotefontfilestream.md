@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteRemoteFontFileStream
-tech.root: 
+tech.root: dwritecore
 title: IDWriteRemoteFontFileStream
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetLocaleName
-tech.root: 
+tech.root: dwritecore
 title: IDWriteStringList::GetLocaleName
 ms.date: 
 targetos: Windows

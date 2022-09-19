@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_LOCALITY
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_LOCALITY
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat3.SetFontAxisValues
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextFormat3::SetFontAxisValues
 ms.date: 
 targetos: Windows

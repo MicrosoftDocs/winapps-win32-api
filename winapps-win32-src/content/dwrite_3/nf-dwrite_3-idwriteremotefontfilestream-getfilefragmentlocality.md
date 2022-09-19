@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.GetFileFragmentLocality
-tech.root: 
+tech.root: dwritecore
 title: IDWriteRemoteFontFileStream::GetFileFragmentLocality
 ms.date: 
 targetos: Windows

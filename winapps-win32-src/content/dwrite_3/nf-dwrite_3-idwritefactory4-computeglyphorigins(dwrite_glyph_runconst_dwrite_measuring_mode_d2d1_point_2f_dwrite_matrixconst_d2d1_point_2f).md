@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory4.ComputeGlyphOrigins(DWRITE_GLYPH_RUNconst,DWRITE_MEASURING_MODE,D2D1_POINT_2F,DWRITE_MATRIXconst,D2D1_POINT_2F)
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory4::ComputeGlyphOrigins
 ms.date: 
 targetos: Windows

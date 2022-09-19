@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat3.GetAutomaticFontAxes
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextFormat3::GetAutomaticFontAxes
 ms.date: 
 targetos: Windows

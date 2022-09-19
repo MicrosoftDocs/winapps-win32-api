@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWritePaintReader.MoveToNextSibling
-tech.root: 
+tech.root: dwritecore
 title: IDWritePaintReader::MoveToNextSibling
 ms.date: 
 targetos: Windows

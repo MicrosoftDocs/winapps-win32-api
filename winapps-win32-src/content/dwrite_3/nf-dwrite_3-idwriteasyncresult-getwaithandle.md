@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteAsyncResult.GetWaitHandle
-tech.root: 
+tech.root: dwritecore
 title: IDWriteAsyncResult::GetWaitHandle
 ms.date: 
 targetos: Windows

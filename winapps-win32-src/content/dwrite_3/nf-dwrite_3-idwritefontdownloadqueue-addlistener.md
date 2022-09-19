@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.AddListener
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontDownloadQueue::AddListener
 ms.date: 
 targetos: Windows

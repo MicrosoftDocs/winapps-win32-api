@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetPropertyValues(DWRITE_FONT_PROPERTY_ID,WCHARconst,IDWriteStringList)
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontSet::GetPropertyValues
 ms.date: 
 targetos: Windows

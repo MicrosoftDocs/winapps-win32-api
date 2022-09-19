@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteTextLayout3
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout3
 ms.date: 
 targetos: Windows

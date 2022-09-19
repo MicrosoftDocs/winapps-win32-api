@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFont3.Equals
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFont3::Equals
 ms.date: 
 targetos: Windows

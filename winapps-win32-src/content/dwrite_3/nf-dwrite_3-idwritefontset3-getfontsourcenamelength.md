@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet3.GetFontSourceNameLength
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontSet3::GetFontSourceNameLength
 ms.date: 
 targetos: Windows

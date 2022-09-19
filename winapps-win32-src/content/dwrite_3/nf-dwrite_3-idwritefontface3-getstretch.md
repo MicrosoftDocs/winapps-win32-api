@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetStretch
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace3::GetStretch
 ms.date: 
 targetos: Windows

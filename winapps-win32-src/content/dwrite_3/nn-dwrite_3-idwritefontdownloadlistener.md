@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteFontDownloadListener
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontDownloadListener
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.GetLocalFileSize
-tech.root: 
+tech.root: dwritecore
 title: IDWriteRemoteFontFileStream::GetLocalFileSize
 ms.date: 
 targetos: Windows

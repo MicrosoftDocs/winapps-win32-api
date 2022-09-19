@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetFileTime
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFaceReference::GetFileTime
 ms.date: 
 targetos: Windows

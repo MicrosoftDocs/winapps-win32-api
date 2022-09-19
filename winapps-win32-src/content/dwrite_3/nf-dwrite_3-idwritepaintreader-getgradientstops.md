@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWritePaintReader.GetGradientStops
-tech.root: 
+tech.root: dwritecore
 title: IDWritePaintReader::GetGradientStops
 ms.date: 
 targetos: Windows

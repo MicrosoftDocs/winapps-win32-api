@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet3.GetFontSourceName
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontSet3::GetFontSourceName
 ms.date: 
 targetos: Windows

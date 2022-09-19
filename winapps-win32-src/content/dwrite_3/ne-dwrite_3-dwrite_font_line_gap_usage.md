@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_LINE_GAP_USAGE
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_FONT_LINE_GAP_USAGE
 ms.date: 
 targetos: Windows

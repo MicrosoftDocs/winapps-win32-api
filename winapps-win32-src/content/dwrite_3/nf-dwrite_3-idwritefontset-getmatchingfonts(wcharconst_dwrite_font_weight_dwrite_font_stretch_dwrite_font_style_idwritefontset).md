@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetMatchingFonts(WCHARconst,DWRITE_FONT_WEIGHT,DWRITE_FONT_STRETCH,DWRITE_FONT_STYLE,IDWriteFontSet)
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontSet::GetMatchingFonts
 ms.date: 
 targetos: Windows

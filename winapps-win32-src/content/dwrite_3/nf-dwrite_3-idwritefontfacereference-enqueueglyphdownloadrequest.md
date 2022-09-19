@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.EnqueueGlyphDownloadRequest
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFaceReference::EnqueueGlyphDownloadRequest
 ms.date: 
 targetos: Windows

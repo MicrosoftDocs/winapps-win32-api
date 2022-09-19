@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.AreCharactersLocal
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace3::AreCharactersLocal
 ms.date: 
 targetos: Windows

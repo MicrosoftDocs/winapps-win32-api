@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory6.CreateTextFormat
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory6::CreateTextFormat
 ms.date: 
 targetos: Windows

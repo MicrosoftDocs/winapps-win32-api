@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_LINE_METRICS1
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_LINE_METRICS1
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetAxisNames
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontResource::GetAxisNames
 ms.date: 
 targetos: Windows

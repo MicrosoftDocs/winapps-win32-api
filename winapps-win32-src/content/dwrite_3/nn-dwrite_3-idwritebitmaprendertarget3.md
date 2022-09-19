@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteBitmapRenderTarget3
-tech.root: 
+tech.root: dwritecore
 title: IDWriteBitmapRenderTarget3
 ms.date: 
 targetos: Windows

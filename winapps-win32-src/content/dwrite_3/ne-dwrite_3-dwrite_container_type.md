@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_CONTAINER_TYPE
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_CONTAINER_TYPE
 ms.date: 
 targetos: Windows

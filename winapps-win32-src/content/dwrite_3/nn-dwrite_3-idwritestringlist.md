@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteStringList
-tech.root: 
+tech.root: dwritecore
 title: IDWriteStringList
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.HasVariations
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontResource::HasVariations
 ms.date: 
 targetos: Windows

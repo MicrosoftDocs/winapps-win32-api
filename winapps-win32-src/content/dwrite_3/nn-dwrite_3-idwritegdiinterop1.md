@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteGdiInterop1
-tech.root: 
+tech.root: dwritecore
 title: IDWriteGdiInterop1
 ms.date: 
 targetos: Windows

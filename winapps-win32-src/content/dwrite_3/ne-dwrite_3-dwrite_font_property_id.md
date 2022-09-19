@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_PROPERTY_ID
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_FONT_PROPERTY_ID
 ms.date: 
 targetos: Windows

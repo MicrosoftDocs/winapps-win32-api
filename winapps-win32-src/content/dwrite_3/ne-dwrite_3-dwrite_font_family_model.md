@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_FAMILY_MODEL
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_FONT_FAMILY_MODEL
 ms.date: 
 targetos: Windows

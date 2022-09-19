@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRenderingParams3.GetRenderingMode1
-tech.root: 
+tech.root: dwritecore
 title: IDWriteRenderingParams3::GetRenderingMode1
 ms.date: 
 targetos: Windows

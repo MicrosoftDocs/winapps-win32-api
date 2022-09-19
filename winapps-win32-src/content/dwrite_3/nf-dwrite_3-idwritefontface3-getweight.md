@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetWeight
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace3::GetWeight
 ms.date: 
 targetos: Windows

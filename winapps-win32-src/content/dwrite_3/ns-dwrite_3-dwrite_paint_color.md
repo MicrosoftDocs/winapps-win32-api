@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_PAINT_COLOR
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PAINT_COLOR
 ms.date: 
 targetos: Windows

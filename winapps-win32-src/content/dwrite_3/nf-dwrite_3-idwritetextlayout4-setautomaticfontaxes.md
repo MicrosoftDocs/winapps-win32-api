@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout4.SetAutomaticFontAxes
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout4::SetAutomaticFontAxes
 ms.date: 
 targetos: Windows

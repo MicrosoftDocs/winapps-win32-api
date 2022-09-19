@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_COLOR_COMPOSITE_MODE
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_COLOR_COMPOSITE_MODE
 ms.date: 
 targetos: Windows

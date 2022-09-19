@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFallback1.MapCharacters
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFallback1::MapCharacters
 ms.date: 
 targetos: Windows

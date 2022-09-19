@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWritePaintReader
-tech.root: 
+tech.root: dwritecore
 title: IDWritePaintReader
 ms.date: 
 targetos: Windows

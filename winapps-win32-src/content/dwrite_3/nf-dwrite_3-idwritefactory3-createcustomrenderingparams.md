@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.CreateCustomRenderingParams
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory3::CreateCustomRenderingParams
 ms.date: 
 targetos: Windows

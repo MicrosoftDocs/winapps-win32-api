@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.IsEmpty
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontDownloadQueue::IsEmpty
 ms.date: 
 targetos: Windows

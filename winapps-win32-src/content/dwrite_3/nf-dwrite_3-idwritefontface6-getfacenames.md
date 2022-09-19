@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace6.GetFaceNames
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace6::GetFaceNames
 ms.date: 
 targetos: Windows

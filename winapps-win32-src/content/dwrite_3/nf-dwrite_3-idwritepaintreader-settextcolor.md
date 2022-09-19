@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWritePaintReader.SetTextColor
-tech.root: 
+tech.root: dwritecore
 title: IDWritePaintReader::SetTextColor
 ms.date: 
 targetos: Windows

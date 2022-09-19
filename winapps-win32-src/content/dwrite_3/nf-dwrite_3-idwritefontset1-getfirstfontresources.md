@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.GetFirstFontResources
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontSet1::GetFirstFontResources
 ms.date: 
 targetos: Windows

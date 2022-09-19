@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_FONT_PROPERTY
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_FONT_PROPERTY
 ms.date: 
 targetos: Windows

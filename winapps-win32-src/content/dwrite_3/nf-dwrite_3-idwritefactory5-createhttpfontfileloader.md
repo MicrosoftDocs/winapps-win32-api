@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory5.CreateHttpFontFileLoader
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory5::CreateHttpFontFileLoader
 ms.date: 
 targetos: Windows

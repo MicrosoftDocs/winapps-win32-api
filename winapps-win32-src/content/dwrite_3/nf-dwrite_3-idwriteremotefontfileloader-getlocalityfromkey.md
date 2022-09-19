@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileLoader.GetLocalityFromKey
-tech.root: 
+tech.root: dwritecore
 title: IDWriteRemoteFontFileLoader::GetLocalityFromKey
 ms.date: 
 targetos: Windows

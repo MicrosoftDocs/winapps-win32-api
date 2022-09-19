@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.RemoveListener
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontDownloadQueue::RemoveListener
 ms.date: 
 targetos: Windows

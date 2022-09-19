@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_LINE_SPACING
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_LINE_SPACING
 ms.date: 
 targetos: Windows

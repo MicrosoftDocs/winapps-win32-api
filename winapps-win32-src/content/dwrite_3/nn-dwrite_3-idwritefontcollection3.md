@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteFontCollection3
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontCollection3
 ms.date: 
 targetos: Windows

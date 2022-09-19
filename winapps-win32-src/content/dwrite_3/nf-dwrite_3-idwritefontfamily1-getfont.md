@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFamily1.GetFont
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFamily1::GetFont
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetLocaleNameLength
-tech.root: 
+tech.root: dwritecore
 title: IDWriteStringList::GetLocaleNameLength
 ms.date: 
 targetos: Windows

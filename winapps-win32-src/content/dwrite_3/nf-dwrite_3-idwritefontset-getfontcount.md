@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetFontCount
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontSet::GetFontCount
 ms.date: 
 targetos: Windows

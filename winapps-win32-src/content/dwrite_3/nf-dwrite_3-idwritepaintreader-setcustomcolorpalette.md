@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWritePaintReader.SetCustomColorPalette
-tech.root: 
+tech.root: dwritecore
 title: IDWritePaintReader::SetCustomColorPalette
 ms.date: 
 targetos: Windows

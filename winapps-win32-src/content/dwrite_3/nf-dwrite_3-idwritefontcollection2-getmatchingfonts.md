@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontCollection2.GetMatchingFonts
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontCollection2::GetMatchingFonts
 ms.date: 
 targetos: Windows

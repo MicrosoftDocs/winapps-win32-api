@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWritePaintReader.SetColorPaletteIndex
-tech.root: 
+tech.root: dwritecore
 title: IDWritePaintReader::SetColorPaletteIndex
 ms.date: 
 targetos: Windows

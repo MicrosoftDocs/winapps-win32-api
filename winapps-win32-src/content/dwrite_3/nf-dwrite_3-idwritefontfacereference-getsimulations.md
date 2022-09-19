@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetSimulations
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFaceReference::GetSimulations
 ms.date: 
 targetos: Windows

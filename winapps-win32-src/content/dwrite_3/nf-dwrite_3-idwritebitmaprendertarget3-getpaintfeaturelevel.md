@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteBitmapRenderTarget3.GetPaintFeatureLevel
-tech.root: 
+tech.root: dwritecore
 title: IDWriteBitmapRenderTarget3::GetPaintFeatureLevel
 ms.date: 
 targetos: Windows

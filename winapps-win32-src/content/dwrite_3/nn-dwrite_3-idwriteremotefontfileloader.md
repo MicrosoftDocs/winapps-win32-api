@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteRemoteFontFileLoader
-tech.root: 
+tech.root: dwritecore
 title: IDWriteRemoteFontFileLoader
 ms.date: 
 targetos: Windows

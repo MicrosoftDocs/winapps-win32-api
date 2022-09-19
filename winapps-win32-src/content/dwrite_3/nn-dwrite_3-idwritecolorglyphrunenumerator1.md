@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteColorGlyphRunEnumerator1
-tech.root: 
+tech.root: dwritecore
 title: IDWriteColorGlyphRunEnumerator1
 ms.date: 
 targetos: Windows

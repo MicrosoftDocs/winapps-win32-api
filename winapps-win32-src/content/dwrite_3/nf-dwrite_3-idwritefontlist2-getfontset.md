@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontList2.GetFontSet
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontList2::GetFontSet
 ms.date: 
 targetos: Windows

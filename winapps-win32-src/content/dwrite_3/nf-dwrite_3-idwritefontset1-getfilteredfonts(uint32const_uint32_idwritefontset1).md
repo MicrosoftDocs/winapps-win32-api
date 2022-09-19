@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFonts(UINT32const,UINT32,IDWriteFontSet1)
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontSet1::GetFilteredFonts
 ms.date: 
 targetos: Windows

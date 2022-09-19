@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileLoader.CreateRemoteStreamFromKey
-tech.root: 
+tech.root: dwritecore
 title: IDWriteRemoteFontFileLoader::CreateRemoteStreamFromKey
 ms.date: 
 targetos: Windows

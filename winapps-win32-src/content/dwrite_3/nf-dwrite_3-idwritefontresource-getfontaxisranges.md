@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetFontAxisRanges
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontResource::GetFontAxisRanges
 ms.date: 
 targetos: Windows

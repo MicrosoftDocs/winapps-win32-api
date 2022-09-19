@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout4.SetFontAxisValues
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout4::SetFontAxisValues
 ms.date: 
 targetos: Windows

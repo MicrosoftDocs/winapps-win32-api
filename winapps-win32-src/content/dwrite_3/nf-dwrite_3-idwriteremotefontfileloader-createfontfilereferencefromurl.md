@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl
-tech.root: 
+tech.root: dwritecore
 title: IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl
 ms.date: 
 targetos: Windows

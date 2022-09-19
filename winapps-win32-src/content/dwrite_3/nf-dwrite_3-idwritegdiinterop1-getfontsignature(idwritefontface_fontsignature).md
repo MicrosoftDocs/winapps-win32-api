@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteGdiInterop1.GetFontSignature(IDWriteFontFace,FONTSIGNATURE)
-tech.root: 
+tech.root: dwritecore
 title: IDWriteGdiInterop1::GetFontSignature
 ms.date: 
 targetos: Windows

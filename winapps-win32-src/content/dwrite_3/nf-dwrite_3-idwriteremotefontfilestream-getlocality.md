@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.GetLocality
-tech.root: 
+tech.root: dwritecore
 title: IDWriteRemoteFontFileStream::GetLocality
 ms.date: 
 targetos: Windows

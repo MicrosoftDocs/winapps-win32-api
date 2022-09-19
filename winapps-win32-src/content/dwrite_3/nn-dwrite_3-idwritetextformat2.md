@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteTextFormat2
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextFormat2
 ms.date: 
 targetos: Windows

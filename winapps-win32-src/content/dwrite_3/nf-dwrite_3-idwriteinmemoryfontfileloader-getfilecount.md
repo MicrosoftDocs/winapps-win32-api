@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteInMemoryFontFileLoader.GetFileCount
-tech.root: 
+tech.root: dwritecore
 title: IDWriteInMemoryFontFileLoader::GetFileCount
 ms.date: 
 targetos: Windows

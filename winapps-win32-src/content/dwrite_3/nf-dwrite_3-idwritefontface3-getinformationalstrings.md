@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetInformationalStrings
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace3::GetInformationalStrings
 ms.date: 
 targetos: Windows

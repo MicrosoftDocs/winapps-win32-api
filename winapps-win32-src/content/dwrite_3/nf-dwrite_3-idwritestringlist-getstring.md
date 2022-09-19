@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetString
-tech.root: 
+tech.root: dwritecore
 title: IDWriteStringList::GetString
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace7.GetPaintFeatureLevel
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace7::GetPaintFeatureLevel
 ms.date: 
 targetos: Windows

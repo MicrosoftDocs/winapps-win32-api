@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteFactory5
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory5
 ms.date: 
 targetos: Windows
