@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_GLYPH_IMAGE_DATA
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_GLYPH_IMAGE_DATA
 ms.date: 
 targetos: Windows

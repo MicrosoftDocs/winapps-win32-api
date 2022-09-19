@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteInMemoryFontFileLoader
-tech.root: 
+tech.root: dwritecore
 title: IDWriteInMemoryFontFileLoader
 ms.date: 
 targetos: Windows

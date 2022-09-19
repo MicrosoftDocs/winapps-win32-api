@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteGdiInterop1.CreateFontFromLOGFONT
-tech.root: 
+tech.root: dwritecore
 title: IDWriteGdiInterop1::CreateFontFromLOGFONT
 ms.date: 
 targetos: Windows

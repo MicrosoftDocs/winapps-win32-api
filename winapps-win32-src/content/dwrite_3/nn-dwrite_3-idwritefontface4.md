@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteFontFace4
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace4
 ms.date: 
 targetos: Windows

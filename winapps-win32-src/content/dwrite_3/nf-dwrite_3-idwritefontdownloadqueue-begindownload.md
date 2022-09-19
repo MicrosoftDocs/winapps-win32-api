@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.BeginDownload
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontDownloadQueue::BeginDownload
 ms.date: 
 targetos: Windows

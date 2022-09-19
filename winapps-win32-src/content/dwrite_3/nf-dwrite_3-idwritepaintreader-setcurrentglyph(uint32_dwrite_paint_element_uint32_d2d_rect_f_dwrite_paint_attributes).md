@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWritePaintReader.SetCurrentGlyph(UINT32,DWRITE_PAINT_ELEMENT,UINT32,D2D_RECT_F,DWRITE_PAINT_ATTRIBUTES)
-tech.root: 
+tech.root: dwritecore
 title: IDWritePaintReader::SetCurrentGlyph
 ms.date: 
 targetos: Windows

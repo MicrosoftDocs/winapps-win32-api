@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteGdiInterop1.GetMatchingFontsByLOGFONT
-tech.root: 
+tech.root: dwritecore
 title: IDWriteGdiInterop1::GetMatchingFontsByLOGFONT
 ms.date: 
 targetos: Windows

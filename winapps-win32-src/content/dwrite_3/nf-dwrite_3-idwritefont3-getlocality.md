@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFont3.GetLocality
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFont3::GetLocality
 ms.date: 
 targetos: Windows

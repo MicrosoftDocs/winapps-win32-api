@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_FONT_AXIS_RANGE
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_FONT_AXIS_RANGE
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteColorGlyphRunEnumerator1.GetCurrentRun
-tech.root: 
+tech.root: dwritecore
 title: IDWriteColorGlyphRunEnumerator1::GetCurrentRun
 ms.date: 
 targetos: Windows

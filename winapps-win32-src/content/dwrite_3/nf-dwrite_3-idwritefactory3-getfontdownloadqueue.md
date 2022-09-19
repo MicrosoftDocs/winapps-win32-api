@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.GetFontDownloadQueue
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory3::GetFontDownloadQueue
 ms.date: 
 targetos: Windows

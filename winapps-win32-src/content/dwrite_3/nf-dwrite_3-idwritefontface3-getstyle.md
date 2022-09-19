@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetStyle
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace3::GetStyle
 ms.date: 
 targetos: Windows

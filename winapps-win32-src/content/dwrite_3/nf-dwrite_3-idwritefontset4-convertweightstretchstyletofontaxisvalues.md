@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet4.ConvertWeightStretchStyleToFontAxisValues
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontSet4::ConvertWeightStretchStyleToFontAxisValues
 ms.date: 
 targetos: Windows

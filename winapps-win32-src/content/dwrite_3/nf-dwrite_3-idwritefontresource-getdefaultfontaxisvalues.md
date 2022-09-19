@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetDefaultFontAxisValues
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontResource::GetDefaultFontAxisValues
 ms.date: 
 targetos: Windows

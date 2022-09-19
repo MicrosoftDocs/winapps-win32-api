@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference1.CreateFontFace
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFaceReference1::CreateFontFace
 ms.date: 
 targetos: Windows

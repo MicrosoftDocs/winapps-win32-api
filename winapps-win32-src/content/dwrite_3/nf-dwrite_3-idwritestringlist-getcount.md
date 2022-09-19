@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetCount
-tech.root: 
+tech.root: dwritecore
 title: IDWriteStringList::GetCount
 ms.date: 
 targetos: Windows

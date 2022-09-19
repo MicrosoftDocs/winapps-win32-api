@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetStringLength
-tech.root: 
+tech.root: dwritecore
 title: IDWriteStringList::GetStringLength
 ms.date: 
 targetos: Windows

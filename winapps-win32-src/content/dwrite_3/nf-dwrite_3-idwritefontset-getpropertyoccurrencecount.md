@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetPropertyOccurrenceCount
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontSet::GetPropertyOccurrenceCount
 ms.date: 
 targetos: Windows

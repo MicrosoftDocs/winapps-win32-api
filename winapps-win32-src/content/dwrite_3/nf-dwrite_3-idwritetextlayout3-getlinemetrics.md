@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.GetLineMetrics
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout3::GetLineMetrics
 ms.date: 
 targetos: Windows

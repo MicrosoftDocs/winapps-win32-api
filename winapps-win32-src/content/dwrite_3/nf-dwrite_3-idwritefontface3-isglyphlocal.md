@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.IsGlyphLocal
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace3::IsGlyphLocal
 ms.date: 
 targetos: Windows

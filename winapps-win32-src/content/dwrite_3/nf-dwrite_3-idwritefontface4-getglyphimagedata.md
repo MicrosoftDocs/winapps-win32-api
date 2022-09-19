@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace4.GetGlyphImageData
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace4::GetGlyphImageData
 ms.date: 
 targetos: Windows

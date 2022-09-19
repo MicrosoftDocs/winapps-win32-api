@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_PAINT_ELEMENT
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PAINT_ELEMENT
 ms.date: 
 targetos: Windows

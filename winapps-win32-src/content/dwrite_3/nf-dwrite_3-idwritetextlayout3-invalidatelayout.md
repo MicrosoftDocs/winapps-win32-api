@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.InvalidateLayout
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout3::InvalidateLayout
 ms.date: 
 targetos: Windows

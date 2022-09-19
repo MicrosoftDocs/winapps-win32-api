@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.CreateFontSetBuilder
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory3::CreateFontSetBuilder
 ms.date: 
 targetos: Windows

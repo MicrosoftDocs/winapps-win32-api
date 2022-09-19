@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWritePaintReader.MoveToParent
-tech.root: 
+tech.root: dwritecore
 title: IDWritePaintReader::MoveToParent
 ms.date: 
 targetos: Windows

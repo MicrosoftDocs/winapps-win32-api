@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontCollection3.GetExpirationEvent
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontCollection3::GetExpirationEvent
 ms.date: 
 targetos: Windows

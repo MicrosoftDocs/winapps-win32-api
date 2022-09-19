@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteBitmapRenderTarget3.DrawPaintGlyphRun
-tech.root: 
+tech.root: dwritecore
 title: IDWriteBitmapRenderTarget3::DrawPaintGlyphRun
 ms.date: 
 targetos: Windows

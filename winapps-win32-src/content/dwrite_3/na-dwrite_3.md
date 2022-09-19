@@ -1,6 +1,6 @@
 ---
 UID: NA:dwrite_3
-tech.root: 
+tech.root: dwritecore
 title: dwrite_3
 ms.date: 
 targetos: Windows

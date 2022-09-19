@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWritePaintReader.MoveToFirstChild
-tech.root: 
+tech.root: dwritecore
 title: IDWritePaintReader::MoveToFirstChild
 ms.date: 
 targetos: Windows

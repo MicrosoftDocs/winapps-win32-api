@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.DWRITE_MAKE_FONT_AXIS_TAG
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_MAKE_FONT_AXIS_TAG
 ms.date: 
 targetos: Windows

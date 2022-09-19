@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_AXIS_ATTRIBUTES
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_FONT_AXIS_ATTRIBUTES
 ms.date: 
 targetos: Windows

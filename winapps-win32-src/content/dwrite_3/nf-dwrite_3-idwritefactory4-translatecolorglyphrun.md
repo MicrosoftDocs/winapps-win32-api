@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory4.TranslateColorGlyphRun
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory4::TranslateColorGlyphRun
 ms.date: 
 targetos: Windows

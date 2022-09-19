@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_RENDERING_MODE1
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_RENDERING_MODE1
 ms.date: 
 targetos: Windows

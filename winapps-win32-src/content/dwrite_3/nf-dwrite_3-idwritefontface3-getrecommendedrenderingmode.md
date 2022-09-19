@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetRecommendedRenderingMode
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace3::GetRecommendedRenderingMode
 ms.date: 
 targetos: Windows

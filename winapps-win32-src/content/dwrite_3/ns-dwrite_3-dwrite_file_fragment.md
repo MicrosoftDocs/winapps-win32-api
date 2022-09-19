@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_FILE_FRAGMENT
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_FILE_FRAGMENT
 ms.date: 
 targetos: Windows

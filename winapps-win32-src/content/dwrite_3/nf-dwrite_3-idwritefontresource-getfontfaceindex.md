@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetFontFaceIndex
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontResource::GetFontFaceIndex
 ms.date: 
 targetos: Windows

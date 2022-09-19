@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace4.GetGlyphImageFormats(UINT16,UINT32,UINT32,DWRITE_GLYPH_IMAGE_FORMATS)
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace4::GetGlyphImageFormats
 ms.date: 
 targetos: Windows

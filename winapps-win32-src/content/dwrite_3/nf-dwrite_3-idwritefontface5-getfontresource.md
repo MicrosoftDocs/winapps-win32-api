@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace5.GetFontResource
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace5::GetFontResource
 ms.date: 
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFont3.HasCharacter
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFont3::HasCharacter
 ms.date: 
 targetos: Windows

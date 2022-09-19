@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFontIndices(DWRITE_FONT_AXIS_RANGEconst,UINT32,BOOL,UINT32,UINT32,UINT32)
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontSet1::GetFilteredFontIndices
 ms.date: 
 targetos: Windows

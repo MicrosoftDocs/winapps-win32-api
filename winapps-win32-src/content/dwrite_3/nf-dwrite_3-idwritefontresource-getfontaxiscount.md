@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetFontAxisCount
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontResource::GetFontAxisCount
 ms.date: 
 targetos: Windows

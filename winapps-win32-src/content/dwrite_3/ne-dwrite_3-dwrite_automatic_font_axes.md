@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_AUTOMATIC_FONT_AXES
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_AUTOMATIC_FONT_AXES
 ms.date: 
 targetos: Windows

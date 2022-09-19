@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.GetGenerationCount
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontDownloadQueue::GetGenerationCount
 ms.date: 
 targetos: Windows

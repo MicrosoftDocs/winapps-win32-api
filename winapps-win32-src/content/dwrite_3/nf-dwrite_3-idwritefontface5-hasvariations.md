@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace5.HasVariations
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace5::HasVariations
 ms.date: 
 targetos: Windows

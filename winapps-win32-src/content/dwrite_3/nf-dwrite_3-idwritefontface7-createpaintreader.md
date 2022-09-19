@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace7.CreatePaintReader
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFace7::CreatePaintReader
 ms.date: 
 targetos: Windows

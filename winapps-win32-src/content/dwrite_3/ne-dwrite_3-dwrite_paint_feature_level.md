@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_PAINT_FEATURE_LEVEL
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PAINT_FEATURE_LEVEL
 ms.date: 
 targetos: Windows

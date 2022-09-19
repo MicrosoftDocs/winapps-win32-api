@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetLocalFileSize
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFontFaceReference::GetLocalFileSize
 ms.date: 
 targetos: Windows

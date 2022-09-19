@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWritePaintReader.GetGradientStopColors
-tech.root: 
+tech.root: dwritecore
 title: IDWritePaintReader::GetGradientStopColors
 ms.date: 
 targetos: Windows

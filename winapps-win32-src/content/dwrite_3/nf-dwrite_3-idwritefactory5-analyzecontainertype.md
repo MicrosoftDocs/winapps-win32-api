@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory5.AnalyzeContainerType
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory5::AnalyzeContainerType
 ms.date: 
 targetos: Windows

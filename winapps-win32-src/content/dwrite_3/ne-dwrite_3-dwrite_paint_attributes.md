@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_PAINT_ATTRIBUTES
-tech.root: 
+tech.root: dwritecore
 title: DWRITE_PAINT_ATTRIBUTES
 ms.date: 
 targetos: Windows

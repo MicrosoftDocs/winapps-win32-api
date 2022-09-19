@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory5.UnpackFontFile
-tech.root: 
+tech.root: dwritecore
 title: IDWriteFactory5::UnpackFontFile
 ms.date: 
 targetos: Windows

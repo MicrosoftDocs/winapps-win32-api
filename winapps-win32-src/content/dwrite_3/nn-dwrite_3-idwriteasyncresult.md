@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteAsyncResult
-tech.root: 
+tech.root: dwritecore
 title: IDWriteAsyncResult
 ms.date: 
 targetos: Windows

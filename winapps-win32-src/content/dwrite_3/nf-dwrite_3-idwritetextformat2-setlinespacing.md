@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat2.SetLineSpacing
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextFormat2::SetLineSpacing
 ms.date: 
 targetos: Windows

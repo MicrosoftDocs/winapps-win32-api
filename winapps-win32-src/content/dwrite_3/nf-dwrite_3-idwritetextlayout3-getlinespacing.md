@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.GetLineSpacing
-tech.root: 
+tech.root: dwritecore
 title: IDWriteTextLayout3::GetLineSpacing
 ms.date: 
 targetos: Windows
