@@ -3,6 +3,7 @@ UID: TP:security
 title: Security
 description: Provides information about the header files for Security APIs.
 prerelease: true
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.2 Preview 1 or later)
 ms.date: 09/08/2022
 ms.keywords: 
 ms.topic: conceptual
