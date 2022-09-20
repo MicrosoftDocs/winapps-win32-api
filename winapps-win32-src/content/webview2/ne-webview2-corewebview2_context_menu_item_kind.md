@@ -1,0 +1,54 @@
+---
+UID: NE:webview2.COREWEBVIEW2_CONTEXT_MENU_ITEM_KIND
+tech.root: webview
+title: COREWEBVIEW2_CONTEXT_MENU_ITEM_KIND
+ms.date: 
+targetos: Windows
+description: 
+prerelease: false
+req.construct-type: enumeration
+req.ddi-compliance: 
+req.header: webview2.h
+req.include-header: 
+req.kmdf-ver: 
+req.max-support: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: 
+req.umdf-ver: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - webview2.h
+api_name:
+ - COREWEBVIEW2_CONTEXT_MENU_ITEM_KIND
+f1_keywords:
+ - COREWEBVIEW2_CONTEXT_MENU_ITEM_KIND
+ - webview2/COREWEBVIEW2_CONTEXT_MENU_ITEM_KIND
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - COREWEBVIEW2_CONTEXT_MENU_ITEM_KIND
+---
+
+## -description
+
+## -enum-fields
+
+### -field COREWEBVIEW2_CONTEXT_MENU_ITEM_KIND_COMMAND
+
+### -field COREWEBVIEW2_CONTEXT_MENU_ITEM_KIND_CHECK_BOX
+
+### -field COREWEBVIEW2_CONTEXT_MENU_ITEM_KIND_RADIO
+
+### -field COREWEBVIEW2_CONTEXT_MENU_ITEM_KIND_SEPARATOR
+
+### -field COREWEBVIEW2_CONTEXT_MENU_ITEM_KIND_SUBMENU
+
+## -remarks
+
+## -see-also
+

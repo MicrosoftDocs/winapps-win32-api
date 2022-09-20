@@ -1,0 +1,62 @@
+---
+UID: NF:webview2.ICoreWebView2_11.CallDevToolsProtocolMethodForSession
+tech.root: webview
+title: ICoreWebView2_11::CallDevToolsProtocolMethodForSession
+ms.date: 
+targetos: Windows
+description: 
+prerelease: false
+req.assembly: 
+req.construct-type: function
+req.ddi-compliance: 
+req.dll: 
+req.header: webview2.h
+req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - webview2.h
+api_name:
+ - ICoreWebView2_11::CallDevToolsProtocolMethodForSession
+f1_keywords:
+ - ICoreWebView2_11::CallDevToolsProtocolMethodForSession
+ - webview2/ICoreWebView2_11::CallDevToolsProtocolMethodForSession
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - CallDevToolsProtocolMethodForSession
+---
+
+## -description
+
+## -parameters
+
+### -param sessionId
+
+### -param methodName
+
+### -param parametersAsJson
+
+### -param handler
+
+## -returns
+
+## -remarks
+
+## -see-also
+
