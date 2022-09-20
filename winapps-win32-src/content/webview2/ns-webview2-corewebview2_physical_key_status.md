@@ -2,7 +2,7 @@
 UID: NS:webview2.COREWEBVIEW2_PHYSICAL_KEY_STATUS
 tech.root: webview
 title: COREWEBVIEW2_PHYSICAL_KEY_STATUS
-ms.date: 
+ms.date: 09/20/2022
 targetos: Windows
 description: 
 prerelease: false
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.1 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: COREWEBVIEW2_PHYSICAL_KEY_STATUS

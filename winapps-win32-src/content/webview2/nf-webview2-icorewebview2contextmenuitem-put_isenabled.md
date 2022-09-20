@@ -2,7 +2,7 @@
 UID: NF:webview2.ICoreWebView2ContextMenuItem.put_IsEnabled
 tech.root: webview
 title: ICoreWebView2ContextMenuItem::put_IsEnabled
-ms.date: 
+ms.date: 09/20/2022
 targetos: Windows
 description: 
 prerelease: false
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.1 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 

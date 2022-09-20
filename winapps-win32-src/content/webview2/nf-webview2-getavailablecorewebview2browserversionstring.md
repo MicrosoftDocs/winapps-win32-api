@@ -2,7 +2,7 @@
 UID: NF:webview2.GetAvailableCoreWebView2BrowserVersionString
 tech.root: webview
 title: GetAvailableCoreWebView2BrowserVersionString
-ms.date: 
+ms.date: 09/20/2022
 targetos: Windows
 description: 
 prerelease: false
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.1 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
