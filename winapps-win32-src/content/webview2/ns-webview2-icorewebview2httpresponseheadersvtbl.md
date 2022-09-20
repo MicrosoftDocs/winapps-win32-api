@@ -2,7 +2,7 @@
 UID: NS:webview2.ICoreWebView2HttpResponseHeadersVtbl
 tech.root: webview
 title: ICoreWebView2HttpResponseHeadersVtbl
-ms.date: 
+ms.date: 09/20/2022
 targetos: Windows
 description: 
 prerelease: false
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.1 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: ICoreWebView2HttpResponseHeadersVtbl

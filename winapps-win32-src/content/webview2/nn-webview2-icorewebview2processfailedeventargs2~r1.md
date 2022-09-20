@@ -2,7 +2,7 @@
 UID: NN:webview2.ICoreWebView2ProcessFailedEventArgs2~r1
 tech.root: webview
 title: ICoreWebView2ProcessFailedEventArgs2
-ms.date: 
+ms.date: 09/20/2022
 targetos: Windows
 description: 
 prerelease: false
@@ -15,7 +15,7 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.1 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.unicode-ansi: 
