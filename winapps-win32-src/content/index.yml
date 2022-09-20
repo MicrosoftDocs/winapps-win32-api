@@ -56,6 +56,14 @@ landingContent:
             url: msixdynamicdependency/index.md
             
   # Card
+  - title: Insights
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: windowsappruntimeinsights.h
+            url: windowsappruntimeinsights/index.md
+            
+  # Card
   - title: Licensing
     linkLists:
       - linkListType: reference

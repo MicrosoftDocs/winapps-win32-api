@@ -1,0 +1,7 @@
+{
+  "tech": "insights",
+  "headers": [
+    "windowsappruntimeinsights.h"
+  ],
+  "displayName": "Insights API"
+}
