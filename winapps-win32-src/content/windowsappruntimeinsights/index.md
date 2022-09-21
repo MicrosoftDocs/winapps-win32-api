@@ -45,4 +45,5 @@ helpviewer_keywords:
 
 ## -description
 
-This header is used by the [Licensing API](../_licensing/index.md) for the Windows App SDK.
+This header is used by the [Insights API](../_insights/index.md) for the Windows App SDK.
+

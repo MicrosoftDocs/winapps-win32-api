@@ -120,6 +120,14 @@ landingContent:
             url: webview2/index.md
             
   # Card
+  - title: Direct3D
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: winrtdirect3d11.h
+            url: winrtdirect3d11/index.md
+            
+  # Card
   - title: WinUI COM Interop
     linkLists:
       - linkListType: overview
