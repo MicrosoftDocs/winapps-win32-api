@@ -1,6 +1,6 @@
 ---
 UID: NE:winrtdirect3d11.Direct3DUsage
-tech.root: 
+tech.root: direct3d
 title: Direct3DUsage
 ms.date: 09/20/2022
 targetos: Windows

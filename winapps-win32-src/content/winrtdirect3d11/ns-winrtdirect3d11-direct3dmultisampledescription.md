@@ -1,6 +1,6 @@
 ---
 UID: NS:winrtdirect3d11.Direct3DMultisampleDescription
-tech.root: 
+tech.root: direct3d
 title: Direct3DMultisampleDescription
 ms.date: 09/20/2022
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NA:winrtdirect3d11
-tech.root: 
+tech.root: direct3d
 title: winrtdirect3d11
 ms.date: 09/20/2022
 targetos: Windows

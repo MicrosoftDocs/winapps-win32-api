@@ -1,6 +1,6 @@
 ---
 UID: NF:winrtdirect3d11.IDirect3DSurface.get_Description
-tech.root: 
+tech.root: direct3d
 title: IDirect3DSurface::get_Description
 ms.date: 09/20/2022
 targetos: Windows

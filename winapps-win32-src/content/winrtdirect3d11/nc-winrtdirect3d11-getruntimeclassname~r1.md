@@ -1,6 +1,6 @@
 ---
 UID: NC:winrtdirect3d11.GetRuntimeClassName~r1
-tech.root: 
+tech.root: direct3d
 title: GetRuntimeClassName
 ms.date: 09/20/2022
 targetos: Windows

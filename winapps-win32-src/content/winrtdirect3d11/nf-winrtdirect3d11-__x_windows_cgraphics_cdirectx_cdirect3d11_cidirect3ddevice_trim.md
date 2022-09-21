@@ -1,6 +1,6 @@
 ---
 UID: NF:winrtdirect3d11.__x_Windows_CGraphics_CDirectX_CDirect3D11_CIDirect3DDevice_Trim
-tech.root: 
+tech.root: direct3d
 title: __x_Windows_CGraphics_CDirectX_CDirect3D11_CIDirect3DDevice_Trim
 ms.date: 09/20/2022
 targetos: Windows
