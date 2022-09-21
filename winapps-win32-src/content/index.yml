@@ -48,18 +48,12 @@ landingContent:
             url: mddbootstrap/index.md 
             
   # Card
-  - title: Direct3D
+  - title: Direct3D and DirectX
     linkLists:
       - linkListType: reference
         links:
           - text: winrtdirect3d11.h
             url: winrtdirect3d11/index.md
-            
-  # Card
-  - title: DirectX
-    linkLists:
-      - linkListType: reference
-        links:
           - text: winrtdirectxcommon.h
             url: winrtdirectxcommon/index.md
             
