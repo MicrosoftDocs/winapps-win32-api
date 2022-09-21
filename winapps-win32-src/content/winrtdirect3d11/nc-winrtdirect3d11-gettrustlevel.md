@@ -1,6 +1,6 @@
 ---
 UID: NC:winrtdirect3d11.GetTrustLevel
-tech.root: 
+tech.root: direct3d
 title: GetTrustLevel
 ms.date: 09/20/2022
 targetos: Windows

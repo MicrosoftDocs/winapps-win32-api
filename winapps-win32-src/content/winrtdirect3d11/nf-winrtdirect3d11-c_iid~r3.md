@@ -1,6 +1,6 @@
 ---
 UID: NF:winrtdirect3d11.C_IID~r3
-tech.root: 
+tech.root: direct3d
 title: C_IID
 ms.date: 09/20/2022
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:winrtdirect3d11.Release
-tech.root: 
+tech.root: direct3d
 title: Release
 ms.date: 09/20/2022
 targetos: Windows

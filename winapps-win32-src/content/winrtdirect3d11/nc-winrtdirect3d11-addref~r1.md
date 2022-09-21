@@ -1,6 +1,6 @@
 ---
 UID: NC:winrtdirect3d11.AddRef~r1
-tech.root: 
+tech.root: direct3d
 title: AddRef
 ms.date: 09/20/2022
 targetos: Windows

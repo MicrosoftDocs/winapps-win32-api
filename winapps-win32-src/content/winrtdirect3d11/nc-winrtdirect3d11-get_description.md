@@ -1,6 +1,6 @@
 ---
 UID: NC:winrtdirect3d11.get_Description
-tech.root: 
+tech.root: direct3d
 title: get_Description
 ms.date: 09/20/2022
 targetos: Windows

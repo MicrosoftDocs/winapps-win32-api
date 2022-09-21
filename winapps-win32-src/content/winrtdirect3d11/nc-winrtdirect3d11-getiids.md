@@ -1,6 +1,6 @@
 ---
 UID: NC:winrtdirect3d11.GetIids
-tech.root: 
+tech.root: direct3d
 title: GetIids
 ms.date: 09/20/2022
 targetos: Windows

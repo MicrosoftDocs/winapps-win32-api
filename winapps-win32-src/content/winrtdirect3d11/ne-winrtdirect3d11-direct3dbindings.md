@@ -1,6 +1,6 @@
 ---
 UID: NE:winrtdirect3d11.Direct3DBindings
-tech.root: 
+tech.root: direct3d
 title: Direct3DBindings
 ms.date: 09/20/2022
 targetos: Windows

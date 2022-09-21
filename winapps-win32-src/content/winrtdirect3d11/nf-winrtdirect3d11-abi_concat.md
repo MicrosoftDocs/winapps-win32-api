@@ -1,6 +1,6 @@
 ---
 UID: NF:winrtdirect3d11.ABI_CONCAT
-tech.root: 
+tech.root: direct3d
 title: ABI_CONCAT
 ms.date: 09/20/2022
 targetos: Windows

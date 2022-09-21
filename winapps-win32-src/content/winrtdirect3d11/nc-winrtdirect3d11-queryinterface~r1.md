@@ -1,6 +1,6 @@
 ---
 UID: NC:winrtdirect3d11.QueryInterface~r1
-tech.root: 
+tech.root: direct3d
 title: QueryInterface
 ms.date: 09/20/2022
 targetos: Windows

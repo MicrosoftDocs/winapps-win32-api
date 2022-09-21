@@ -1,6 +1,6 @@
 ---
 UID: NN:winrtdirect3d11.IDirect3DSurface
-tech.root: 
+tech.root: direct3d
 title: IDirect3DSurface
 ms.date: 09/20/2022
 targetos: Windows
