@@ -45,7 +45,17 @@ landingContent:
       - linkListType: reference
         links:
           - text: Mddbootstrap.h
-            url: mddbootstrap/index.md
+            url: mddbootstrap/index.md 
+            
+  # Card
+  - title: Direct3D and DirectX
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: winrtdirect3d11.h
+            url: winrtdirect3d11/index.md
+          - text: winrtdirectxcommon.h
+            url: winrtdirectxcommon/index.md
             
   # Card
   - title: Dynamic Dependency
@@ -118,15 +128,7 @@ landingContent:
         links:
           - text: webview2.h
             url: webview2/index.md
-            
-  # Card
-  - title: Direct3D
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: winrtdirect3d11.h
-            url: winrtdirect3d11/index.md
-            
+
   # Card
   - title: WinUI COM Interop
     linkLists:
