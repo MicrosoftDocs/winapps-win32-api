@@ -1,9 +1,16 @@
 ---
 UID: NA:windowsappruntimeinsights
+<<<<<<< HEAD
 tech.root: licensing
 title: windowsappruntimeinsights.h header
 description: Provides information about the windowsappruntimeinsights.h header for the Insights API.
 ms.date: 01/26/2022
+=======
+tech.root: insights
+title: windowsappruntimeinsights.h header
+description: Provides information about the windowsappruntimeinsights.h header for the Insights API.
+ms.date: 09/20/2022
+>>>>>>> main
 targetos: Windows
 prerelease: false
 req.assembly: 
@@ -46,3 +53,4 @@ helpviewer_keywords:
 ## -description
 
 This header is used by the [Insights API](../_insights/index.md) for the Windows App SDK.
+

@@ -104,6 +104,14 @@ landingContent:
             url: microsoft.ui.composition.interop/index.md
             
   # Card
+  - title: Version
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: windowsappsdk-versioninfo.h
+            url: windowsappsdk-versioninfo/index.md
+            
+  # Card
   - title: Web content
     linkLists:
       - linkListType: reference
