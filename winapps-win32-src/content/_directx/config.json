@@ -1,0 +1,7 @@
+{
+  "tech": "directx",
+  "headers": [
+    "winrtdirectxcommon.h"
+  ],
+  "displayName": "DirectX"
+}
