@@ -1,0 +1,7 @@
+{
+  "tech": "direct3d",
+  "headers": [
+    "winrtdirect3d11.h"
+  ],
+  "displayName": "Direct3D API"
+}
