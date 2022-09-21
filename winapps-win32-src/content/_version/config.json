@@ -1,0 +1,7 @@
+{
+  "tech": "version",
+  "headers": [
+    "windowsappsdk-versioninfo.h"
+  ],
+  "displayName": "Version info"
+}
