@@ -2,7 +2,7 @@
 UID: NF:mddbootstrap.MddBootstrapInitialize
 tech.root: bootstrap
 title: MddBootstrapInitialize
-description: Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by desktop apps that are not MSIX-packaged.
+description: Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by desktop apps that are either packaged with external location or unpackaged.
 ms.date: 04/22/2022
 targetos: Windows
 prerelease: false
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by desktop apps that are not MSIX-packaged.
+Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by desktop apps that are either packaged with external location or unpackaged.
 
 [**MddBootstrapInitialize2**](nf-mddbootstrap-mddbootstrapinitialize2.md) offers usability and troubleshooting improvements over **MddBootstrapInitialize**.
 
@@ -90,13 +90,13 @@ This function must be called at startup before calling any other Windows App SDK
 
 This function also initializes the [Dynamic Dependency Lifetime Manager (DDLM)](/windows/apps/windows-app-sdk/deployment-architecture#dynamic-dependency-lifetime-manager-ddlm). The DDLM provides infrastructure to prevent the operating system (OS) from servicing the Windows App SDK framework package while it's being used by an unpackaged app.
 
-Also see [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time).
+Also see [Use the Windows App SDK runtime for apps packaged with external location or unpackaged](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time).
 
 > [!NOTE]
 > COM must be initialized for the current thread before you call this function.
 
 > [!NOTE]
-> For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see the Prerequisites section in [Tutorial&mdash;Use the bootstrapper API in a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment#prerequisites)).
+> For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see the Prerequisites section in [Tutorial: Use the bootstrapper API in an app packaged with external location or unpackaged that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment#prerequisites)).
 ## Example
 
 Using C:
@@ -125,7 +125,7 @@ if (FAILED(MddBootstrapInitialize(Microsoft::WindowsAppSDK::Release::MajorMinor,
 
 ## -see-also
 
-* [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time)
-* [Tutorial&mdash;Use the bootstrapper API in a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
+* [Use the Windows App SDK runtime for apps packaged with external location or unpackaged](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time)
+* [Tutorial: Use the bootstrapper API in an app packaged with external location or unpackaged that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
 * [MddBootstrap.h header](/windows/windows-app-sdk/api/win32/mddbootstrap/)
 * [Constants](/windows/windows-app-sdk/api/win32/_bootstrap/#constants)

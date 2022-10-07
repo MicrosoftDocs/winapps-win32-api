@@ -61,15 +61,15 @@ Specifies that if a compatible Windows App Runtime *Framework* package isn't fou
 
 ### -field MddBootstrapInitializeOptions_OnPackageIdentity_NOOP
 
-Specifies to do nothing (don't error) if the process has package identity (MSIX-packaged and sparse-packaged apps have package identity). The default behavior is for the call to error. This option allows you to use the same compiled binary as both an MSIX-packaged and non-MSIX packaged app. The calls to Bootstrapper APIs in the MSIX-packaged binary will simply be a no-op.
+Specifies to do nothing (don't error) if the process has package identity (packaged apps have identity; including packaged apps with external location). The default behavior is for the call to error. This option allows you to have the same compiled binary serve as both a packaged and an unpackaged app. The calls to Bootstrapper APIs in the packaged binary will simply be a no-op.
 
 ## -remarks
 
-Also see [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time).
+Also see [Use the Windows App SDK runtime for apps packaged with external location or unpackaged](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time).
 
 ## -see-also
 
 * [MddBootstrap.h header](/windows/windows-app-sdk/api/win32/mddbootstrap/)
 * [MddBootstrapInitialize2](nf-mddbootstrap-mddbootstrapinitialize2.md)
-* [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time)
-* [Build and deploy a non-MSIX-packaged app that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
+* [Use the Windows App SDK runtime for apps packaged with external location or unpackaged](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time)
+* [Tutorial: Use the bootstrapper API in an app packaged with external location or unpackaged that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)

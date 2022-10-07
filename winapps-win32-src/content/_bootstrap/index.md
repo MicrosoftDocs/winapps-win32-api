@@ -17,7 +17,7 @@ To use this API, you need this header:
 
  * [mddbootstrap.h](../mddbootstrap/index.md)
 
-For more information about this API, see [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time).
+For more information about this API, see [Use the Windows App SDK runtime for apps packaged with external location or unpackaged](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time).
 
 ## Constants
 

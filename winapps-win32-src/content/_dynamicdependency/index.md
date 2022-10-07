@@ -21,4 +21,4 @@ For programming guidance for this technology, see [Use the dynamic dependency AP
 
 ## -remarks
 
-Before you can use the Dynamic Dependency API in an unpackaged desktop app, you must first use the [Bootstrapper API](../_bootstrap/index.md) to load the Windows App SDK framework package. For more information, see [Use the Windows App SDK runtime for non-MSIX-packaged apps](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time).
+Before you can use the Dynamic Dependency API in an unpackaged desktop app, you must first use the [Bootstrapper API](../_bootstrap/index.md) to load the Windows App SDK framework package. For more information, see [Use the Windows App SDK runtime for apps packaged with external location or unpackaged](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time).
