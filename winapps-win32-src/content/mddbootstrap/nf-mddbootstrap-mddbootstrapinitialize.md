@@ -2,8 +2,8 @@
 UID: NF:mddbootstrap.MddBootstrapInitialize
 tech.root: bootstrap
 title: MddBootstrapInitialize
-description: Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by desktop apps that are either packaged with external location or unpackaged.
-ms.date: 04/22/2022
+description: Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by desktop apps that are either packaged with external location, or unpackaged.
+ms.date: 11/21/2022
 targetos: Windows
 prerelease: false
 req.assembly: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by desktop apps that are either packaged with external location or unpackaged.
+Initializes the calling process to use the version of the Windows App SDK framework package that best matches the specified criteria. This function is intended to be used by desktop apps that are either packaged with external location, or unpackaged.
 
 [**MddBootstrapInitialize2**](nf-mddbootstrap-mddbootstrapinitialize2.md) offers usability and troubleshooting improvements over **MddBootstrapInitialize**.
 
@@ -54,8 +54,9 @@ Also see [Constants](/windows/windows-app-sdk/api/win32/_bootstrap/#constants).
 
 Type: **UINT32**
 
-The major and minor version of the Windows App SDK _product_ to load (e.g. 1.0).
-The version is encoded as `0xMMMMNNNN`, where `M` = Major and `N` = Minor (for example, version 1.2 should be encoded as `0x00010002`).
+The major and minor version of the Windows App SDK *product* to load (for example, 1.2). This is an *exact* major and minor version to match on; not a minimum.
+
+*majorMinorVersion* is encoded as `0xMMMMNNNN`, where `M` = Major and `N` = Minor (for example, version 1.2 is encoded as `0x00010002`).
 
 ### -param versionTag
 
@@ -67,8 +68,9 @@ The version tag of the Windows App SDK framework package to load (if any). For e
 
 Type: **[PACKAGE_VERSION](/windows/win32/api/appmodel/ns-appmodel-package_version)**
 
-The minimum version of the Windows App SDK _runtime_ package to use.
-Note that this version (e.g. 0.319.455) is different than the Windows App SDK _release_ version (e.g. 1.0.2) and _product_ version (e.g. 1.0).
+The minimum version of the Windows App SDK *runtime* package (that also matches *majorMinorVersion*) to use.
+
+This version (for example, 0.319.455) is different from the Windows App SDK *release* version (for example, 1.0.2) and *product* version (for example, 1.0).
 
 The Windows App SDK runtime version values can be obtained from the C++ header `WindowsAppSDK-VersionInfo.h`, see [Example](#example) for more details.
 
@@ -97,35 +99,15 @@ Also see [Use the Windows App SDK runtime for apps packaged with external locati
 
 > [!NOTE]
 > For this API to succeed in an unpackaged app, it's necessary for the Windows App SDK packages to be installed on the device (see the Prerequisites section in [Tutorial: Use the bootstrapper API in an app packaged with external location or unpackaged that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment#prerequisites)).
+
 ## Example
 
-Using C:
-```c
-#include <WindowsAppSDK-VersionInfo.h>
-#include <MddBootstrap.h>
-// ...
-
-HRESULT hr = MddBootstrapInitialize(WINDOWSAPPSDK_RELEASE_MAJORMINOR, WINDOWSAPPSDK_RELEASE_VERSION_TAG_W, WINDOWSAPPSDK_RUNTIME_VERSION_UINT64);
-if (FAILED(hr))
-{
-    wprintf(L"Error 0x%X in Bootstrap initialization\n", hr);
-}
-```
-
-Using C++:
-```cpp
-#include <WindowsAppSDK-VersionInfo.h>
-#include <MddBootstrap.h>
-// ...
-
-if (FAILED(MddBootstrapInitialize(Microsoft::WindowsAppSDK::Release::MajorMinor, Microsoft::WindowsAppSDK::Release::VersionTag, Microsoft::WindowsAppSDK::Runtime::UInt64))) {
-    throw std::exception("Error in Bootstrap initialization");
-}
-```
+See the example in [MddBootstrapInitialize2](nf-mddbootstrap-mddbootstrapinitialize2.md#example).
 
 ## -see-also
 
+* [MddBootstrap.h header](/windows/windows-app-sdk/api/win32/mddbootstrap/)
+* [MddBootstrapInitialize2](nf-mddbootstrap-mddbootstrapinitialize2.md)
+* [Constants](/windows/windows-app-sdk/api/win32/_bootstrap/#constants)
 * [Use the Windows App SDK runtime for apps packaged with external location or unpackaged](/windows/apps/windows-app-sdk/use-windows-app-sdk-run-time)
 * [Tutorial: Use the bootstrapper API in an app packaged with external location or unpackaged that uses the Windows App SDK](/windows/apps/windows-app-sdk/tutorial-unpackaged-deployment)
-* [MddBootstrap.h header](/windows/windows-app-sdk/api/win32/mddbootstrap/)
-* [Constants](/windows/windows-app-sdk/api/win32/_bootstrap/#constants)
