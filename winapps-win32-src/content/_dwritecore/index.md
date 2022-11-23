@@ -2,7 +2,7 @@
 UID: TP:dwritecore
 title: DWriteCore
 description: Provides information about the header files for the DWriteCore APIs.
-ms.date: 05/18/2021
+ms.date: 09/12/2022
 ms.keywords: 
 ms.topic: conceptual
 ---
@@ -13,10 +13,11 @@ ms.topic: conceptual
 
 To develop with DWriteCore, you need these headers.
 
- * [dwrite.h](../dwrite/index.md)
- * [dwrite_3.h](../dwrite_3/index.md)
- * [dwrite_2.h](/windows/win32/api/dwrite_2/)
  * [dwrite_core.h](../dwrite_core/index.md)
+ * [dwrite.h](../dwrite/index.md)
+ * [dwrite_1.h](/windows/win32/api/dwrite_1/)
+ * [dwrite_2.h](/windows/win32/api/dwrite_2/)
+ * [dwrite_3.h](../dwrite_3/index.md)
 
 For programming guidance for this technology, see [Render text with DWriteCore](/windows/win32/directwrite/dwritecore-overview).
 

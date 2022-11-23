@@ -2,9 +2,9 @@
 UID: NF:microsoft.ui.interop.GetWindowIdFromWindow
 tech.root: uiinterop
 title: GetWindowIdFromWindow
-ms.date: 09/29/2021
+ms.date: 09/02/2022
 targetos: Windows
-description: Gets the `WindowId` that corresponds to the specified _hwnd_, if the provided `HWND` is a valid.
+description: Gets the [WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowid) that corresponds to the specified window handle ([HWND](/windows/win32/winprog/windows-data-types)), if the *hwnd* argument is valid.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Gets the `WindowId` that corresponds to the specified *hwnd*, if the provided `HWND` is valid.
+Gets the [WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowid) that corresponds to the specified window handle ([HWND](/windows/win32/winprog/windows-data-types)), if the *hwnd* argument is valid.
 
 > [!NOTE]
 > The `microsoft.ui.interop.h` header has a dependency on `microsoft.ui.h`, which is not shipped as part of the [Windows App SDK](/windows/apps/windows-app-sdk/). You can run [the MIDL compiler](/windows/win32/midl/using-the-midl-compiler-2) (`midl.exe`) on `Microsoft.UI.idl` in order to generate `microsoft.ui.h`. Or just use the functions in the [winrt/Microsoft.ui.interop.h](../winrt-microsoft.ui.interop/index.md) header instead.
@@ -55,13 +55,13 @@ Gets the `WindowId` that corresponds to the specified *hwnd*, if the provided `H
 
 Type: **[HWND](/windows/win32/winprog/windows-data-types)**
 
-The handle of the window for which to get the `WindowId`.
+The handle of the window for which to get the [WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowid).
 
 ### -param windowId
 
 Type: **[WindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.windowid)**
 
-The identifier that corresponds to the specified *hwnd*, if the provided *hwnd* is valid. Otherwise, `null`.
+The identifier that corresponds to *hwnd*, if *hwnd* is valid. Otherwise, `null`.
 
 ## -returns
 
