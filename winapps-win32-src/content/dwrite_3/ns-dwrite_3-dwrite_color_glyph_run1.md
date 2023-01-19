@@ -38,13 +38,23 @@ helpviewer_keywords:
  - DWRITE_COLOR_GLYPH_RUN1
 ---
 
+# DWRITE_COLOR_GLYPH_RUN1 structure (dwrite_3.h)
+
 ## -description
+
+Represents a color glyph run.
 
 ## -struct-fields
 
 ### -field glyphImageFormat
 
+Type of glyph image format for this color run.
+
+Exactly one type will be set.
+
 ### -field measuringMode
+
+Measuring mode to use for this glyph run.
 
 ## -remarks
 
