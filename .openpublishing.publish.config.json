@@ -1,12 +1,46 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "Fake-Docset-Name",
+      "docset_name": "winapps-win32-api-build",
       "build_source_folder": "winapps-win32-src/content",
+      "build_output_subfolder": "winapps-win32-api-build",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
-      "open_to_public_contributors": true
+      "xref_query_tags": [
+        "/dotnet",
+        "/uwp/api",
+        "/windows/winui/api",
+        "/windows/win32/api/",
+        "/windows/windows-app-sdk/api/winrt",
+        "/windows/windows-app-sdk/api/win32"
+      ],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
     }
-  ]
+  ],
+  "notification_subscribers": [],
+  "sync_notification_subscribers": [],
+  "branches_to_filter": [],
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/winapps-win32-api",
+  "git_repository_branch_open_to_public_contributors": "docs",
+  "skip_source_output_uploading": false,
+  "need_preview_pull_request": true,
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
+      "branch": "main",
+      "branch_mapping": {}
+    }
+  ],
+  "branch_target_mapping": {},
+  "targets": {},
+  "docs_build_engine": {},
+  "contribution_branch_mappings": {},
+  "need_generate_pdf_url_template": false
 }
