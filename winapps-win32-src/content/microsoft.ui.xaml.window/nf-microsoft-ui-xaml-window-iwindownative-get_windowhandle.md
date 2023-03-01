@@ -76,7 +76,7 @@ In this example, we show how to retrieve the window handle (**HWND**) of our mai
 #### MainWindow.xaml
 
 > [!NOTE]
-> If you need an icon file to use with this walkthrough, you can download the [`computer.ico` file](https://github.com/microsoft/Windows-classic-samples/blob/main/Samples/Win7Samples/netds/wlan/WirelessHostedNetwork/HostedNetwork/res/computer.ico) from the **WirelessHostednetwork** sample app. Place that file in your `Assets` folder, and add the file to your project as content. You'll then be able to refer to the file using the url `Assets/computer.ico`.
+> If you need an icon file to use with this walkthrough, you can download the [`computer.ico` file](https://github.com/microsoft/Windows-classic-samples/blob/main/Samples/Win7Samples/netds/wlan/WirelessHostedNetwork/HostedNetwork/res/computer.ico) from the **WirelessHostednetwork** sample app. Place that file in your `Assets` folder, and add the file to your project as content. You'll then be able to refer to the file using the uri `Assets/computer.ico`.
 >
 > Otherwise, feel free to use an icon file that you already have, and change the two references to it in the code listings below.
 
