@@ -1,10 +1,10 @@
 ---
 UID: NS:dwrite_3.DWRITE_COLOR_GLYPH_RUN1
-tech.root: dwritecore
 title: DWRITE_COLOR_GLYPH_RUN1
-ms.date: 
+description: Represents a color glyph run.
+ms.date: 03/08/2023
+tech.root: dwritecore
 targetos: Windows
-description: 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -40,13 +40,18 @@ helpviewer_keywords:
 
 ## -description
 
+Represents a color glyph run.
+
 ## -struct-fields
 
 ### -field glyphImageFormat
 
+Type of glyph image format for this color run. Exactly one type will be set.
+
 ### -field measuringMode
+
+Measuring mode to use for this glyph run.
 
 ## -remarks
 
 ## -see-also
-
