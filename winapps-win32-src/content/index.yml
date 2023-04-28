@@ -126,7 +126,7 @@ landingContent:
     linkLists:
       - linkListType: reference
         links:
-          - text: See the WebView2 Win32 C++ reference for API details.
+          - text: Microsoft Edge WebView2 Win32 C++ reference
             url: /microsoft-edge/webview2/reference/win32/
 
   # Card
