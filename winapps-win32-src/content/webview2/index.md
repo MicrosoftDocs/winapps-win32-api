@@ -46,4 +46,13 @@ dev_langs:
 
 ## -description
 
+> [!NOTE]
+> See the [WebView2 Win32 C++ reference](/microsoft-edge/webview2/reference/win32/) for API details.
+
+The Microsoft Edge WebView2 control enables you to host web content in your application using [Microsoft Edge (Chromium)](https://www.microsoftedgeinsider.com/) as the rendering engine.
+
 This header is used by [web content](../_webview).
+
+## -remarks
+
+For more information, see [Overview of Microsoft Edge WebView2](/microsoft-edge/webview2/index) and [Getting Started with WebView2](/microsoft-edge/webview2/gettingstarted/win32).
