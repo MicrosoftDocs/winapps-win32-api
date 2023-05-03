@@ -1,17 +1,17 @@
 ---
 UID: TP:winuicominterop
-title: WinUI COM Interop
+title: COM interop APIs for WinUI
 description: Provides information about the header files for the WinUI COM interop APIs.
 ms.date: 09/20/2021
 ms.keywords: 
 ms.topic: conceptual
 ---
 
-# WinUI COM Interop
+# COM interop APIs for WinUI
 
 ## -description
 
-To develop with WinUI COM interop APIs, you need these headers:
+To develop with COM interop APIs for WinUI, you need these headers:
 
 * [microsoft.ui.xaml.hosting.desktopwindowxamlsource.h](../microsoft.ui.xaml.hosting.desktopwindowxamlsource/index.md)
 * [microsoft.ui.xaml.hosting.referencetracker.h](../microsoft.ui.xaml.hosting.referencetracker/index.md)
