@@ -52,4 +52,4 @@ If multiple packages are present in the package graph with the same rank as the 
 
 [MddAddPackageDependency](nf-msixdynamicdependency-mddaddpackagedependency.md)
 
-[Use the dynamic dependency API to reference framework packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api)
+[Use the dynamic dependency API to reference MSIX packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api)

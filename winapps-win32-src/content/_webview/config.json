@@ -1,7 +1,0 @@
-{
-  "tech": "webview",
-  "headers": [
-    "webview2.h"
-  ],
-  "displayName": "Web content"
-}

@@ -17,7 +17,7 @@ To use the Dynamic Dependency API, you need this header:
 
  * [msixdynamicdependency.h](../msixdynamicdependency/index.md)
 
-For programming guidance for this technology, see [Use the dynamic dependency API to reference framework packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api).
+For programming guidance for this technology, see [Use the dynamic dependency API to reference MSIX packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api).
 
 ## -remarks
 
