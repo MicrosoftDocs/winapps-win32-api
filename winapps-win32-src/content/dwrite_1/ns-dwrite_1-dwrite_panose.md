@@ -42,7 +42,9 @@ helpviewer_keywords:
 
 ## -struct-fields
 
-### -field values[10]
+### -field values
+
+TBD
 
 ### -field familyKind
 
@@ -137,4 +139,3 @@ helpviewer_keywords:
 ## -remarks
 
 ## -see-also
-

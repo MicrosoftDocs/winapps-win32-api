@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.0 Stable or later)
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.0 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
