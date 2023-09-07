@@ -5,7 +5,7 @@ title: DWRITE_PAINT_COLOR
 ms.date: 
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.2 Preview 1 or later)
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.2 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 

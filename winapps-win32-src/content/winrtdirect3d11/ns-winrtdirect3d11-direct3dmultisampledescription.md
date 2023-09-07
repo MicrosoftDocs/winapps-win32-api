@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.0 Preview 1 or later)
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.0 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: Direct3DMultisampleDescription

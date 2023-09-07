@@ -5,7 +5,7 @@ title: security.accesscontrol
 ms.date: 09/08/2022
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.2 Preview 1 or later)
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.2 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 

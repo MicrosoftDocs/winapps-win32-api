@@ -5,14 +5,14 @@ title: DWRITE_PAINT_TYPE
 ms.date: 
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dwrite_3.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.2 Preview 1 or later)
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.2 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
