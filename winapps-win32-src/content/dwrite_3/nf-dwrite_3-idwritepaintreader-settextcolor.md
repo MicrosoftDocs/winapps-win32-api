@@ -44,13 +44,20 @@ helpviewer_keywords:
 
 ## -description
 
+Sets the client-defined text color. The default value is transparent black. Changing the text color can affect the appearance of a glyph if its definition uses the current text color. If that's the case, then the [SetCurrentGlyph](./nf-dwrite_3-idwritepaintreader-setcurrentglyph(uint32_dwrite_paint_element_uint32_d2d_rect_f_dwrite_paint_attributes).md) method returns the **DWRITE_PAINT_ATTRIBUTES_USES_TEXT_COLOR** flag via the *glyphAttributes* output parameter.
+
 ## -parameters
 
 ### -param textColor
 
+Type: \_In\_reads\_\(paletteEntryCount\) **[DWRITE_COLOR_F](/windows/win32/directwrite/dwrite-color-f) const \&**
+
+Specifies the text color.
+
 ## -returns
+
+A standard **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
-

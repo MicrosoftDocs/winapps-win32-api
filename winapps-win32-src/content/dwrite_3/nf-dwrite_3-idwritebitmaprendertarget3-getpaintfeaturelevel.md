@@ -44,9 +44,14 @@ helpviewer_keywords:
 
 ## -description
 
+Retrieves the paint feature level supported by this render target. You can pass the return value of this method to [IDWriteFactory8::TranslateColorGlyphRun](./nf-dwrite_3-idwritefactory8-translatecolorglyphrun.md) in its *paintFeatureLevel* parameter.
+
 ## -returns
+
+Type: **[DWRITE_PAINT_FEATURE_LEVEL](./ne-dwrite_3-dwrite_paint_feature_level.md)**
+
+The paint feature level supported by this render target.
 
 ## -remarks
 
 ## -see-also
-

@@ -44,15 +44,28 @@ helpviewer_keywords:
 
 ## -description
 
+Sets the current position in the visual tree to the first child of the current paint element, and returns the newly-selected element's properties via the *paintElement* output parameter.
+
 ## -parameters
 
 ### -param paintElement
 
+Type: \_Out\_writes\_bytes\_\(structSize\) **[DWRITE_PAINT_ELEMENT](./ns-dwrite_3-dwrite_paint_element.md) \***
+
+Receives the properties of the newly-selected element.
+
 ### -param structSize
+
+Type: **[UINT32](/windows/win32/winprog/windows-data-types) = sizeof(DWRITE_PAINT_ELEMENT)**
+
+Size of the [DWRITE_PAINT_ELEMENT](./ns-dwrite_3-dwrite_paint_element.md) structure, in bytes.
 
 ## -returns
 
+A standard **HRESULT** error code. The return value is **E_INVALIDARG** if the current paint element doesn't have any children.
+
 ## -remarks
 
-## -see-also
+You can determine (*a priori* from its paint type and properties) whether a paint element has children, and how many. For more info, see [DWRITE_PAINT_ELEMENT](./ns-dwrite_3-dwrite_paint_element.md).
 
+## -see-also

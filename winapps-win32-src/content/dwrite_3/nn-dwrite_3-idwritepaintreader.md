@@ -38,7 +38,10 @@ helpviewer_keywords:
 
 ## -description
 
+Interface used to read color glyph data for a specific font. A color glyph is represented as a visual tree of paint elements.
+
+The **IDWriteFactory8** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
+
 ## -remarks
 
 ## -see-also
-

@@ -38,7 +38,7 @@ helpviewer_keywords:
 
 ## -description
 
-This interface represents a factory object from which all DirectWrite objects are created. **IDWriteFactory8** adds a new version of [TranslateColorGlyphRun](./nf-dwrite_3-idwritefactory8-translatecolorglyphrun.md), which takes a **DWRITE_PAINT_FEATURE_LEVEL**.
+Represents a factory object from which all DirectWrite objects are created. **IDWriteFactory8** adds a new version of [TranslateColorGlyphRun](./nf-dwrite_3-idwritefactory8-translatecolorglyphrun.md), which takes a **DWRITE_PAINT_FEATURE_LEVEL**.
 
 The **IDWriteFactory8** interface inherits from the [IDWriteFactory7](./nn-dwrite_3-idwritefactory7.md) interface.
 

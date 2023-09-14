@@ -40,17 +40,34 @@ helpviewer_keywords:
 
 ## -description
 
+Represents a color in a color glyph.
+
 ## -struct-fields
 
 ### -field value
 
+Type: **[DWRITE_COLOR_F](/windows/win32/directwrite/dwrite-color-f)**
+
+Color value (not premultiplied). See the *colorAttributes* member for information about how the color is determined.
+
 ### -field paletteEntryIndex
+
+Type: **[UINT16](/windows/win32/winprog/windows-data-types)**
+
+If the *colorAttributes* member is set to **DWRITE_PAINT_ATTRIBUTES_USES_PALETTE**, then this member is the index of a palette entry in the selected color palette. Otherwise, this member is **DWRITE_NO_PALETTE_INDEX** (0xFFFF).
 
 ### -field alphaMultiplier
 
+Type: **float**
+
+Specifies an alpha value multiplier in the range 0 to 1 that was used to compute the color value. Color glyph descriptions can include alpha values to be multiplied with the alpha values of palette entries.
+
 ### -field colorAttributes
+
+Type: **[DWRITE_PAINT_ATTRIBUTES](./ne-dwrite_3-dwrite_paint_attributes.md)**
+
+Specifies how the color value is determined. If this member is **DWRITE_PAINT_ATTRIBUTES_USES_PALETTE**, then the color value is determined by getting the color at *paletteEntryIndex* in the current color palette. The color's alpha value is then multiplied by *alphaMultiplier*. If a font has multiple color palettes, then you can set the current color palette using the [IDWritePaintReader::SetColorPaletteIndex](./nf-dwrite_3-idwritepaintreader-setcolorpaletteindex.md) method. A client that uses a custom palette can use the *paletteEntryIndex* and *alphaMultiplier* methods to compute the color. If this member's value is **DWRITE_PAINT_ATTRIBUTES_USES_TEXT_COLOR**, then the color value is equal to the text foreground color, which can be set using the [IDWritePaintReader::SetTextColor](./nf-dwrite_3-idwritepaintreader-settextcolor.md) method.
 
 ## -remarks
 
 ## -see-also
-

@@ -38,7 +38,10 @@ helpviewer_keywords:
 
 ## -description
 
+Encapsulates a 32-bit device independent bitmap and device context, which can be used for rendering glyphs. **IDWriteBitmapRenderTarget3** adds new methods to support advanced color fonts.
+
+The **IDWriteBitmapRenderTarget3** interface inherits from the [IDWriteBitmapRenderTarget2](./nn-dwrite_3-idwritebitmaprendertarget2.md) interface.
+
 ## -remarks
 
 ## -see-also
-

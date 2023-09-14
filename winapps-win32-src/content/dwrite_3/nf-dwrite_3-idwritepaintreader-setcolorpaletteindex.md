@@ -44,13 +44,20 @@ helpviewer_keywords:
 
 ## -description
 
+Sets the current color palette index. The default value is zero. Changing the palette index can affect the appearance of a glyph if its definition references colors in the color palette. If that's the case, then the [SetCurrentGlyph](./nf-dwrite_3-idwritepaintreader-setcurrentglyph(uint32_dwrite_paint_element_uint32_d2d_rect_f_dwrite_paint_attributes).md) method returns the **DWRITE_PAINT_ATTRIBUTES_USES_PALETTE** flag via the *glyphAttributes* output parameter.
+
 ## -parameters
 
 ### -param colorPaletteIndex
 
+Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
+
+Specifies the color palette index.
+
 ## -returns
+
+A standard **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
-
