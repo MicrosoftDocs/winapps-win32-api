@@ -114,7 +114,7 @@ void MainWindow::basicButton_Click(IInspectable const&, RoutedEventArgs const&)
     ExtendsContentIntoTitleBar(false);
 
     // Get the window's HWND
-    auto windowNative{ this->try_as<::IWindowNative>() };
+    auto windowNative{ this->m_inner.as<::IWindowNative>() };
     HWND hWnd{ 0 };
     windowNative->get_WindowHandle(&hWnd);
 
