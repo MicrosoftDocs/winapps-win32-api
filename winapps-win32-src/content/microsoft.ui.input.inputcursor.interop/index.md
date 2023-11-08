@@ -4,7 +4,7 @@ tech.root: uiinterop
 title: microsoft.ui.input.inputcursor.interop
 ms.date: 11/08/2023
 targetos: Windows
-description: 
+description: Test
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
