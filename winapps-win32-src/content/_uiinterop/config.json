@@ -3,7 +3,9 @@
   "headers": [
     "microsoft.ui.interop.h",
     "winrt-microsoft.ui.interop.h",
-    "microsoft.ui.composition.interop.h"
+    "microsoft.ui.composition.interop.h",
+    "microsoft.ui.input.inputcursor.interop",
+    "microsoft.ui.input.inputpretranslatesource.interop"
   ],
   "displayName": "UI Interop"
 }
