@@ -110,8 +110,10 @@ landingContent:
             url: microsoft.ui.interop/index.md
           - text: (winrt)Microsoft.ui.interop.h
             url: winrt-microsoft.ui.interop/index.md
-          - text: microsoft.ui.composition.interop.h
-            url: microsoft.ui.composition.interop/index.md
+          - text: microsoft.ui.input.inputcursor.interop.h
+            url: microsoft.ui.input.inputcursor.interop/index.md
+          - text: microsoft.ui.input.inputpretranslatesource.interop.h
+            url: microsoft.ui.input.inputpretranslatesource.interop/index.md
             
   # Card
   - title: Version
