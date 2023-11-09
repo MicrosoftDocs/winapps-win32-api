@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-Test
+This header is used by the [UI Interop API](../_uiinterop/index.md).
 
 ## -remarks
 
