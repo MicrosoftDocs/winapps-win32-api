@@ -4,7 +4,7 @@ tech.root: uiinterop
 title: microsoft.ui.input.inputpretranslatesource.interop
 ms.date: 11/08/2023
 targetos: Windows
-description: Test
+description: Provides information about the microsoft.ui.input.inputpretranslatesource.interop.h header for the UI Interop API.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
