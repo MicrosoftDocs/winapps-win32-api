@@ -17,6 +17,7 @@ To develop with the UI Interop APIs, you need these headers.
  * [microsoft.ui.interop.h](../microsoft.ui.interop/index.md)
  * [microsoft.ui.composition.interop.h](../microsoft.ui.composition.interop/index.md)
  * [microsoft.ui.input.inputcursor.interop](../microsoft.ui.input.inputcursor.interop/index.md)
+ * [microsoft.ui.dispatching.interop](../microsoft.ui.dispatching.interop/index.md)
  * [microsoft.ui.input.inputpretranslatesource.interop](../microsoft.ui.input.inputpretranslatesource.interop/index.md)
 
 For programming guidance for this technology, see [Manage app windows](/windows/apps/windows-app-sdk/windowing/windowing-overview).

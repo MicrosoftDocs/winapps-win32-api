@@ -6,6 +6,7 @@
     "microsoft.ui.composition.interop.h",
     "microsoft.ui.input.inputcursor.interop.h",
     "microsoft.ui.input.inputpretranslatesource.interop.h"
+    "microsoft.ui.dispatching.interop.h"
   ],
   "displayName": "UI Interop"
 }

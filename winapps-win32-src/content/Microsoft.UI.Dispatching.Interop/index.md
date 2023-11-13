@@ -1,16 +1,16 @@
 ---
-UID: NA:microsoft.ui.input.inputcursor.interop
+UID: NA:microsoft.ui.dispatching.interop
 tech.root: uiinterop
-title: microsoft.ui.input.inputcursor.interop
+title: microsoft.ui.dispatching.interop
 ms.date: 11/08/2023
 targetos: Windows
-description: Provides information about the microsoft.ui.input.inputcursor.interop.h header for the UI Interop API.
+description: Provides information about the microsoft.dispatching.interop.h header for the UI Interop API.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 
 req.dll: 
-req.header: microsoft.ui.input.inputcursor.interop.h
+req.header: microsoft.ui.dispatching.interop.h
 req.idl: 
 req.include-header: 
 req.irql: 
@@ -31,16 +31,16 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - microsoft.ui.input.inputcursor.interop.h
+ - microsoft.ui.dispatching.interop.h
 api_name:
- - microsoft.ui.input.inputcursor.interop
+ - microsoft.ui.dispatching.interop
 f1_keywords:
- - microsoft.ui.input.inputcursor.interop
- - microsoft.ui.input.inputcursor.interop/microsoft.ui.input.inputcursor.interop
+ - microsoft.ui.dispatching.interop
+ - microsoft.ui.dispatching.interop/microsoft.ui.dispatching.interop
 dev_langs:
  - c++
 helpviewer_keywords:
- - microsoft.ui.input.inputcursor.interop
+ - microsoft.ui.dispatching.interop
 ---
 
 ## -description

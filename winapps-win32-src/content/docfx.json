@@ -95,6 +95,7 @@
         "dwritecore/*.md": "stwhi",
         "mddbootstrap/*.md": "stwhi",
         "microsoft.ui.composition.interop/*.md": "jimwalk",
+        "microsoft.ui.dispatching.interop/*.md": "kbridge",
         "microsoft.ui.input.inputcursor.interop/*.md": "kbridge",
         "microsoft.ui.input.inputpretranslatesource.interop/*.md": "kbridge",
         "microsoft.ui.interop/*.md": "jimwalk",
