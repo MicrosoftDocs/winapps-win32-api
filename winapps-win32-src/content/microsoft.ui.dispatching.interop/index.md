@@ -4,7 +4,7 @@ tech.root: uiinterop
 title: microsoft.ui.dispatching.interop
 ms.date: 11/08/2023
 targetos: Windows
-description: Provides information about the microsoft.dispatching.interop.h header for the UI Interop API.
+description: Provides information about the microsoft.ui.dispatching.interop.h header for the UI Interop API.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
