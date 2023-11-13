@@ -68,6 +68,7 @@
         "dwritecore/*.md": "stevewhims",
         "mddbootstrap/*.md": "stevewhims",
         "microsoft.ui.composition.interop/*.md": "jwmsft",
+        "microsoft.ui.dispatching.interop/*.md": "Karl-Bridge-Microsoft",
         "microsoft.ui.input.inputcursor.interop/*.md": "Karl-Bridge-Microsoft",
         "microsoft.ui.input.inputpretranslatesource.interop/*.md": "Karl-Bridge-Microsoft",
         "microsoft.ui.interop/*.md": "jwmsft",
