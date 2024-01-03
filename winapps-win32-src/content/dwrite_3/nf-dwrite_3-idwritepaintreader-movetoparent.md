@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.2 Preview 1 or later)
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.2 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -44,9 +44,12 @@ helpviewer_keywords:
 
 ## -description
 
+Sets the current position in the visual tree to the parent of the current paint element.
+
 ## -returns
+
+A standard **HRESULT** error code. The return value is **E_INVALIDARG** if the current paint element is the root element of the visual tree.
 
 ## -remarks
 
 ## -see-also
-

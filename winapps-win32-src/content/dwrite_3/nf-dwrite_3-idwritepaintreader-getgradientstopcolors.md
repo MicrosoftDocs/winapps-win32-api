@@ -5,7 +5,7 @@ title: IDWritePaintReader::GetGradientStopColors
 ms.date: 
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.2 Preview 1 or later)
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.2 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -44,17 +44,32 @@ helpviewer_keywords:
 
 ## -description
 
+Retrieves color information about each gradient stop, such as palette indices.
+
 ## -parameters
 
 ### -param firstGradientStopIndex
 
+Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
+
+Index of the first gradient stop to get.
+
 ### -param gradientStopCount
+
+Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
+
+Number of gradient stops to get.
 
 ### -param gradientStopColors
 
+Type: \_Out\_writes\_\(gradientStopCount\) **[DWRITE_PAINT_COLOR](./ns-dwrite_3-dwrite_paint_color.md) \***
+
+Receives the gradient stop colors.
+
 ## -returns
+
+A standard **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
-

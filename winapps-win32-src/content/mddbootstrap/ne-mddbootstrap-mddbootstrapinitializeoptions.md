@@ -11,7 +11,7 @@ req.header: mddbootstrap.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.0 Preview 2 or later)
+req.target-min-winverclnt: Windows 10, version 1809 (with Windows App SDK 1.0 or later)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
