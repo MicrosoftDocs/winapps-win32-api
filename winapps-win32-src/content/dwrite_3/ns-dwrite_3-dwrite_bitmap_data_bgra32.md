@@ -58,7 +58,7 @@ The height, in pixels, of the bitmap.
 
 ### -field pixels
 
-Type: \_Field\_size\_(width * height)**[UINT32](/windows/win32/winprog/windows-data-types)\***
+Type: \_Field\_size\_(width * height) **[UINT32](/windows/win32/winprog/windows-data-types)\***
 
 A pointer to the location of the bit values for the bitmap.
 

@@ -102,7 +102,38 @@ Also see [Use the Windows App SDK runtime for apps packaged with external locati
 
 ## Example
 
-See the example in [MddBootstrapInitialize2](nf-mddbootstrap-mddbootstrapinitialize2.md#example).
+Using C:
+```c
+#include <WindowsAppSDK-VersionInfo.h>
+#include <MddBootstrap.h>
+// ...
+
+HRESULT hr = MddBootstrapInitialize(
+    WINDOWSAPPSDK_RELEASE_MAJORMINOR,
+    WINDOWSAPPSDK_RELEASE_VERSION_TAG_W,
+    { WINDOWSAPPSDK_RUNTIME_VERSION_UINT64 }
+);
+
+if (FAILED(hr))
+{
+    wprintf(L"Error 0x%X in Bootstrap initialization\n", hr);
+}
+```
+
+Using C++:
+```cpp
+#include <WindowsAppSDK-VersionInfo.h>
+#include <MddBootstrap.h>
+// ...
+
+if (FAILED(MddBootstrapInitialize(
+    Microsoft::WindowsAppSDK::Release::MajorMinor,
+    Microsoft::WindowsAppSDK::Release::VersionTag, 
+    { Microsoft::WindowsAppSDK::Runtime::UInt64 }))) 
+{
+    throw std::exception("Error in Bootstrap initialization");
+}
+```
 
 ## -see-also
 

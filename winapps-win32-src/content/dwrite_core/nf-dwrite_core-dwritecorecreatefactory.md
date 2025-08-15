@@ -58,7 +58,7 @@ A value that specifies whether the factory object will be shared, isolated, or r
 
 Type: <b>REFIID</b>
 
-A GUID value that identifies the DirectWrite factory interface, such as __uuidof(<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>).
+A GUID value that identifies the DirectWrite factory interface, such as __uuidof([IDWriteFactory](/windows/win32/api/dwrite/nn-dwrite-idwritefactory)).
 
 ### -param factory
 
