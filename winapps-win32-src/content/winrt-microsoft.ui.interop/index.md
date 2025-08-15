@@ -2,7 +2,7 @@
 UID: NA:winrt-microsoft.ui.interop
 tech.root: uiinterop
 title: winrt/microsoft.ui.interop
-ms.date: 02/02/2022
+ms.date: 07/15/2025
 targetos: Windows
 description: Provides information about the winrt/microsoft.ui.interop.h header for the UI Interop API.
 prerelease: false
@@ -43,8 +43,9 @@ dev_langs:
 
 ## -description
 
-This header is named `Microsoft.UI.Interop.h`, and it's in the Windows App SDK's `\include\winrt` folder.
+This header is `Microsoft.UI.Interop.h` and can be found in the `\include\winrt` folder of the Windows App SDK.
 
-**C#**. For C# desktop application developers, the interop functions in this header are wrapped by the methods of the [Microsoft.UI.Win32Interop](/windows/apps/winui/winui3/cs-interop-apis/microsoft.ui/microsoft.ui.win32interop) class.
+> [!NOTE]
+> For C# desktop application developers, the interop functions in this header are wrapped by the methods of the [Microsoft.UI.Win32Interop](/windows/apps/winui/winui3/cs-interop-apis/microsoft.ui/microsoft.ui.win32interop) class.
 
 This header is used by the [UI Interop API](../_uiinterop/index.md).

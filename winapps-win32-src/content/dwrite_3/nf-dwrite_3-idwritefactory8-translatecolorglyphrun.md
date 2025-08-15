@@ -76,7 +76,7 @@ The data formats that the method should split the runs into.
 
 Type: **[DWRITE_PAINT_FEATURE_LEVEL](./ne-dwrite_3-dwrite_paint_feature_level.md)**
 
-The paint feature level supported by the caller. Used when *desiredGlyphImageFormats* includes **DWRITE_GLYPH_IMAGE_FORMATS_COLR_PAINT_TREE**. For more info, see [DWRITE_PAINT_FEATURE_LEVEL](./ne-dwrite_3-dwrite_paint_feature_level.md).
+The paint feature level supported by the caller. Used when *desiredGlyphImageFormats* includes **DWRITE_GLYPH_IMAGE_FORMATS_COLR_PAINT_TREE**. For more info, see [DWRITE_PAINT_FEATURE_LEVEL](/windows/windows-app-sdk/api/win32/dwrite_3/ne-dwrite_3-dwrite_paint_feature_level).
 
 ### -param measuringMode
 
