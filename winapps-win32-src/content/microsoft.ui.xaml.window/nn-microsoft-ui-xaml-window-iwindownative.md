@@ -40,9 +40,9 @@ Enables interoperability between XAML and a native window. This interface is imp
 
 ## -remarks
 
-For more info, and code examples, see [Retrieve a window handle (HWND)](/windows/apps/develop/ui-input/retrieve-hwnd).
+For more info, and code examples, see [Retrieve a window handle (HWND)](/windows/apps/develop/ui/retrieve-hwnd).
 
 ## -see-also
 
 * [Windows UI Library 3](/windows/apps/winui/winui3)
-* [Retrieve a window handle (HWND)](/windows/apps/develop/ui-input/retrieve-hwnd)
+* [Retrieve a window handle (HWND)](/windows/apps/develop/ui/retrieve-hwnd)
