@@ -1,0 +1,12 @@
+schemaVersion: 1.0.0
+providers:
+- provider: InventoryAsCode
+  version: 1.0.0
+  metadata:
+    isProduction: false
+    accountableOwners:
+      service: 935283d8-d421-4ec8-b4be-954d9164a41a
+    routing:
+      defaultAreaPath:
+        org: msft-skilling
+        path: Content\Production\Windows Developer\Windows App Dev\SDK
